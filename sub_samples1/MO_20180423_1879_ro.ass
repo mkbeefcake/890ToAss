@@ -1,0 +1,74 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 0
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.08,0:00:08.52,Default,,0,0,22,,În cazul SUV-urilor premium exista\NSfânta Treime germana.
+Dialogue: 0,0:00:08.64,0:00:12.88,Default,,0,0,23,,Audi Q5, BMW X3 si Mercedes GLC.
+Dialogue: 0,0:00:13.00,0:00:15.32,Default,,0,0,23,,În Europa exista si alte modele,
+Dialogue: 0,0:00:15.44,0:00:20.12,Default,,0,0,22,,ca Volvo XC60\Nsau Landrover Discovery Sport.
+Dialogue: 0,0:00:20.24,0:00:24.00,Default,,0,0,22,,Dar acum a aparut un model nou\Ndin Franta.
+Dialogue: 0,0:00:25.88,0:00:28.48,Default,,0,0,23,,DS7 Crossback se numeste noul model
+Dialogue: 0,0:00:28.60,0:00:32.48,Default,,0,0,22,,care doreste sa patrunda\Nîn clasa SUV-urilor.
+Dialogue: 0,0:00:33.60,0:00:35.84,Default,,0,0,23,,Are caracteristici clasice,
+Dialogue: 0,0:00:35.96,0:00:41.48,Default,,0,0,22,,o caroserie mai ridicata,\Nroti mai mari cu carcase proeminente.
+Dialogue: 0,0:00:43.96,0:00:47.12,Default,,0,0,22,,Se adauga culorile placute\Nsi dotarile tehnice speciale,
+Dialogue: 0,0:00:47.24,0:00:50.40,Default,,0,0,23,,cum ar fi jocul de lumini din faruri.
+Dialogue: 0,0:00:52.60,0:00:57.84,Default,,0,0,22,,O aparitie franceza într-o clasa\Nfoarte aglomerata.
+Dialogue: 0,0:00:58.36,0:01:04.36,Default,,0,0,22,,Se pune întrebarea daca D7 Sportback\Nare o sansa împotriva concurentei.
+Dialogue: 0,0:01:08.00,0:01:15.20,Default,,0,0,22,,La aceasta clasa etalonul este\NBMW X3 care este foarte sport.
+Dialogue: 0,0:01:15.76,0:01:18.48,Default,,0,0,22,,Sa fim realisti,\Nacest model nu e chiar sport.
+Dialogue: 0,0:01:18.60,0:01:24.16,Default,,0,0,22,,Dar nici nu îsi doreste asta.\NE mai mult confortabil.
+Dialogue: 0,0:01:24.28,0:01:29.84,Default,,0,0,22,,Are un sistem care scaneaza\Nstructura carosabilului
+Dialogue: 0,0:01:29.96,0:01:34.68,Default,,0,0,22,,si adapteaza astfel amortizoarele\Nsi arcurile.
+Dialogue: 0,0:01:34.80,0:01:40.92,Default,,0,0,22,,Te poti deplasa confortabil,\Nas zice chiar foarte confortabil.
+Dialogue: 0,0:01:41.60,0:01:45.88,Default,,0,0,22,,Se regaseste un sistem de confort\Ndin clasa superioara.
+Dialogue: 0,0:01:46.00,0:01:50.80,Default,,0,0,22,,Sub capota se afla un motor diesel\Nîn doi litri, cu 180 CP,
+Dialogue: 0,0:01:50.92,0:01:55.72,Default,,0,0,22,,combinat cu transmisie automata\Nsi tractiune frontala.
+Dialogue: 0,0:01:55.84,0:01:58.76,Default,,0,0,22,,Tractiunea integrala va fi disponibila\Nabia anul viitor.
+Dialogue: 0,0:01:58.88,0:02:03.44,Default,,0,0,22,,Dar câti au nevoie\Nde tractiune integrala la un SUV?
+Dialogue: 0,0:02:05.68,0:02:08.00,Default,,0,0,22,,Sarmul francez se regaseste\Nsi la interior.
+Dialogue: 0,0:02:08.12,0:02:11.24,Default,,0,0,22,,Este o masina ce învaluie soferul,\Npasagerul.
+Dialogue: 0,0:02:11.72,0:02:15.32,Default,,0,0,22,,Consola centrala masiva include\Nlevierul
+Dialogue: 0,0:02:15.44,0:02:17.64,Default,,0,0,22,,si sistemul de actionare\Na ferestrelor.
+Dialogue: 0,0:02:19.88,0:02:23.04,Default,,0,0,22,,La asta se adauga\Nprelucrarea speciala.
+Dialogue: 0,0:02:24.00,0:02:27.16,Default,,0,0,22,,Când te urci pentru prima data\Nîntr-un DS7 Crossback
+Dialogue: 0,0:02:27.28,0:02:32.64,Default,,0,0,23,,si privesti în jur, observi ca e unic.
+Dialogue: 0,0:02:32.76,0:02:37.04,Default,,0,0,22,,Nu doar la exterior e individualizat,\Nci si la interior.
+Dialogue: 0,0:02:37.16,0:02:42.44,Default,,0,0,22,,Nu s-a preluat nimic de la modelele\NCitroen sau Peugeot
+Dialogue: 0,0:02:42.56,0:02:45.52,Default,,0,0,22,,sau au reusit oricum sa ascunda\Nasta foarte bine.
+Dialogue: 0,0:02:46.08,0:02:51.60,Default,,0,0,22,,Îmi place mult acest model romboidal,\Nfaptul ca modelul se continua.
+Dialogue: 0,0:02:51.72,0:02:58.60,Default,,0,0,22,,Regasim modelul asta peste tot\Nîn interior.
+Dialogue: 0,0:03:03.24,0:03:07.08,Default,,0,0,22,,O particularitate ce se regaseste\Naproape la fiecare producator
+Dialogue: 0,0:03:07.20,0:03:10.84,Default,,0,0,23,,este postul digital de conducere.
+Dialogue: 0,0:03:10.96,0:03:16.52,Default,,0,0,22,,Pentru un producator e mai usor\Nsa programeze ceva pe un display
+Dialogue: 0,0:03:16.64,0:03:19.16,Default,,0,0,23,,decât sa creeze afisaje frumoase.
+Dialogue: 0,0:03:19.28,0:03:23.56,Default,,0,0,22,,Îmi place mult modelul romboidal\Nce se regaseste peste tot,
+Dialogue: 0,0:03:23.68,0:03:29.40,Default,,0,0,23,,inclusiv aici la nivelul display-ului.
+Dialogue: 0,0:03:29.52,0:03:33.12,Default,,0,0,22,,Pe display poti vizualiza\Ndiferite ferestre.
+Dialogue: 0,0:03:33.24,0:03:39.24,Default,,0,0,22,,Daca selectez optiunea Minim,\Nse afiseaza doar vitezometrul.
+Dialogue: 0,0:03:40.28,0:03:45.96,Default,,0,0,22,,Daca e nevoie de mai multa orientare,\Neste disponibila si o harta.
+Dialogue: 0,0:03:46.08,0:03:49.72,Default,,0,0,22,,Chiar daca redarea ar putea fi\Nmai exacta.
+Dialogue: 0,0:03:54.52,0:03:57.08,Default,,0,0,22,,Cei mai multi bani se câstiga\Npe segmentul Premium,
+Dialogue: 0,0:03:57.20,0:04:01.48,Default,,0,0,22,,de aceea fiecare producator ar dori\Nun model premium.
+Dialogue: 0,0:04:01.60,0:04:08.36,Default,,0,0,22,,Deci si PSA a avut nevoie\Nde o marca premium. DS Automobile.
+Dialogue: 0,0:04:08.48,0:04:12.44,Default,,0,0,22,,DS7 este primul model independent\Nal francezilor,
+Dialogue: 0,0:04:12.56,0:04:16.12,Default,,0,0,23,,nu provine de la Citroen.
+Dialogue: 0,0:04:16.88,0:04:21.28,Default,,0,0,22,,Si este punctul de pornire\Npentru alte modele DS Automobile.
+Dialogue: 0,0:04:21.40,0:04:25.32,Default,,0,0,22,,În urmatorii sase ani\Nvor aparea alte sase modele.
+Dialogue: 0,0:04:25.44,0:04:28.48,Default,,0,0,23,,Este DS7 un SUV premium?
+Dialogue: 0,0:04:28.60,0:04:33.12,Default,,0,0,22,,Daca te uiti la preturi,\Ndar e dificil sa compari masinile
+Dialogue: 0,0:04:33.24,0:04:37.68,Default,,0,0,22,,sau preturile într-un mod realist,\Nmasinile nemtesti sunt mai scumpe.
+Dialogue: 0,0:04:37.80,0:04:41.76,Default,,0,0,22,,Sunt cu 4.000 - 7.000 euro\Nmai scumpe decât DS.
+Dialogue: 0,0:04:41.88,0:04:49.16,Default,,0,0,22,,La DS îmi place cel mai mult\Nca e un model special.
+Dialogue: 0,0:04:49.28,0:04:54.08,Default,,0,0,22,,În primul rând nu îl întâlnesti\Nla orice colt,
+Dialogue: 0,0:04:54.20,0:04:57.84,Default,,0,0,22,,în al doilea rând îl recunosti\Nca e un DS.
+Dialogue: 0,0:04:58.60,0:05:03.68,Default,,0,0,22,,Varianta de pornire a DS7 costa\Ncam 31.500 euro.

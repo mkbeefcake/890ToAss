@@ -1,0 +1,658 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 0
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Default,,0,0,20,,STORY: BBCWW-02275523-O\NLANG: FIN
+Dialogue: 0,10:00:21.00,10:00:26.64,Default,,0,0,20,,Kiitos. Olen Alexander Armstrong.\NTervetuloa mukaan.
+Dialogue: 0,10:00:26.72,10:00:28.68,Default,,0,0,22,,Tavataan päivän pelaajat.
+Dialogue: 0,10:00:32.12,10:00:33.72,Default,,0,0,22,,Ensimmäinen pari.
+Dialogue: 0,10:00:33.80,10:00:37.08,Default,,0,0,20,,Salma ja kämppikseni Nikki\NEtelä-Lontoosta.
+Dialogue: 0,10:00:37.16,10:00:41.44,Default,,0,0,20,,Toinen pari.\N-Lisa ja isäni Bob Oustonista.
+Dialogue: 0,10:00:41.52,10:00:45.72,Default,,0,0,20,,Kolmas pari. -Paula\Nja poikaystäväni Dave Kentistä.
+Dialogue: 0,10:00:45.80,10:00:49.32,Default,,0,0,20,,Ja neljäs pari.\N-Olen Ryan Lontoosta.
+Dialogue: 0,10:00:49.40,10:00:51.60,Default,,0,0,22,,Veljeni Jamie asuu Newcastlessa.
+Dialogue: 0,10:00:51.68,10:00:54.32,Default,,0,0,22,,Siinä olivat päivän kilpailijat.
+Dialogue: 0,10:00:56.64,10:00:59.64,Default,,0,0,20,,Tutustumme teihin tarkemmin\Nkisan edetessä.
+Dialogue: 0,10:00:59.72,10:01:04.24,Default,,0,0,20,,Enää täytyy esitellä yksi henkilö.\NHän on hämäristä hämärämäisin.
+Dialogue: 0,10:01:04.32,10:01:07.24,Default,,0,0,20,,Hän on niin fiksu,\Nettä minun pitää keksiä sanoja.
+Dialogue: 0,10:01:07.32,10:01:12.40,Default,,0,0,20,,Hän on ystäväni Richard.\N-Hei kaikille.
+Dialogue: 0,10:01:15.20,10:01:20.24,Default,,0,0,20,,Iltapäiviä. Odotan tätä jaksoa\Ninnolla monestakin syystä.
+Dialogue: 0,10:01:20.32,10:01:23.60,Default,,0,0,20,,Ensimmäinen syy:\NBob ja Lisa ovat taas täällä.
+Dialogue: 0,10:01:24.48,10:01:28.36,Default,,0,0,20,,Georgie Shore! Viimeksi tapaaminen\Njäi lyhyeen. Bob-parka.
+Dialogue: 0,10:01:28.44,10:01:32.20,Default,,0,0,20,,He olivat hyvin esillä,\Nmutta käynti jäi lyhyeksi.
+Dialogue: 0,10:01:32.28,10:01:35.80,Default,,0,0,20,,He putosivat ensimmäisellä\Nkierroksella, joka kyllä muistetaan.
+Dialogue: 0,10:01:35.88,10:01:42.00,Default,,0,0,20,,Bob-parka. Hän ei ole mikään\Nseinäkukkanen. Hän tekee ammuksia.
+Dialogue: 0,10:01:42.08,10:01:44.00,Default,,0,0,22,,Kun vastasit väärin -
+Dialogue: 0,10:01:44.08,10:01:47.88,Default,,0,0,20,,en ole koskaan pelännyt niin paljon\Nkenenkään puolesta.
+Dialogue: 0,10:01:47.96,10:01:51.60,Default,,0,0,20,,Lisa oli raivoissaan.\N-Niin oli.
+Dialogue: 0,10:01:51.68,10:01:55.60,Default,,0,0,20,,Hän on entinen painija ja poliisi.\NHän osaa pitää puolensa.
+Dialogue: 0,10:01:55.68,10:01:59.48,Default,,0,0,20,,Oletko kunnossa, Bob?\N-Hän otti minut niskalenkkiin.
+Dialogue: 0,10:02:00.56,10:02:04.44,Default,,0,0,20,,Joko annoit isällesi anteeksi?\N-Jo. Hän ei ole itse unohtanut sitä.
+Dialogue: 0,10:02:04.52,10:02:09.36,Default,,0,0,20,,Olin aika vihainen itselleni.\N-Et niin vihainen kuin Lisa.
+Dialogue: 0,10:02:09.92,10:02:11.80,Default,,0,0,22,,Dave ja Paula ovat vanhoja tuttuja.
+Dialogue: 0,10:02:11.88,10:02:17.68,Default,,0,0,20,,He ovat olleet yhdessä 13 vuotta,\Neikä Dave suostu kosimaan.
+Dialogue: 0,10:02:17.76,10:02:21.24,Default,,0,0,20,,Sanoit ehkä kosivasi,\Njos pärjäätte hyvin.
+Dialogue: 0,10:02:21.32,10:02:25.12,Default,,0,0,20,,Vastasit kaikkiin väärin.\NPaula pärjäsi hienosti.
+Dialogue: 0,10:02:25.20,10:02:28.48,Default,,0,0,20,,Dave vastasi kaikkiin väärin.\NKenties tarkoituksella.
+Dialogue: 0,10:02:28.56,10:02:32.52,Default,,0,0,20,,Tobyn ja Catin voitto\Njäi yhdestä pisteestä kiinni.
+Dialogue: 0,10:02:32.60,10:02:34.88,Default,,0,0,20,,Vastaus oli oikein,\Nmutta väärästä kategoriasta.
+Dialogue: 0,10:02:34.96,10:02:37.84,Default,,0,0,20,,Tämä on ensimmäinen kerta\Nuudessa pelimuodossa -
+Dialogue: 0,10:02:37.92,10:02:41.00,Default,,0,0,20,,kun potti on päässyt\Nkasvamaan kunnolla.
+Dialogue: 0,10:02:41.08,10:02:44.68,Default,,0,0,20,,Mukava potti tarjolla.\NTästä tulee hyvä kisa.
+Dialogue: 0,10:02:44.76,10:02:49.20,Default,,0,0,20,,Kaikki kysymykset on esitetty\Nsadalle vastaajalle ennen kuvauksia.
+Dialogue: 0,10:02:49.28,10:02:52.56,Default,,0,0,20,,Kilpailijoiden tulee löytää\Nvastaukset, joita ei sanottu.
+Dialogue: 0,10:02:52.64,10:02:56.44,Default,,0,0,20,,Tavoitteena on nollavastaus,\Njota kukaan ei ole vastannut.
+Dialogue: 0,10:02:56.52,10:02:59.28,Default,,0,0,20,,Jokainen nollavastaus\Nkasvattaa pottia 250 punnalla.
+Dialogue: 0,10:02:59.36,10:03:02.88,Default,,0,0,20,,Potti jäi voittamatta,\Njoten siihen lisätään tonni.
+Dialogue: 0,10:03:02.96,10:03:06.36,Default,,0,0,22,,Voittopotti on nyt siis 8 000 puntaa.
+Dialogue: 0,10:03:09.68,10:03:13.24,Default,,0,0,22,,Eiköhän käydä pelaamaan.
+Dialogue: 0,10:03:16.60,10:03:20.56,Default,,0,0,20,,Kaikki vastaavat,\Nmutta ette saa neuvotella.
+Dialogue: 0,10:03:20.64,10:03:24.00,Default,,0,0,22,,Eniten pisteitä saanut pari putoaa.
+Dialogue: 0,10:03:24.08,10:03:30.12,Default,,0,0,20,,Ensimmäinen aihealueemme on\Njulkisuuden henkilöt.
+Dialogue: 0,10:03:30.20,10:03:34.72,Default,,0,0,20,,Päättäkää keskenänne,\Nkumpi vastaa ensin.
+Dialogue: 0,10:03:34.80,10:03:38.72,Default,,0,0,22,,Aloittaja astukoon eteen.
+Dialogue: 0,10:03:39.92,10:03:45.52,Default,,0,0,20,,Kysymys koskee kuuluisia naisia,\Njotka ovat entisiä partiolaisia.
+Dialogue: 0,10:03:46.52,10:03:51.24,Default,,0,0,20,,Kuuluisia entisiä partiolaisia.\NOnnea matkaan.
+Dialogue: 0,10:03:51.32,10:03:54.48,Default,,0,0,20,,Näette seitsemän kuvausta\Njulkisuuden henkilöistä -
+Dialogue: 0,10:03:54.56,10:03:58.24,Default,,0,0,20,,jotka ovat olleet partiossa\Njoko Isossa-Britanniassa ja USA:ssa.
+Dialogue: 0,10:03:58.32,10:04:02.56,Default,,0,0,20,,Haluamme kuulla heidän nimensä.\NYhteensä nimiä on 14.
+Dialogue: 0,10:04:02.64,10:04:06.32,Default,,0,0,20,,Kiitoksia. Haemme siis\Nkuuluisia entisiä partiolaisia.
+Dialogue: 0,10:04:06.40,10:04:08.96,Default,,0,0,22,,Tässä tulevat ensimmäiset seitsemän.
+Dialogue: 0,10:04:09.04,10:04:12.72,Default,,0,0,20,,11-kertainen paralympiavoittaja,\Njoka aateloitiin 2005.
+Dialogue: 0,10:04:12.80,10:04:15.56,Default,,0,0,22,,Ensimmäinen britti avaruudessa.
+Dialogue: 0,10:04:15.64,10:04:19.24,Default,,0,0,20,,Esitti vuoden -94 hitin\N"All I Want for Christmas Is You".
+Dialogue: 0,10:04:19.32,10:04:24.20,Default,,0,0,20,,Sai brittiläisen imperiumin\Nkomentajan arvon vuonna 2013.
+Dialogue: 0,10:04:24.28,10:04:29.12,Default,,0,0,20,,Toimittaja, joka juonsi\N"Big Cat Liveä" ja toimi mentorina.
+Dialogue: 0,10:04:29.20,10:04:32.28,Default,,0,0,20,,Koomikko ja näyttelijä\Nsarjasta "Lucy ja minä".
+Dialogue: 0,10:04:32.36,10:04:36.88,Default,,0,0,20,,Kahden Oscarin voittaja,\Njoka näytteli "Nanny McPheessä".
+Dialogue: 0,10:04:37.36,10:04:42.76,Default,,0,0,20,,Toistetaan.\N11-kertainen paralympiavoittaja.
+Dialogue: 0,10:04:42.84,10:04:45.36,Default,,0,0,22,,Ensimmäinen britti avaruudessa.
+Dialogue: 0,10:04:45.44,10:04:48.68,Default,,0,0,20,,Hitin "All I Want for Christmas\NIs You" esittäjä.
+Dialogue: 0,10:04:48.76,10:04:53.68,Default,,0,0,20,,Komentajan arvon saanut\Nnaisasialle omistautunut asianajaja.
+Dialogue: 0,10:04:53.76,10:04:57.64,Default,,0,0,22,,"Big Cat Liveä" juontanut toimittaja.
+Dialogue: 0,10:04:57.72,10:05:00.56,Default,,0,0,22,,"Lucy ja minä" -sarjan koomikko.
+Dialogue: 0,10:05:00.64,10:05:04.96,Default,,0,0,20,,Kaksinkertainen Oscar-voittaja\N"Nanny McPheestä".
+Dialogue: 0,10:05:05.04,10:05:07.52,Default,,0,0,22,,Arvoimme aloittajan.
+Dialogue: 0,10:05:07.60,10:05:14.04,Default,,0,0,20,,Salma ja Nikki aloittavat.\NSalma, tervetuloa. Nuo vihjeet.
+Dialogue: 0,10:05:14.12,10:05:16.64,Default,,0,0,22,,Aika pahoja vihjeitä.
+Dialogue: 0,10:05:16.72,10:05:20.92,Default,,0,0,22,,Kyllä. Aihepiiri hämäsi ensin -
+Dialogue: 0,10:05:21.00,10:05:24.12,Default,,0,0,20,,mutta sitten tajusin,\Nettä saamme vihjeitä.
+Dialogue: 0,10:05:24.20,10:05:27.04,Default,,0,0,20,,Mitä teet?\N-Olen graafinen suunnittelija.
+Dialogue: 0,10:05:27.12,10:05:30.92,Default,,0,0,20,,Mitä suunnittelet?\N-Verkkosivuja, kuvituksia.
+Dialogue: 0,10:05:31.00,10:05:34.64,Default,,0,0,20,,Se riippuu toimeksiannosta.\NTeen myös animaatioita.
+Dialogue: 0,10:05:34.72,10:05:38.88,Default,,0,0,20,,Se on hieno työ.\NSaan tehdä kaikenlaisia juttuja.
+Dialogue: 0,10:05:38.96,10:05:42.40,Default,,0,0,20,,Mistä tunnette toisenne?\N-Olemme kämppiksiä.
+Dialogue: 0,10:05:42.48,10:05:48.24,Default,,0,0,20,,Oletteko tunteneet ikuisuuden?\N-Melkein. Tapasimme vuonna 2005.
+Dialogue: 0,10:05:48.32,10:05:53.28,Default,,0,0,20,,Olimme molemmat töissä\Njoulupukin pajalla tonttuina.
+Dialogue: 0,10:05:53.36,10:05:57.88,Default,,0,0,20,,Missä? Millä pajalla?\N-Tämä paja oli Nottinghamissa.
+Dialogue: 0,10:05:57.96,10:06:03.60,Default,,0,0,20,,Olimme juuri valmistuneet.\N-Onko tontun työ rankkaa?
+Dialogue: 0,10:06:03.68,10:06:07.92,Default,,0,0,20,,On. Minä olin tonttupäällikkö.\N-Hän oli pomoni.
+Dialogue: 0,10:06:08.00,10:06:11.48,Default,,0,0,20,,Värväsin Nikkin kadulta,\Nkoska tarvitsin...
+Dialogue: 0,10:06:11.56,10:06:16.36,Default,,0,0,20,,Oletko tonttupäällikkö vain pajalla\Nvai myös takahuoneessa?
+Dialogue: 0,10:06:16.44,10:06:18.76,Default,,0,0,22,,Joka paikassa. Se on totista puuhaa.
+Dialogue: 0,10:06:18.84,10:06:23.60,Default,,0,0,20,,En edes tiennyt, että tontuillakin\Non jokin arvojärjestys.
+Dialogue: 0,10:06:23.68,10:06:28.60,Default,,0,0,20,,Kansallisessa tonttupalvelussa\Non paljon erilaisia töitä.
+Dialogue: 0,10:06:30.40,10:06:35.44,Default,,0,0,20,,Anteeksi. Pahoittelen,\Nettä tulitte tänne asti tuota varten.
+Dialogue: 0,10:06:36.16,10:06:39.04,Default,,0,0,20,,Sinä vastaat kysymykseen\Nensimmäisenä.
+Dialogue: 0,10:06:39.12,10:06:43.24,Default,,0,0,20,,Muutama noista on aika ilmiselviä,\Nja ne pitäisi kyllä tietää.
+Dialogue: 0,10:06:43.32,10:06:47.92,Default,,0,0,20,,Vastaan sen ainoan,\Njosta olen aika varma.
+Dialogue: 0,10:06:48.00,10:06:51.72,Default,,0,0,20,,"Lucy ja minä" -sarjan\Nkoomikko ja näyttelijä.
+Dialogue: 0,10:06:51.80,10:06:55.04,Default,,0,0,20,,Vastaan Lucille Ball.\N-Vastaat Lucille Ball.
+Dialogue: 0,10:06:55.12,10:06:59.64,Default,,0,0,20,,Katsotaan, onko se oikein, ja jos on,\Nkuinka moni vastasi samoin.
+Dialogue: 0,10:07:01.80,10:07:03.48,Default,,0,0,22,,Se on oikein.
+Dialogue: 0,10:07:06.88,10:07:08.60,Default,,0,0,22,,39 pistettä.
+Dialogue: 0,10:07:10.88,10:07:13.92,Default,,0,0,20,,39 pistettä.\N-Hyvä, Salma. Hyvä aloitus.
+Dialogue: 0,10:07:14.00,10:07:16.64,Default,,0,0,20,,Lucille Ball ja Bette Davis\Nolivat kurssikavereita.
+Dialogue: 0,10:07:16.72,10:07:19.16,Default,,0,0,22,,Myös Bette Davis on partiolainen.
+Dialogue: 0,10:07:19.24,10:07:23.08,Default,,0,0,20,,En tiedä, voiko siitä päätellä\Nmitään, mutta he pärjäsivät.
+Dialogue: 0,10:07:23.16,10:07:26.80,Default,,0,0,22,,Todellakin. Bob, tervetuloa takaisin.
+Dialogue: 0,10:07:26.88,10:07:29.76,Default,,0,0,22,,Kerro, mitä viimeksi tapahtui?
+Dialogue: 0,10:07:29.84,10:07:32.32,Default,,0,0,22,,Nolasin itseni täydellisesti.
+Dialogue: 0,10:07:32.40,10:07:36.96,Default,,0,0,20,,Kyllä ja et. Tarkastellaan asiaa\Nhetki puolueettomasti.
+Dialogue: 0,10:07:37.04,10:07:39.88,Default,,0,0,22,,Keksit täysin uskottavan vastauksen.
+Dialogue: 0,10:07:39.96,10:07:44.04,Default,,0,0,22,,Lisa oli äänekkäästi eri mieltä.
+Dialogue: 0,10:07:44.12,10:07:49.64,Default,,0,0,20,,Sanoit, että Gateshead oli Euroopan\Nkulttuuripääkaupunki. Minusta...
+Dialogue: 0,10:07:49.72,10:07:54.24,Default,,0,0,20,,Ihmiset nauravat.\N-Lisa, rauhoitu.
+Dialogue: 0,10:07:54.32,10:07:57.96,Default,,0,0,20,,Gateshead hävisi Liverpoolille.\N-Aivan.
+Dialogue: 0,10:07:58.04,10:08:03.64,Default,,0,0,20,,Mitä teitkään työksesi?\N-Olen töissä ammustehtaassa.
+Dialogue: 0,10:08:03.72,10:08:08.72,Default,,0,0,20,,Jos minä ja Richard haluaisimme\Nmuutaman ammuksen...
+Dialogue: 0,10:08:08.80,10:08:11.68,Default,,0,0,22,,Haen teille ennemmin simpukoita.
+Dialogue: 0,10:08:11.76,10:08:14.44,Default,,0,0,22,,Ymmärrän. Takaisin pelin pariin.
+Dialogue: 0,10:08:14.52,10:08:18.96,Default,,0,0,20,,Mitä sanot vihjeistä?\NNe ovat aika vaikeita.
+Dialogue: 0,10:08:19.04,10:08:24.76,Default,,0,0,20,,Olin varma\Nainoastaan Lucille Ballista.
+Dialogue: 0,10:08:24.84,10:08:29.84,Default,,0,0,20,,Luulen tietäväni, että vuoden -94\Nhitti on Mariah Careyn esittämä.
+Dialogue: 0,10:08:30.20,10:08:33.48,Default,,0,0,22,,Mariah Carey. Katsotaan, miten käy.
+Dialogue: 0,10:08:33.56,10:08:36.72,Default,,0,0,20,,Lisa, onko se sinusta oikein?\N-On.
+Dialogue: 0,10:08:38.04,10:08:43.40,Default,,0,0,20,,Hyvä. Katsotaan. Onko Mariah Carey\Noikein ja kuinka moni vastasi samoin?
+Dialogue: 0,10:08:43.48,10:08:45.12,Default,,0,0,22,,Se on oikein.
+Dialogue: 0,10:08:47.04,10:08:48.88,Default,,0,0,22,,51.
+Dialogue: 0,10:08:51.08,10:08:54.76,Default,,0,0,20,,Ei hullummin.\N-Tämä oli helpotus.
+Dialogue: 0,10:08:54.84,10:08:57.08,Default,,0,0,20,,Huh!\N-Älä muuta sano.
+Dialogue: 0,10:08:57.16,10:08:59.20,Default,,0,0,22,,Kappale nousi toiselle sijalle.
+Dialogue: 0,10:08:59.28,10:09:03.52,Default,,0,0,20,,Se nousee joka vuosi\Nlistan 40 parhaan joukkoon.
+Dialogue: 0,10:09:03.60,10:09:07.88,Default,,0,0,20,,Kiitoksia. Sitten Paula.\NTervetuloa takaisin.
+Dialogue: 0,10:09:07.96,10:09:10.04,Default,,0,0,20,,Viimeksi pääsitte\Ntoiselle kierrokselle.
+Dialogue: 0,10:09:10.12,10:09:13.96,Default,,0,0,20,,Sinä et kuitenkaan mokannut.\N-En niin.
+Dialogue: 0,10:09:14.04,10:09:16.64,Default,,0,0,22,,Hetkinen. Dave mokasi.
+Dialogue: 0,10:09:16.72,10:09:20.72,Default,,0,0,20,,John McEnroe osoittautui kuuluisaksi.\N-Hänet tiedetään.
+Dialogue: 0,10:09:20.80,10:09:23.84,Default,,0,0,22,,Ihan kuin Dave ei olisi tiennyt sitä.
+Dialogue: 0,10:09:23.92,10:09:27.48,Default,,0,0,20,,Ovatko nämä vihjeet parempia?\N-Eivät.
+Dialogue: 0,10:09:27.96,10:09:30.88,Default,,0,0,22,,Olisin vastannut Mariah Careyn.
+Dialogue: 0,10:09:30.96,10:09:37.12,Default,,0,0,20,,Luulen tietäväni Nanny McPheen,\Nmutta jokin siinä vaivaa minua.
+Dialogue: 0,10:09:37.20,10:09:44.56,Default,,0,0,20,,Valitsen ensimmäisen ja sanon\NDame Tanni Grey-Thompson.
+Dialogue: 0,10:09:45.00,10:09:47.44,Default,,0,0,22,,Tanni Grey-Thompson.
+Dialogue: 0,10:09:47.52,10:09:51.88,Default,,0,0,22,,Katsotaan, mitä siitä sanotaan.
+Dialogue: 0,10:09:51.96,10:09:54.52,Default,,0,0,22,,Se on aivan oikein.
+Dialogue: 0,10:09:54.60,10:09:57.56,Default,,0,0,22,,Ohitit molemmat aiemmat pistemäärät.
+Dialogue: 0,10:09:57.64,10:09:59.56,Default,,0,0,22,,30! Hyvä vastaus.
+Dialogue: 0,10:10:04.00,10:10:07.56,Default,,0,0,20,,Hänen oikea nimensä on Carys.\NTanni on lempinimi.
+Dialogue: 0,10:10:07.64,10:10:10.96,Default,,0,0,20,,Hänen siskonsa\Nkutsui häntä Tanniksi -
+Dialogue: 0,10:10:11.04,10:10:14.24,Default,,0,0,20,,kun hän oli pikkulapsi.\NNimi jäi elämään.
+Dialogue: 0,10:10:14.32,10:10:16.12,Default,,0,0,20,,Mukavaa.\N-Eikö olekin?
+Dialogue: 0,10:10:16.20,10:10:19.68,Default,,0,0,20,,Kun eteen vielä paiskataan\NDamen arvonimi.
+Dialogue: 0,10:10:19.76,10:10:22.32,Default,,0,0,20,,Hienoa. Sitten Jamie.\N-Hei.
+Dialogue: 0,10:10:22.40,10:10:24.56,Default,,0,0,22,,Olet viimeinen. Kerro puuttuvat.
+Dialogue: 0,10:10:24.64,10:10:31.24,Default,,0,0,20,,Kunpa osaisinkin.\NAistin, että veljeni tietäisi osan.
+Dialogue: 0,10:10:31.32,10:10:32.92,Default,,0,0,22,,Minun täytyy arvata.
+Dialogue: 0,10:10:33.00,10:10:37.36,Default,,0,0,20,,Kerro ensin, mitä teet?\N-Opiskelen Newcastlen yliopistossa.
+Dialogue: 0,10:10:37.44,10:10:40.32,Default,,0,0,20,,Mitä opiskelet?\N-Viimeistä vuotta lääketiedettä.
+Dialogue: 0,10:10:40.40,10:10:44.68,Default,,0,0,20,,Vai niin. Voit tarttua stetoskooppiin\Nsuutuspäissäsi.
+Dialogue: 0,10:10:44.76,10:10:48.72,Default,,0,0,20,,Missä aiot tehdä niin?\N-Newcastlessa, kaksi vuotta.
+Dialogue: 0,10:10:48.80,10:10:51.80,Default,,0,0,22,,Mitä teet vapaa-ajallasi?
+Dialogue: 0,10:10:51.88,10:10:55.08,Default,,0,0,20,,Vaellan.\NKävin hiljattain Kilimanjarolla.
+Dialogue: 0,10:10:55.16,10:10:58.84,Default,,0,0,20,,Kuinka kauan siihen meni?\N-Kuusi päivää. Aika kauan.
+Dialogue: 0,10:10:58.92,10:11:01.96,Default,,0,0,20,,Onko se kauan?\N-Siltä se ainakin tuntui.
+Dialogue: 0,10:11:03.80,10:11:06.16,Default,,0,0,22,,Mitä ajattelit vastata?
+Dialogue: 0,10:11:06.24,10:11:12.76,Default,,0,0,20,,Ajattelin arvata asianajajan,\Njoka sai komentajan arvonimen.
+Dialogue: 0,10:11:12.84,10:11:16.36,Default,,0,0,22,,Veikkaan Cherie Blair.
+Dialogue: 0,10:11:16.44,10:11:20.96,Default,,0,0,20,,Cherie Blair.\NKatsotaan, mitä siitä sanotaan.
+Dialogue: 0,10:11:21.04,10:11:23.04,Default,,0,0,22,,Dave nyökkäilee.
+Dialogue: 0,10:11:23.12,10:11:25.16,Default,,0,0,22,,Se on aivan oikein. Hienoa.
+Dialogue: 0,10:11:25.24,10:11:28.52,Default,,0,0,22,,Alin pistemäärä on 30. Ohi mennään.
+Dialogue: 0,10:11:28.60,10:11:31.96,Default,,0,0,20,,Alaspäin. 15 pistettä.\NOtit vain puolet pisteistä.
+Dialogue: 0,10:11:33.44,10:11:38.44,Default,,0,0,20,,Hyvä vastaus.\N-Hyvin pelattu.
+Dialogue: 0,10:11:38.52,10:11:41.08,Default,,0,0,20,,Blair ja Grey-Thompson\Novat kertoneet -
+Dialogue: 0,10:11:41.16,10:11:43.88,Default,,0,0,20,,että partio on ollut heille\Nhyvin tärkeä.
+Dialogue: 0,10:11:43.96,10:11:47.80,Default,,0,0,20,,Sitten muut. Voisi luulla,\Nettä avaruudessa käynyt britti -
+Dialogue: 0,10:11:47.88,10:11:50.92,Default,,0,0,22,,olisi yksi maan kuuluisimpia ihmisiä.
+Dialogue: 0,10:11:51.00,10:11:53.20,Default,,0,0,20,,Muistatko hänen nimeään?\N-En.
+Dialogue: 0,10:11:53.28,10:11:58.24,Default,,0,0,20,,Helen Sharman.\NHän olisi tuonut kuusi pistettä.
+Dialogue: 0,10:11:58.32,10:12:01.48,Default,,0,0,20,,Paula,\Nmitä olisit sanonut Nanny McPheestä?
+Dialogue: 0,10:12:01.56,10:12:05.56,Default,,0,0,20,,Oliko se Kate Winslet?\N-Onneksi et arvannut sitä.
+Dialogue: 0,10:12:05.64,10:12:08.60,Default,,0,0,20,,Emma Thompson.\NHän olisi tuonut 48 pistettä.
+Dialogue: 0,10:12:08.68,10:12:11.72,Default,,0,0,22,,Sekin olisi tuonut enemmän pisteitä.
+Dialogue: 0,10:12:11.80,10:12:16.52,Default,,0,0,20,,Hakemamme toimittaja\Non Kate Silverton.
+Dialogue: 0,10:12:16.60,10:12:19.68,Default,,0,0,20,,Yksi piste.\NHienoa, jos joku tiesi sen.
+Dialogue: 0,10:12:19.76,10:12:24.52,Default,,0,0,20,,Kierros on puolivälissä.\NParas pistemäärä on 15.
+Dialogue: 0,10:12:24.60,10:12:26.92,Default,,0,0,22,,Välillä vaikeudesta on hyötyä.
+Dialogue: 0,10:12:27.00,10:12:32.20,Default,,0,0,20,,Silloin on pakko vastata jotain,\Nmitä ei muuten olisi sanonut.
+Dialogue: 0,10:12:32.28,10:12:35.04,Default,,0,0,22,,15 on hyvä pistemäärä.
+Dialogue: 0,10:12:35.12,10:12:38.60,Default,,0,0,20,,Paulalla ja Davella on 30,\NSalmalla ja Nikkillä 39 -
+Dialogue: 0,10:12:38.68,10:12:43.20,Default,,0,0,22,,ja Bobilla ja Lisalla 51. Lisa.
+Dialogue: 0,10:12:43.28,10:12:46.00,Default,,0,0,20,,Tiedät,\Nettä tarvitset alhaiset pisteet.
+Dialogue: 0,10:12:48.88,10:12:52.04,Default,,0,0,20,,Näytölle ilmestyy nyt\Nseitsemän uutta vihjettä.
+Dialogue: 0,10:12:52.12,10:12:57.44,Default,,0,0,20,,Ensimmäinen merkittävän puolueen\Nnaisvarapresidenttiehdokas USA:ssa.
+Dialogue: 0,10:12:57.52,10:13:01.32,Default,,0,0,20,,Tennispelaaja, jolla on 10 grand slam\N-nelinpelimestaruutta Serenan kanssa.
+Dialogue: 0,10:13:01.40,10:13:04.92,Default,,0,0,20,,Hittien "Mama Do"\Nja "All About Tonight" esittäjä.
+Dialogue: 0,10:13:05.00,10:13:09.40,Default,,0,0,20,,Pikajuoksija, joka voitti 400 metrin\Naitojen olympiakultaa 1992.
+Dialogue: 0,10:13:09.48,10:13:13.04,Default,,0,0,20,,Kappaleiden "Walk on By"\Nja "Heartbreaker" esittäjä.
+Dialogue: 0,10:13:13.12,10:13:17.08,Default,,0,0,20,,Amerikkalainen toimittaja\Nja ensimmäinen naisuutisankkuri.
+Dialogue: 0,10:13:17.16,10:13:21.12,Default,,0,0,20,,Prinsessa Leian näyttelijä\Nvuoden 1977 "Star Warsissa".
+Dialogue: 0,10:13:21.20,10:13:23.68,Default,,0,0,22,,Toistetaan vielä.
+Dialogue: 0,10:13:23.76,10:13:27.28,Default,,0,0,20,,Ensimmäinen\Nnaisvarapresidenttiehdokas USA:ssa.
+Dialogue: 0,10:13:27.36,10:13:31.48,Default,,0,0,20,,10 nelinpelimestaruuden\Ntennispelaaja.
+Dialogue: 0,10:13:31.56,10:13:34.68,Default,,0,0,20,,Hittien "Mama Do"\Nja "All About Tonight" esittäjä.
+Dialogue: 0,10:13:34.76,10:13:39.88,Default,,0,0,20,,Pikajuoksija, joka voitti\N400 metrin aitojen olympiakultaa.
+Dialogue: 0,10:13:39.96,10:13:43.36,Default,,0,0,20,,Hittien "Walk on By"\Nja "Heartbreaker" esittäjä.
+Dialogue: 0,10:13:43.44,10:13:47.04,Default,,0,0,20,,Toimittaja\Nja ensimmäinen naisuutisankkuri.
+Dialogue: 0,10:13:47.12,10:13:51.00,Default,,0,0,22,,Prinsessa Leian näyttelijä.
+Dialogue: 0,10:13:51.80,10:13:54.52,Default,,0,0,20,,No niin. Ryan.\N-Hei.
+Dialogue: 0,10:13:54.60,10:13:57.72,Default,,0,0,20,,Tervetuloa ohjelmaan.\NMitä teet työksesi?
+Dialogue: 0,10:13:57.80,10:13:59.52,Default,,0,0,22,,Olen yläkoulun opettaja.
+Dialogue: 0,10:13:59.60,10:14:03.24,Default,,0,0,20,,Mitä opetat?\N-Äidinkieltä.
+Dialogue: 0,10:14:03.32,10:14:08.36,Default,,0,0,22,,Mitä teet runsaalla vapaa-ajallasi?
+Dialogue: 0,10:14:08.44,10:14:14.16,Default,,0,0,20,,Onhan sinulla pitkät lomat,\Njos kerran olet opettaja.
+Dialogue: 0,10:14:14.24,10:14:16.32,Default,,0,0,20,,Saa silloin lomaa.\N-Pitkät lomat.
+Dialogue: 0,10:14:16.40,10:14:20.52,Default,,0,0,20,,Opettajan työ on rankkaa,\Njoten pitkä loma tulee tarpeeseen.
+Dialogue: 0,10:14:20.60,10:14:23.24,Default,,0,0,20,,En tarkoittanut,\Nettet ansaitsisi sitä.
+Dialogue: 0,10:14:23.32,10:14:27.92,Default,,0,0,20,,Mitä teet lomalla?\N-Korjaan kokeita ja suunnittelen.
+Dialogue: 0,10:14:28.00,10:14:32.92,Default,,0,0,20,,Pidän leipomisesta.\NYritän opetella espanjaa.
+Dialogue: 0,10:14:33.00,10:14:36.44,Default,,0,0,22,,Hienoa. Mitä sanot vihjeistä?
+Dialogue: 0,10:14:36.52,10:14:38.96,Default,,0,0,20,,Ne ovat aika vaikeita.\N-Niin ovat.
+Dialogue: 0,10:14:39.04,10:14:43.52,Default,,0,0,20,,Valitsen\Nnaisvarapresidenttiehdokkaan.
+Dialogue: 0,10:14:43.60,10:14:46.80,Default,,0,0,20,,Sanon Sarah Palin.\N-Sarah Palin.
+Dialogue: 0,10:14:46.88,10:14:51.12,Default,,0,0,20,,Teillä on 15 pistettä.\NKorkein pistemäärä on 51.
+Dialogue: 0,10:14:51.20,10:14:53.72,Default,,0,0,22,,Saat ottaa korkeintaan 35 pistettä.
+Dialogue: 0,10:14:53.80,10:14:59.24,Default,,0,0,20,,Katsotaan, viekö Sarah Palin\Nteidät punaisen viivan alle.
+Dialogue: 0,10:15:02.20,10:15:04.64,Default,,0,0,22,,Vastaus on valitettavasti väärin.
+Dialogue: 0,10:15:04.72,10:15:07.84,Default,,0,0,20,,Saatte täydet sata pistettä.\NYhteensä 115.
+Dialogue: 0,10:15:07.92,10:15:11.12,Default,,0,0,20,,Tuo ei ehkä ole\Nkierroksen ainoa väärä vastaus.
+Dialogue: 0,10:15:11.20,10:15:15.80,Default,,0,0,20,,Sarah Palin oli toinen\Nnaisvarapresidenttiehdokas -
+Dialogue: 0,10:15:15.88,10:15:20.60,Default,,0,0,20,,jonka republikaanit tai demokraatit\Nasettivat ehdolle.
+Dialogue: 0,10:15:20.68,10:15:24.76,Default,,0,0,20,,Kiitos. Dave, tervetuloa takaisin.\N-Kiitos.
+Dialogue: 0,10:15:24.84,10:15:28.88,Default,,0,0,20,,Kerrohan taas, mitä teet.\N-Olen töissä vakuutusyhtiössä.
+Dialogue: 0,10:15:28.96,10:15:33.04,Default,,0,0,20,,Entä vapaa-ajallasi?\N-Harrastan stand up -komiikkaa.
+Dialogue: 0,10:15:33.12,10:15:38.00,Default,,0,0,20,,Loistavaa. Joko olet kirjoittanut\Nvitsin Pointless-vierailustasi?
+Dialogue: 0,10:15:38.08,10:15:42.00,Default,,0,0,20,,En vielä. Katsotaan, miten tänään\Nkäy. -Hyvä. Mitä vastaat?
+Dialogue: 0,10:15:42.08,10:15:48.20,Default,,0,0,20,,Valitsen olympiakultaa voittaneen\Npikajuoksijan.
+Dialogue: 0,10:15:48.28,10:15:51.52,Default,,0,0,20,,Vastaan Sally Gunnell.\N-Sally Gunnell.
+Dialogue: 0,10:15:51.60,10:15:54.84,Default,,0,0,22,,Korkein pistemäärä on 115.
+Dialogue: 0,10:15:54.92,10:15:57.48,Default,,0,0,22,,Voit ottaa korkeintaan 84 pistettä.
+Dialogue: 0,10:15:57.56,10:16:01.44,Default,,0,0,20,,Onko Sally Gunnell oikein?\NKuinka moni sanoi samaa?
+Dialogue: 0,10:16:01.52,10:16:03.68,Default,,0,0,22,,Se on oikein. Olette jatkossa.
+Dialogue: 0,10:16:07.60,10:16:12.72,Default,,0,0,22,,21. Yhteensä teillä on 51 pistettä.
+Dialogue: 0,10:16:12.80,10:16:15.68,Default,,0,0,20,,Gunnell oli samaan aikaan\Nolympiamestari -
+Dialogue: 0,10:16:15.76,10:16:19.96,Default,,0,0,20,,maailman-, Euroopan\Nja Kansainyhteisön mestari.
+Dialogue: 0,10:16:20.04,10:16:22.16,Default,,0,0,22,,Se on aikamoinen saavutus.
+Dialogue: 0,10:16:22.88,10:16:27.80,Default,,0,0,20,,Lisa.\NTeille avautui juuri mahdollisuus.
+Dialogue: 0,10:16:27.88,10:16:35.12,Default,,0,0,20,,Olette jatkossa,\Njos otat korkeintaan 63 pistettä.
+Dialogue: 0,10:16:35.20,10:16:38.64,Default,,0,0,20,,Tiedän noista kaksi.\NToinen on aika ilmiselvä.
+Dialogue: 0,10:16:38.72,10:16:41.52,Default,,0,0,22,,Toisen näyttelijän tiedän vain -
+Dialogue: 0,10:16:41.60,10:16:45.72,Default,,0,0,20,,koska hänellä oli cameorooli\N"Sinkkuelämässä".
+Dialogue: 0,10:16:45.80,10:16:48.44,Default,,0,0,20,,Se riittää.\N-Vastaan siis sen.
+Dialogue: 0,10:16:48.52,10:16:51.48,Default,,0,0,20,,Prinsessa Leiaa näytteli\NCarrie Fisher.
+Dialogue: 0,10:16:51.56,10:16:54.52,Default,,0,0,20,,Carrie Fisher.\NEi katsota tulosta vielä.
+Dialogue: 0,10:16:54.60,10:16:59.40,Default,,0,0,20,,Puhuimme viime kerralla\Npainitaustastasi.
+Dialogue: 0,10:16:59.48,10:17:04.04,Default,,0,0,20,,Emme puhuneet työstäni.\NKerroit kainosti olevasi virkamies.
+Dialogue: 0,10:17:04.12,10:17:07.48,Default,,0,0,20,,Se olikin ainoa kaino tekosi\Nviime kerralla.
+Dialogue: 0,10:17:07.56,10:17:12.72,Default,,0,0,20,,Teet töitä poliisissa.\NOletko poliisi vai taustahenkilö?
+Dialogue: 0,10:17:12.80,10:17:16.20,Default,,0,0,20,,Olen parhaillaan\Npoliisikoulutuksessa.
+Dialogue: 0,10:17:16.28,10:17:18.36,Default,,0,0,22,,Onnea siihen. Pidätkö siitä?
+Dialogue: 0,10:17:18.44,10:17:21.28,Default,,0,0,20,,Rakastan sitä. Se on mahtavaa.\N-Hyvä.
+Dialogue: 0,10:17:21.36,10:17:24.00,Default,,0,0,20,,Vastasit siis Carrie Fisher.\N-Kyllä.
+Dialogue: 0,10:17:24.08,10:17:26.64,Default,,0,0,22,,Punaisen viivan alla olette turvassa.
+Dialogue: 0,10:17:26.72,10:17:32.08,Default,,0,0,20,,Onnea matkaan. Katsotaan,\Nmitä Carrie Fisheristä sanotaan.
+Dialogue: 0,10:17:33.12,10:17:37.68,Default,,0,0,22,,Vastaus on oikein. Olette jatkossa.
+Dialogue: 0,10:17:38.48,10:17:41.64,Default,,0,0,22,,31 pistettä. Yhteensä 82.
+Dialogue: 0,10:17:43.68,10:17:48.20,Default,,0,0,20,,Hyvin pelattu. Näyttelijä\Nja kirjailija Carrie Fisher.
+Dialogue: 0,10:17:48.28,10:17:52.72,Default,,0,0,20,,Hienoa, että Lisa ja Bob ovat\Njatkossa. Rauha pysyy maassa.
+Dialogue: 0,10:17:55.08,10:17:57.00,Default,,0,0,20,,Kiitos.\N-Nikki.
+Dialogue: 0,10:17:57.08,10:18:00.76,Default,,0,0,22,,Sinun vuorosi. Mitä sinä teet?
+Dialogue: 0,10:18:00.84,10:18:04.32,Default,,0,0,20,,Työskentelen mainosalalla,\Ntaiteellisella osastolla.
+Dialogue: 0,10:18:04.40,10:18:07.64,Default,,0,0,20,,Sen on pakko olla hauskaa.\N-Se on mukavaa.
+Dialogue: 0,10:18:07.72,10:18:12.84,Default,,0,0,20,,Rakennatko pienoismalleja\Nja esittelet niitä?
+Dialogue: 0,10:18:12.92,10:18:17.84,Default,,0,0,20,,Pääsen askartelemaan kaikenlaista.\NSotken siinä samalla kotimme.
+Dialogue: 0,10:18:17.92,10:18:19.92,Default,,0,0,22,,Mikä on lempiluomuksesi?
+Dialogue: 0,10:18:20.00,10:18:25.36,Default,,0,0,20,,Käytän paljon pahvia ja paperia.\NTein räjähdyksen post-it-lapuista.
+Dialogue: 0,10:18:25.44,10:18:29.44,Default,,0,0,20,,Mahtavaa. Mitä teet vapaa-ajallasi?\N-Pelaan jalkapalloa.
+Dialogue: 0,10:18:29.52,10:18:32.36,Default,,0,0,20,,Pärjäätkö?\N-Kohtuullisesti.
+Dialogue: 0,10:18:32.44,10:18:35.24,Default,,0,0,22,,Mitä ajattelit vastata?
+Dialogue: 0,10:18:35.32,10:18:38.36,Default,,0,0,20,,Voit halutessasi\Nkertoa vastauksen kaikkiin.
+Dialogue: 0,10:18:38.44,10:18:41.68,Default,,0,0,20,,Tennispelaaja on Venus,\Nmutta se on liian helppo.
+Dialogue: 0,10:18:41.76,10:18:44.16,Default,,0,0,22,,Kolmas taitaa olla Pixie Lott.
+Dialogue: 0,10:18:44.24,10:18:49.12,Default,,0,0,20,,"Walk on By" on Gabriellen kappale.\NVastaan hänet.
+Dialogue: 0,10:18:49.20,10:18:52.16,Default,,0,0,22,,Kappaleiden esittäjä on Gabrielle.
+Dialogue: 0,10:18:52.24,10:18:55.44,Default,,0,0,20,,Katsotaan,\Nmitä vastauksesta sanotaan.
+Dialogue: 0,10:18:55.52,10:18:57.32,Default,,0,0,22,,Punainen viiva on tuossa.
+Dialogue: 0,10:18:58.68,10:19:01.64,Default,,0,0,22,,Huonoa tuuria.
+Dialogue: 0,10:19:01.72,10:19:04.56,Default,,0,0,20,,Väärin meni,\Njoten saatte sata pistettä.
+Dialogue: 0,10:19:04.64,10:19:07.24,Default,,0,0,22,,Yhteensä teillä on 139 pistettä.
+Dialogue: 0,10:19:07.32,10:19:09.92,Default,,0,0,22,,Sinulla kävi huono tuuri.
+Dialogue: 0,10:19:10.00,10:19:12.92,Default,,0,0,20,,Gabrielle teki version\N"Walk on Bysta" -
+Dialogue: 0,10:19:13.00,10:19:16.36,Default,,0,0,20,,mutta "Walk on By" ja "Heartbreaker"\Novat Dionne Warwickin kappaleita.
+Dialogue: 0,10:19:16.44,10:19:18.40,Default,,0,0,22,,45 pistettä hänestä.
+Dialogue: 0,10:19:18.48,10:19:21.24,Default,,0,0,22,,Jos olisit vastannut Venus Williams -
+Dialogue: 0,10:19:21.32,10:19:25.00,Default,,0,0,20,,olisit saanut 52 pistettä\Nja päässyt jatkoon.
+Dialogue: 0,10:19:25.08,10:19:28.28,Default,,0,0,22,,Myös Pixie Lott olisi ollut oikein.
+Dialogue: 0,10:19:28.36,10:19:32.04,Default,,0,0,22,,Sillä olisi tullut vain 19 pistettä.
+Dialogue: 0,10:19:32.12,10:19:37.28,Default,,0,0,20,,Ainoa onnesi on se, ettet ole\NLisan kanssa samassa tiimissä.
+Dialogue: 0,10:19:37.36,10:19:41.12,Default,,0,0,20,,Ainakin poistut täältä\Nyhtenä kappaleena.
+Dialogue: 0,10:19:41.20,10:19:43.56,Default,,0,0,22,,Naisvarapresidenttiehdokas -
+Dialogue: 0,10:19:43.64,10:19:47.96,Default,,0,0,20,,oli Walter Mondalen pari 80-luvulta.\NGeraldine Ferraro.
+Dialogue: 0,10:19:48.04,10:19:51.36,Default,,0,0,22,,Hän olisi tuonut vain kaksi pistettä.
+Dialogue: 0,10:19:51.44,10:19:55.20,Default,,0,0,22,,Sitäkin parempi vastaus olisi ollut -
+Dialogue: 0,10:19:55.28,10:19:59.72,Default,,0,0,20,,toimittaja Barbara Walters.\NYksi piste. Hienoa, jos joku tiesi.
+Dialogue: 0,10:19:59.80,10:20:02.36,Default,,0,0,22,,Ensimmäisen kierroksen päätteeksi -
+Dialogue: 0,10:20:02.44,10:20:07.16,Default,,0,0,20,,meidät jättävät Nikki ja Salma\N139 pisteellään.
+Dialogue: 0,10:20:07.24,10:20:10.92,Default,,0,0,20,,Julmaa.\NTiesit melkein kaikki vastaukset.
+Dialogue: 0,10:20:11.00,10:20:13.64,Default,,0,0,22,,Olisitte päässeet helposti jatkoon.
+Dialogue: 0,10:20:13.72,10:20:16.92,Default,,0,0,22,,Palaatte tänne seuraavaan jaksoon.
+Dialogue: 0,10:20:17.00,10:20:19.40,Default,,0,0,22,,Sitten pääsette varmasti finaaliin.
+Dialogue: 0,10:20:19.48,10:20:24.56,Default,,0,0,20,,Kiitos teille käynnistä.\NHienoa, kun olitte mukana.
+Dialogue: 0,10:20:29.92,10:20:35.08,Default,,0,0,20,,Kaksintaisteluun mahtuu vain\Nkaksi paria, joten joku putoaa pian.
+Dialogue: 0,10:20:35.16,10:20:38.80,Default,,0,0,20,,Bob ja Lisa,\Nolette toisella kierroksella.
+Dialogue: 0,10:20:38.88,10:20:42.08,Default,,0,0,20,,Niinpä. Nyt ei enää harmita.\N-Jännittävää.
+Dialogue: 0,10:20:42.16,10:20:46.20,Default,,0,0,20,,Bob, vielä yksi kierros,\Nja sitten saatte neuvotella.
+Dialogue: 0,10:20:46.28,10:20:49.36,Default,,0,0,20,,Hän päättää vastaukset.\N-Ja kantaa vastuun.
+Dialogue: 0,10:20:49.44,10:20:52.60,Default,,0,0,20,,Dave,\Nensimmäistä kertaa nollaurallasi...
+Dialogue: 0,10:20:52.68,10:20:56.84,Default,,0,0,20,,Anteeksi.\NTarkoitan Pointless-urallasi.
+Dialogue: 0,10:20:56.92,10:21:00.40,Default,,0,0,20,,Et ole väärässä.\N-Sait vähemmän pisteitä kuin Paula.
+Dialogue: 0,10:21:00.48,10:21:03.00,Default,,0,0,20,,Suunnitelmani ei toimi.\N-Niinpä.
+Dialogue: 0,10:21:03.08,10:21:06.52,Default,,0,0,20,,Tai ehkä Paula esittää\Nvaikeasti tavoiteltavaa.
+Dialogue: 0,10:21:06.60,10:21:09.24,Default,,0,0,22,,Jamie ja Ryan, hyvä suoritus.
+Dialogue: 0,10:21:09.32,10:21:12.88,Default,,0,0,20,,Dave ja Paula\Nsaivat vähiten pisteitä.
+Dialogue: 0,10:21:12.96,10:21:18.12,Default,,0,0,20,,Onnea matkaan. Toisen kierroksen\Naihealue on rugby union.
+Dialogue: 0,10:21:19.88,10:21:23.68,Default,,0,0,20,,Päättäkää keskenänne,\Nkumpi teistä aloittaa.
+Dialogue: 0,10:21:23.76,10:21:27.68,Default,,0,0,22,,Aloittaja astukoon eteen.
+Dialogue: 0,10:21:28.92,10:21:30.76,Default,,0,0,22,,Kysymys tulee tässä.
+Dialogue: 0,10:21:30.84,10:21:35.24,Default,,0,0,20,,Vastaajilla oli sata sekuntia aikaa\Nnimetä maita -
+Dialogue: 0,10:21:35.32,10:21:39.48,Default,,0,0,20,,jotka ovat pelanneet Englantia\Nvastaan rugbyn MM-turnauksessa.
+Dialogue: 0,10:21:39.56,10:21:44.36,Default,,0,0,22,,Englantia vastaan pelanneita maita.
+Dialogue: 0,10:21:44.44,10:21:47.00,Default,,0,0,22,,Mikä tahansa maajoukkue.
+Dialogue: 0,10:21:47.08,10:21:50.08,Default,,0,0,20,,Turnaus pelattiin ensimmäisen kerran\Nvuonna 1987.
+Dialogue: 0,10:21:50.16,10:21:54.24,Default,,0,0,20,,Viimeisin turnaus oli vuonna 2011.\NOnnea matkaan.
+Dialogue: 0,10:21:54.32,10:21:58.72,Default,,0,0,20,,Paljon kiitoksia.\NBob, seuraatko rugbya?
+Dialogue: 0,10:21:58.80,10:22:02.04,Default,,0,0,20,,Ei sitten ollenkaan.\N-Hienoa.
+Dialogue: 0,10:22:02.12,10:22:07.80,Default,,0,0,20,,Tiedän kyllä maailman maita.\NVeikkaan Italiaa.
+Dialogue: 0,10:22:09.00,10:22:15.12,Default,,0,0,20,,Bob vastaa Italian.\NKatsotaan, mitä siitä sanotaan.
+Dialogue: 0,10:22:16.92,10:22:19.12,Default,,0,0,22,,Se on oikein.
+Dialogue: 0,10:22:22.32,10:22:24.00,Default,,0,0,22,,25. Hyvä vastaus.
+Dialogue: 0,10:22:28.60,10:22:32.48,Default,,0,0,20,,Maat kohtasivat kolme kertaa\N90-luvulla. Englanti voitti aina.
+Dialogue: 0,10:22:32.56,10:22:36.88,Default,,0,0,20,,Siitäkin huolimatta, että Lisa\Ntuhahti vastauksesi jälkeen.
+Dialogue: 0,10:22:36.96,10:22:41.20,Default,,0,0,22,,Paula. Mitä sanot tästä kierroksesta?
+Dialogue: 0,10:22:41.28,10:22:43.28,Default,,0,0,22,,En seuraa rugbya.
+Dialogue: 0,10:22:43.36,10:22:48.80,Default,,0,0,20,,Bob osoitti juuri, ettei se estä\Nhyvän vastauksen antamista.
+Dialogue: 0,10:22:48.88,10:22:52.20,Default,,0,0,20,,Vastaan Ranska.\N-Paula vastaa Ranskan.
+Dialogue: 0,10:22:52.28,10:22:57.36,Default,,0,0,20,,Katsotaan, onko se oikein\Nja kuinka moni vastasi samoin.
+Dialogue: 0,10:22:57.44,10:23:03.84,Default,,0,0,22,,Se on oikein. Ranska tuo 56 pistettä.
+Dialogue: 0,10:23:05.40,10:23:08.48,Default,,0,0,22,,Maat ovat kohdanneet viisi kertaa.
+Dialogue: 0,10:23:08.56,10:23:12.84,Default,,0,0,20,,Englanti voitti kolme kertaa,\NRanska kaksi. Ranska voitti 2011.
+Dialogue: 0,10:23:12.92,10:23:18.60,Default,,0,0,20,,Ryan, sopiiko aihepiiri sinulle?\N-Ei sitten ollenkaan.
+Dialogue: 0,10:23:20.16,10:23:24.04,Default,,0,0,20,,Tämä voi olla ilmiselvä vastaus,\Nmutta sanon Uusi-Seelanti.
+Dialogue: 0,10:23:24.12,10:23:29.52,Default,,0,0,22,,Katsotaan, onko Uusi-Seelanti oikein.
+Dialogue: 0,10:23:33.72,10:23:36.56,Default,,0,0,22,,65 pistettä.
+Dialogue: 0,10:23:38.20,10:23:40.92,Default,,0,0,22,,Maat ovat kohdanneet kolme kertaa -
+Dialogue: 0,10:23:41.00,10:23:44.28,Default,,0,0,22,,mutta ne pelit hävisimme kaikki.
+Dialogue: 0,10:23:44.36,10:23:47.28,Default,,0,0,20,,Ei mikään yllätys.\NVilkaistaan pisteitä.
+Dialogue: 0,10:23:47.36,10:23:50.36,Default,,0,0,20,,25 on kierroksen paras pistemäärä.\NHienoa.
+Dialogue: 0,10:23:50.44,10:23:53.32,Default,,0,0,22,,Lisalla on helpot oltavat.
+Dialogue: 0,10:23:53.40,10:23:57.52,Default,,0,0,20,,Paulalla ja Davella on 56 pistettä\Nja Ryanilla ja Jamiella 65.
+Dialogue: 0,10:23:57.60,10:24:01.76,Default,,0,0,20,,Eroa ei ole paljon, mutta\NJamie ei saa ottaa paljon pisteitä.
+Dialogue: 0,10:24:01.84,10:24:03.52,Default,,0,0,22,,Onnea matkaan kaikille.
+Dialogue: 0,10:24:03.60,10:24:06.28,Default,,0,0,22,,Vaihtakaa paikkoja.
+Dialogue: 0,10:24:08.64,10:24:11.04,Default,,0,0,20,,Haemme maita,\Njotka ovat kohdanneet Englannin -
+Dialogue: 0,10:24:11.12,10:24:12.88,Default,,0,0,22,,rugbyn MM-lopputurnauksessa.
+Dialogue: 0,10:24:12.96,10:24:17.00,Default,,0,0,20,,Jamie, pidätte perää 65 pisteellä.\NSopiiko aihealue sinulle?
+Dialogue: 0,10:24:17.08,10:24:19.20,Default,,0,0,22,,Pelaan kyllä rugbya.
+Dialogue: 0,10:24:19.28,10:24:22.72,Default,,0,0,20,,Olemme viimeisenä,\Njoten joudun ottamaan riskin.
+Dialogue: 0,10:24:22.80,10:24:26.12,Default,,0,0,20,,En ole varma vastauksesta,\Nmutta kokeillaan.
+Dialogue: 0,10:24:26.20,10:24:28.64,Default,,0,0,22,,Vastaan Japani.
+Dialogue: 0,10:24:29.08,10:24:33.64,Default,,0,0,20,,Jamie sanoo "Japani".\NPunaista viivaa ei ole.
+Dialogue: 0,10:24:33.72,10:24:38.44,Default,,0,0,20,,Lisa haukkoi henkeään.\NSelvitetään, mitä se tarkoitti.
+Dialogue: 0,10:24:38.52,10:24:41.60,Default,,0,0,20,,Onko Japani oikein?\NKuinka moni vastasi samoin?
+Dialogue: 0,10:24:43.36,10:24:45.60,Default,,0,0,22,,Se on oikein. Hyvä vastaus.
+Dialogue: 0,10:24:46.72,10:24:49.72,Default,,0,0,22,,Alin pistemäärä on 25. Ohitit sen.
+Dialogue: 0,10:24:49.80,10:24:52.60,Default,,0,0,22,,Alas neljään asti. Loistavaa.
+Dialogue: 0,10:24:54.04,10:24:56.44,Default,,0,0,22,,Yhteensä 69 pistettä. Hienoa.
+Dialogue: 0,10:24:59.08,10:25:03.20,Default,,0,0,20,,Japani on yksi harvinaisempia\Nrugby unionia pelaavia maita.
+Dialogue: 0,10:25:03.28,10:25:07.48,Default,,0,0,20,,Kohtasimme kerran vuonna 1987\Nja voitimme 60 - 7.
+Dialogue: 0,10:25:07.56,10:25:11.08,Default,,0,0,20,,Kiitos. Sitten Dave.\N-Hei!
+Dialogue: 0,10:25:11.16,10:25:15.36,Default,,0,0,20,,Teillä on 56 pistettä.\NJamiella ja Ryanilla on 69 pistettä.
+Dialogue: 0,10:25:15.44,10:25:18.12,Default,,0,0,22,,Alle 12 pisteellä pysytte pelissä.
+Dialogue: 0,10:25:18.20,10:25:22.40,Default,,0,0,20,,Keksin kaksi. Toisessa on riskinsä,\Nmutta se voisi olla hyväkin.
+Dialogue: 0,10:25:22.48,10:25:27.44,Default,,0,0,20,,Otan kuitenkin varman päälle\Nja sanon Etelä-Afrikka.
+Dialogue: 0,10:25:27.52,10:25:32.32,Default,,0,0,20,,Etelä-Afrikka siis.\NPunainen viiva on aika alhaalla.
+Dialogue: 0,10:25:32.40,10:25:38.28,Default,,0,0,20,,Katsotaan, pääsettekö Etelä-Afrikalla\Nviivan lähelle.
+Dialogue: 0,10:25:38.36,10:25:40.20,Default,,0,0,22,,Vastaus on oikein.
+Dialogue: 0,10:25:42.76,10:25:44.52,Default,,0,0,22,,45 pistettä.
+Dialogue: 0,10:25:46.80,10:25:49.48,Default,,0,0,22,,Teillä on yhteensä 101 pistettä.
+Dialogue: 0,10:25:50.24,10:25:52.64,Default,,0,0,20,,Lisa ratkaisee.\N-Paljon pisteitä.
+Dialogue: 0,10:25:52.72,10:25:54.80,Default,,0,0,22,,Kysyn toista vaihtoehtoasi lopuksi.
+Dialogue: 0,10:25:54.88,10:25:59.00,Default,,0,0,20,,Maat kohtasivat neljä kertaa.\NVoitimme vuonna 2003.
+Dialogue: 0,10:25:59.08,10:26:01.56,Default,,0,0,20,,Sitten Lisa.\N-Hei.
+Dialogue: 0,10:26:01.64,10:26:06.00,Default,,0,0,20,,Sinun vastauksesi ratkaisee.\NDavella ja Paulalla on 101 pistettä.
+Dialogue: 0,10:26:06.08,10:26:09.16,Default,,0,0,22,,Saat ottaa korkeintaan 75 pistettä.
+Dialogue: 0,10:26:09.24,10:26:13.52,Default,,0,0,20,,75 pisteellä pääsette jatkoon.\NKerro, mitä ajattelet.
+Dialogue: 0,10:26:13.60,10:26:16.48,Default,,0,0,22,,Voi olla, että isä suuttuu minulle -
+Dialogue: 0,10:26:16.56,10:26:20.84,Default,,0,0,20,,mutta olen aina sanonut,\Nettä tässä kohdassa en ota riskejä.
+Dialogue: 0,10:26:20.92,10:26:24.96,Default,,0,0,20,,En ole koskaan katsonut\Nrugby unionia -
+Dialogue: 0,10:26:25.04,10:26:27.52,Default,,0,0,22,,joten Wales on kai ilmiselvä vastaus.
+Dialogue: 0,10:26:27.60,10:26:30.76,Default,,0,0,20,,Lisa vastaa "Wales".\NPunainen viiva on tässä.
+Dialogue: 0,10:26:30.84,10:26:34.64,Default,,0,0,22,,Viivan alla olette turvassa.
+Dialogue: 0,10:26:34.72,10:26:38.80,Default,,0,0,20,,Onko Wales oikein?\NKuinka moni vastasi samoin?
+Dialogue: 0,10:26:39.88,10:26:43.76,Default,,0,0,22,,Se on oikein. Olette jatkossa.
+Dialogue: 0,10:26:43.84,10:26:49.32,Default,,0,0,22,,49 pistettä. Yhteensä 74. Hyvä, Lisa.
+Dialogue: 0,10:26:52.08,10:26:54.20,Default,,0,0,22,,Tuo oli oikeasti jännittävää.
+Dialogue: 0,10:26:54.28,10:26:57.48,Default,,0,0,20,,Englanti ja Wales ovat kohdanneet\Nkahdesti. Voitto per maa.
+Dialogue: 0,10:26:57.56,10:27:01.00,Default,,0,0,22,,Nollavastauksia oli vain yksi.
+Dialogue: 0,10:27:01.08,10:27:05.48,Default,,0,0,20,,Se oli myös suurin voittomme.\NKohtaaminen on vuodelta 2003.
+Dialogue: 0,10:27:05.56,10:27:09.68,Default,,0,0,22,,Voitimme Uruguayn 111 - 13.
+Dialogue: 0,10:27:09.76,10:27:12.48,Default,,0,0,22,,Georgia olisi tuonut yhden pisteen.
+Dialogue: 0,10:27:12.56,10:27:15.88,Default,,0,0,22,,Romania olisi tuonut kolme pistettä.
+Dialogue: 0,10:27:15.96,10:27:18.40,Default,,0,0,22,,Japani oli siis loistava vastaus.
+Dialogue: 0,10:27:18.48,10:27:22.56,Default,,0,0,20,,USA olisi tuonut kuusi pistettä,\NTonga 8, Samoa 11.
+Dialogue: 0,10:27:22.64,10:27:25.92,Default,,0,0,20,,Fidži olisi tuonut 15 pistettä.\NSitten yleisimmät.
+Dialogue: 0,10:27:26.00,10:27:29.40,Default,,0,0,20,,Paula vastasi kolmanneksi yleisimmän\Neli Ranskan.
+Dialogue: 0,10:27:29.48,10:27:31.48,Default,,0,0,22,,Sitten Australia. 60.
+Dialogue: 0,10:27:31.56,10:27:36.24,Default,,0,0,20,,Uusi-Seelanti oli yleisin vastaus.\N65 pistettä.
+Dialogue: 0,10:27:36.32,10:27:38.08,Default,,0,0,22,,Dave, toinen vaihtoehtosi?
+Dialogue: 0,10:27:38.16,10:27:43.36,Default,,0,0,20,,Argentiina.\N-Se olisi tuonut tasapelin.
+Dialogue: 0,10:27:44.64,10:27:49.44,Default,,0,0,20,,Olisimme menneet jatkoajalle\Nratkaisemaan voittajan.
+Dialogue: 0,10:27:49.52,10:27:54.32,Default,,0,0,20,,Toisen kierroksen päätteeksi\Nmeidät jättävät Dave ja Paula.
+Dialogue: 0,10:27:54.40,10:27:57.16,Default,,0,0,22,,Olin varma, että menisitte finaaliin.
+Dialogue: 0,10:27:57.24,10:27:59.52,Default,,0,0,22,,Olisimme voineet vihkiä teidät.
+Dialogue: 0,10:27:59.60,10:28:03.08,Default,,0,0,20,,Siitä olisi tullut mahtavaa.\NNiin ei tapahdu.
+Dialogue: 0,10:28:03.16,10:28:06.04,Default,,0,0,22,,Siis sitä finaaliosiota.
+Dialogue: 0,10:28:06.12,10:28:08.72,Default,,0,0,22,,Loppu on Daven pätevissä käsissä.
+Dialogue: 0,10:28:08.80,10:28:11.88,Default,,0,0,20,,Tiedät, mitä tehdä.\NHienoa, kun olitte mukana.
+Dialogue: 0,10:28:11.96,10:28:15.68,Default,,0,0,22,,Kiitos teille, Dave ja Paula.
+Dialogue: 0,10:28:22.84,10:28:26.52,Default,,0,0,20,,Bob, Lisa, Jamie ja Ryan,\Nolette askelen lähempänä finaalia.
+Dialogue: 0,10:28:26.60,10:28:31.48,Default,,0,0,20,,Teillä on mahdollisuus pelata\N8 000 punnan voittopotistamme.
+Dialogue: 0,10:28:33.96,10:28:38.36,Default,,0,0,20,,Finaalipari täytyy ratkaista,\Nja se tapahtuu kaksintaistelussa.
+Dialogue: 0,10:28:38.44,10:28:41.00,Default,,0,0,22,,Nyt saatte neuvotella keskenänne.
+Dialogue: 0,10:28:41.08,10:28:44.60,Default,,0,0,22,,Finaaliin tarvitaan kaksi voittoa.
+Dialogue: 0,10:28:44.68,10:28:49.36,Default,,0,0,20,,Lisa,\NBob vastasi äsken sinua paremmin.
+Dialogue: 0,10:28:49.44,10:28:53.24,Default,,0,0,20,,Hän saa anteeksi.\N-Niinpä. Vaikuttavaa.
+Dialogue: 0,10:28:53.32,10:28:58.04,Default,,0,0,22,,Jamie ja Ryan, Japani. Mikä vastaus!
+Dialogue: 0,10:28:58.12,10:29:01.40,Default,,0,0,22,,Nyt pääsette yhdistämään voimanne.
+Dialogue: 0,10:29:01.48,10:29:03.88,Default,,0,0,22,,Tästä tulee jännittävä kierros.
+Dialogue: 0,10:29:03.96,10:29:07.72,Default,,0,0,20,,Onnea matkaan.\NKaksintaistelu alkakoon.
+Dialogue: 0,10:29:11.72,10:29:18.40,Default,,0,0,20,,Ensimmäinen kysymys koskee\Nvärikkäitä perhosia. Richard.
+Dialogue: 0,10:29:18.48,10:29:22.36,Default,,0,0,20,,Näette perhosia, joiden\Nenglanninkielisissä nimissä on väri.
+Dialogue: 0,10:29:22.44,10:29:25.96,Default,,0,0,22,,Nimetkää perhoset. Onnea.
+Dialogue: 0,10:29:26.04,10:29:28.96,Default,,0,0,20,,Paljastetaan perhoset.\NTässä ne tulevat.
+Dialogue: 0,10:29:29.04,10:29:32.44,Default,,0,0,22,,Värit ovat A, vihreä.
+Dialogue: 0,10:29:33.96,10:29:35.96,Default,,0,0,22,,B, ruskea.
+Dialogue: 0,10:29:37.40,10:29:39.64,Default,,0,0,22,,C, violetti.
+Dialogue: 0,10:29:41.92,10:29:44.24,Default,,0,0,22,,D, kupari.
+Dialogue: 0,10:29:45.24,10:29:48.32,Default,,0,0,22,,Ja E, punainen.
+Dialogue: 0,10:29:51.00,10:29:53.68,Default,,0,0,22,,Viisi värikästä perhosta.
+Dialogue: 0,10:29:53.76,10:29:59.16,Default,,0,0,20,,Bob ja Lisa ovat olleet parempia\Nja saavat aloittaa.
+Dialogue: 0,10:30:00.88,10:30:06.20,Default,,0,0,20,,Tiedän noista vain yhden,\Njoka on tuo punainen. Amiraali.
+Dialogue: 0,10:30:06.60,10:30:10.72,Default,,0,0,20,,E on siis amiraali.\NBob ja Lisa sanovat "amiraali".
+Dialogue: 0,10:30:10.80,10:30:14.08,Default,,0,0,22,,Jamie ja Ryan, mitä te vastaatte?
+Dialogue: 0,10:30:14.16,10:30:16.60,Default,,0,0,20,,Emme osaa nimetä kaikkia.\N-Selvä.
+Dialogue: 0,10:30:16.68,10:30:21.12,Default,,0,0,20,,Sanomme,\Nettä violetti C on häiveperhonen.
+Dialogue: 0,10:30:21.48,10:30:27.84,Default,,0,0,20,,Häiveperhonen.\NAmiraali vastaan häiveperhonen.
+Dialogue: 0,10:30:27.92,10:30:30.64,Default,,0,0,22,,Katsotaan, onko amiraali oikein -
+Dialogue: 0,10:30:30.72,10:30:35.40,Default,,0,0,20,,ja jos on,\Nkuinka moni muu sanoi "amiraali".
+Dialogue: 0,10:30:35.48,10:30:40.60,Default,,0,0,20,,Se on oikein.\NTulipa paljon pisteitä. 76.
+Dialogue: 0,10:30:42.92,10:30:46.44,Default,,0,0,20,,Jamie ja Ryan\Nvastasivat häiveperhosen.
+Dialogue: 0,10:30:46.52,10:30:51.36,Default,,0,0,20,,Katsotaan, onko se oikein\Nja kuinka moni vastasi samoin.
+Dialogue: 0,10:30:51.44,10:30:56.00,Default,,0,0,20,,Se on oikein. Voitatte pisteen.\NHäiveperhonen oli hyvä vastaus.
+Dialogue: 0,10:30:56.08,10:31:01.20,Default,,0,0,20,,Alas mennään. 13 pistettä.\NHyvä vastaus.
+Dialogue: 0,10:31:04.12,10:31:07.64,Default,,0,0,22,,Jamie ja Ryan johtavat pisteellä.
+Dialogue: 0,10:31:07.72,10:31:10.88,Default,,0,0,20,,Kerrotaan puuttuvat perhoset.\NTämä oli vaikea.
+Dialogue: 0,10:31:10.96,10:31:14.84,Default,,0,0,20,,A on kangasperhonen\Ntai vihernopsasiipi.
+Dialogue: 0,10:31:16.24,10:31:20.56,Default,,0,0,20,,Sillä olisi tullut kolme pistettä.\NSe on ujo perhonen.
+Dialogue: 0,10:31:20.64,10:31:24.68,Default,,0,0,20,,Viettää lähes kaiken aikansa syömällä\Ntai aurinkoa ottamalla.
+Dialogue: 0,10:31:24.76,10:31:28.80,Default,,0,0,22,,B on tummahäränsilmä.
+Dialogue: 0,10:31:28.88,10:31:32.00,Default,,0,0,22,,Sillä olisi tullut viisi pistettä.
+Dialogue: 0,10:31:32.08,10:31:36.88,Default,,0,0,20,,Yllättävää, ettei Lisa tiennyt D:tä.\NSe on pikkukultasiipi.
+Dialogue: 0,10:31:38.88,10:31:41.44,Default,,0,0,20,,Kuusi pistettä.\N-Koon näkee kuvasta.
+Dialogue: 0,10:31:41.52,10:31:44.40,Default,,0,0,20,,Sen takana on voikukka.\N-Vaikea kysymys.
+Dialogue: 0,10:31:44.48,10:31:46.80,Default,,0,0,22,,Pärjäsitte hienosti.
+Dialogue: 0,10:31:46.88,10:31:49.04,Default,,0,0,22,,Tässä tulee toinen kysymys.
+Dialogue: 0,10:31:49.12,10:31:52.60,Default,,0,0,20,,Teidän täytyy voittaa,\Njotta pysytte mukana.
+Dialogue: 0,10:31:52.68,10:31:58.60,Default,,0,0,20,,Kysymys koskee\NArnold Schwarzeneggeria.
+Dialogue: 0,10:31:58.68,10:32:03.24,Default,,0,0,20,,Näette kohta viisi\NArnoldiin liittyvää vihjettä.
+Dialogue: 0,10:32:03.32,10:32:05.76,Default,,0,0,22,,Vihjeet tulevat tässä.
+Dialogue: 0,10:32:05.84,10:32:08.16,Default,,0,0,22,,Vuosikymmen, jona Arnold syntyi.
+Dialogue: 0,10:32:08.24,10:32:10.96,Default,,0,0,20,,Osavaltio,\Njonka kuvernöörinä hän toimi.
+Dialogue: 0,10:32:11.04,10:32:15.36,Default,,0,0,20,,Nainen, jonka hän nai vuonna 1986.\N"Terminator - tuhoajan" ohjaaja.
+Dialogue: 0,10:32:15.44,10:32:17.68,Default,,0,0,22,,Maa, jossa hän syntyi.
+Dialogue: 0,10:32:17.76,10:32:20.40,Default,,0,0,22,,Eli vuosikymmen, jona hän syntyi.
+Dialogue: 0,10:32:20.48,10:32:24.68,Default,,0,0,20,,Osavaltio, jossa hän oli\Nkuvernöörinä. Vaimon nimi.
+Dialogue: 0,10:32:24.76,10:32:27.12,Default,,0,0,22,,"Terminator - tuhoajan" ohjaaja.
+Dialogue: 0,10:32:27.20,10:32:29.36,Default,,0,0,22,,Maa, jossa hän syntyi.
+Dialogue: 0,10:32:29.44,10:32:32.60,Default,,0,0,22,,Jamie ja Ryan aloittavat.
+Dialogue: 0,10:32:33.52,10:32:37.88,Default,,0,0,20,,Veikkaamme,\Nettä Arnold on syntynyt Itävallassa.
+Dialogue: 0,10:32:37.96,10:32:41.24,Default,,0,0,22,,Itävalta olisi Arnoldin synnyinmaa.
+Dialogue: 0,10:32:41.32,10:32:45.56,Default,,0,0,20,,Bob ja Lisa, sana on vapaa.\NTäyttäkää puuttuvat kohdat.
+Dialogue: 0,10:32:45.64,10:32:49.88,Default,,0,0,20,,Vuosikymmen, jona hän syntyi...\NVeikkaisin 50-lukua.
+Dialogue: 0,10:32:49.96,10:32:53.40,Default,,0,0,20,,Osavaltio...\N-Kalifornia.
+Dialogue: 0,10:32:53.48,10:32:57.24,Default,,0,0,20,,Vaimosta en ole varma,\Nmutta se voisi olla Marie Helvin.
+Dialogue: 0,10:32:57.32,10:33:00.24,Default,,0,0,22,,En tiedä ohjaajan nimeä.
+Dialogue: 0,10:33:00.32,10:33:04.04,Default,,0,0,20,,Valitsemme synnyinvuosikymmenen.\N50-luku.
+Dialogue: 0,10:33:04.12,10:33:06.64,Default,,0,0,22,,Bob ja Lisa vastaavat 50-luvun.
+Dialogue: 0,10:33:06.72,10:33:10.04,Default,,0,0,20,,Itävalta on siis\NArnoldin synnyinmaa -
+Dialogue: 0,10:33:10.12,10:33:15.00,Default,,0,0,22,,ja synnyinvuosikymmen on 50-luku.
+Dialogue: 0,10:33:15.08,10:33:19.48,Default,,0,0,20,,Onko Itävalta oikein\Nja kuinka moni vastasi samoin?
+Dialogue: 0,10:33:20.60,10:33:22.60,Default,,0,0,22,,Se on oikein.
+Dialogue: 0,10:33:24.36,10:33:26.56,Default,,0,0,22,,62.
+Dialogue: 0,10:33:29.80,10:33:32.88,Default,,0,0,20,,Bobin ja Lisan mukaan\NArnold syntyi 50-luvulla.
+Dialogue: 0,10:33:32.96,10:33:38.36,Default,,0,0,22,,Katsotaan, pitääkö se paikkansa.
+Dialogue: 0,10:33:41.76,10:33:45.56,Default,,0,0,20,,Ei siis 50-luvulla.\NSe tarkoittaa sitä -
+Dialogue: 0,10:33:45.64,10:33:49.28,Default,,0,0,20,,että Jamie ja Ryan\Nmenevät suoraan finaaliin.
+Dialogue: 0,10:33:49.36,10:33:53.16,Default,,0,0,20,,Hyvää työtä.\NBob ja Lisa, kiva, kun olitte mukana.
+Dialogue: 0,10:33:53.24,10:33:57.20,Default,,0,0,20,,Arnold Schwarzenegger syntyi\N30. heinäkuuta 1947.
+Dialogue: 0,10:33:57.28,10:34:01.76,Default,,0,0,20,,Näyttää hyvältä ikäisekseen.\NSillä olisi tullut 22 pistettä.
+Dialogue: 0,10:34:01.84,10:34:03.88,Default,,0,0,22,,Kaliforniaa kannatti välttää.
+Dialogue: 0,10:34:03.96,10:34:07.44,Default,,0,0,22,,Sillä olisi tullut 68 pistettä.
+Dialogue: 0,10:34:07.52,10:34:11.64,Default,,0,0,20,,Vaimon nimi ei ole Marie Helvin,\Nvaan Maria Shriver.
+Dialogue: 0,10:34:11.72,10:34:13.20,Default,,0,0,22,,Yhdeksän pistettä.
+Dialogue: 0,10:34:13.28,10:34:18.12,Default,,0,0,20,,Terminaattorin ohjaaja\Noli James Cameron, 18 pistettä.
+Dialogue: 0,10:34:18.20,10:34:21.84,Default,,0,0,20,,Hienoa, jos joku tiesi kaikki.\N-Kiitoksia.
+Dialogue: 0,10:34:21.92,10:34:26.48,Default,,0,0,20,,Kaksintaistelun jälkeen\Nmeidät jättävät Bob ja Lisa.
+Dialogue: 0,10:34:26.56,10:34:30.04,Default,,0,0,22,,Tie finaaliin oli jo auki.
+Dialogue: 0,10:34:30.12,10:34:34.72,Default,,0,0,20,,Ikävä kyllä joudumme\Nhyvästelemään teidät.
+Dialogue: 0,10:34:34.80,10:34:37.16,Default,,0,0,22,,Kiitos, kun olitte mukana.
+Dialogue: 0,10:34:37.24,10:34:40.08,Default,,0,0,22,,Hyvin pelattu.
+Dialogue: 0,10:34:42.04,10:34:43.92,Default,,0,0,22,,FINAALI
+Dialogue: 0,10:34:44.84,10:34:47.64,Default,,0,0,20,,Onnittelut.\NPäihititte kilpailijanne -
+Dialogue: 0,10:34:47.72,10:34:52.52,Default,,0,0,20,,ja voititte himoitun pokaalimme.\NUpeasti pelattu.
+Dialogue: 0,10:34:56.64,10:35:02.36,Default,,0,0,20,,Nyt teillä on tilaisuus voittaa\N8 000 punnan voittopottimme.
+Dialogue: 0,10:35:06.52,10:35:09.36,Default,,0,0,22,,Hienoa, että pääsitte finaaliin -
+Dialogue: 0,10:35:09.44,10:35:13.40,Default,,0,0,20,,mutta olen pettynyt, koska nyt\Nette palaa seuraavaan jaksoon.
+Dialogue: 0,10:35:13.48,10:35:17.40,Default,,0,0,20,,Olette täällä vain kerran.\NOlisin halunnut jutella lisää.
+Dialogue: 0,10:35:17.48,10:35:21.04,Default,,0,0,20,,Tätä ei pitäisi sanoa TV:ssä,\Nmutta, Ryan -
+Dialogue: 0,10:35:21.12,10:35:26.40,Default,,0,0,20,,tähän asti olet ollut\Nmysteeriruokailija. Mikä se on?
+Dialogue: 0,10:35:26.48,10:35:31.92,Default,,0,0,20,,Syön ravintoloissa ilmaiseksi,\Nkun kirjoitan arvostelun.
+Dialogue: 0,10:35:32.00,10:35:35.12,Default,,0,0,20,,Ravintola saa arvostelun\Nja me saamme ruokaa.
+Dialogue: 0,10:35:35.20,10:35:38.40,Default,,0,0,20,,Sinun täytyy siis olla\Npätevä ruokailija.
+Dialogue: 0,10:35:38.48,10:35:40.76,Default,,0,0,22,,Siihen minulla riittää pätevyyttä.
+Dialogue: 0,10:35:40.84,10:35:43.80,Default,,0,0,22,,Loistavaa. Paljastin sinut nyt -
+Dialogue: 0,10:35:43.88,10:35:47.44,Default,,0,0,20,,mutta mahtava työ.\NHaluaisin nähdä sen käytännössä.
+Dialogue: 0,10:35:47.52,10:35:51.20,Default,,0,0,22,,Finaali alkaa aihepiirin valinnalla.
+Dialogue: 0,10:35:51.28,10:35:54.16,Default,,0,0,22,,Teillä on neljä vaihtoehtoa. Ne ovat:
+Dialogue: 0,10:35:54.24,10:35:59.72,Default,,0,0,20,,Kantrimusiikkitähdet, Sheffield,\NAlan Bennett, saksalainen urheilu.
+Dialogue: 0,10:36:00.28,10:36:03.48,Default,,0,0,22,,Emme tiedä mistään noista mitään.
+Dialogue: 0,10:36:03.56,10:36:09.08,Default,,0,0,20,,Jamie kysyi juuri, kuka Alan Bennett\Non. Se kertoo tasostamme.
+Dialogue: 0,10:36:09.16,10:36:11.56,Default,,0,0,20,,Pakko valita Sheffield.\N-Hyvä on.
+Dialogue: 0,10:36:11.64,10:36:15.44,Default,,0,0,22,,Sheffield. Selvä. Richard.
+Dialogue: 0,10:36:15.52,10:36:18.24,Default,,0,0,22,,Aihealueet vaikuttavat laajoilta -
+Dialogue: 0,10:36:18.32,10:36:21.12,Default,,0,0,20,,mutta annamme teille\Nkolme eri kategoriaa.
+Dialogue: 0,10:36:21.20,10:36:23.16,Default,,0,0,22,,Vastaus voi olla mistä tahansa.
+Dialogue: 0,10:36:23.24,10:36:26.80,Default,,0,0,20,,Kuka tahansa mies,\Njoka on tehnyt 147 pisteen breikin -
+Dialogue: 0,10:36:26.88,10:36:29.56,Default,,0,0,22,,snookerin MM-turnauksessa.
+Dialogue: 0,10:36:29.64,10:36:33.88,Default,,0,0,20,,Mikä tahansa Pulpin single\NUK Top 40 -listalta.
+Dialogue: 0,10:36:33.96,10:36:38.24,Default,,0,0,20,,Kuka tahansa\N"Housut pois" -elokuvan näyttelijä.
+Dialogue: 0,10:36:38.32,10:36:42.04,Default,,0,0,20,,Hyvä valikoima.\NKotikatsojillekin jotain.
+Dialogue: 0,10:36:42.12,10:36:46.36,Default,,0,0,20,,147 pisteen snookerpelaajia,\NPulpin UK Top 40 -singlejä -
+Dialogue: 0,10:36:46.44,10:36:50.64,Default,,0,0,20,,tai "Housut pois" -elokuvan\Nnäyttelijöitä.
+Dialogue: 0,10:36:50.72,10:36:53.24,Default,,0,0,22,,Onnea matkaan.
+Dialogue: 0,10:36:53.32,10:36:56.52,Default,,0,0,20,,Teillä on minuutti aikaa\Nkeksiä kolme vastausta.
+Dialogue: 0,10:36:56.60,10:37:01.08,Default,,0,0,20,,Voitatte rahat, jos yksikin\Nvastauksista on nollavastaus.
+Dialogue: 0,10:37:01.16,10:37:04.52,Default,,0,0,20,,Vastaukset voivat olla\Nmistä tahansa kategoriasta.
+Dialogue: 0,10:37:04.60,10:37:08.64,Default,,0,0,20,,Kaikki samasta, yksi kustakin.\NTe päätätte.
+Dialogue: 0,10:37:08.72,10:37:10.20,Default,,0,0,20,,Valmista?\N-Kyllä.
+Dialogue: 0,10:37:10.28,10:37:15.68,Default,,0,0,22,,Kello näkyviin. Aika alkaa nyt.
+Dialogue: 0,10:37:15.76,10:37:20.64,Default,,0,0,20,,Keitä snookerpelaajia tiedämme?\NRonnie O'Sullivan.
+Dialogue: 0,10:37:20.72,10:37:23.36,Default,,0,0,20,,Ei ehkä nollavastaus.\N-Steven Hendry.
+Dialogue: 0,10:37:23.44,10:37:27.36,Default,,0,0,22,,Entä "Housut pois"? Robert Carlyle.
+Dialogue: 0,10:37:27.44,10:37:29.48,Default,,0,0,20,,Hän oli pääosassa.\N-Niin oli.
+Dialogue: 0,10:37:29.56,10:37:33.32,Default,,0,0,22,,Se iso mies oli myös "Johtolangassa".
+Dialogue: 0,10:37:34.32,10:37:38.00,Default,,0,0,20,,Muistatko hänen nimensä?\N-En tiedä, ketä tarkoitat.
+Dialogue: 0,10:37:38.08,10:37:44.08,Default,,0,0,20,,Hän oli "Johtolangassa" ja "CID:ssä".\NIso kaveri.
+Dialogue: 0,10:37:44.16,10:37:49.52,Default,,0,0,20,,Et muista häntä.\NTiedätkö mitään Pulpista?
+Dialogue: 0,10:37:49.60,10:37:53.44,Default,,0,0,20,,Eli meillä on yksi näyttelijä.\NOnko mitään muuta?
+Dialogue: 0,10:37:53.52,10:37:57.76,Default,,0,0,20,,Ronnie O'Sullivan.\N-Keksitkö muita snookerpelaajia?
+Dialogue: 0,10:37:59.52,10:38:04.36,Default,,0,0,20,,Mikä sen belfastilaisen nimi on?\N-Dennis Taylor?
+Dialogue: 0,10:38:04.44,10:38:08.80,Default,,0,0,20,,Kymmenen sekuntia.\N-Dennis Taylor. Entä Carlyle?
+Dialogue: 0,10:38:08.88,10:38:13.44,Default,,0,0,22,,Okei. Hyvä on.
+Dialogue: 0,10:38:14.76,10:38:18.56,Default,,0,0,20,,Aika päättyi.\NTarvitsen nyt vastauksenne.
+Dialogue: 0,10:38:18.64,10:38:22.84,Default,,0,0,20,,Emme tiedä mitään snookerista,\Nmutta sanomme Dennis Taylor.
+Dialogue: 0,10:38:22.92,10:38:26.28,Default,,0,0,20,,Dennis Taylor.\N-Ronnie O'Sullivan.
+Dialogue: 0,10:38:26.36,10:38:28.48,Default,,0,0,22,,He ovat snookerin pelaajia.
+Dialogue: 0,10:38:28.56,10:38:32.28,Default,,0,0,20,,Robert Carlyle "Housut pois"\N-leffasta. -Robert Carlyle.
+Dialogue: 0,10:38:32.36,10:38:36.40,Default,,0,0,20,,Mikä niistä on\Ntodennäköisimmin nollavastaus?
+Dialogue: 0,10:38:36.48,10:38:40.12,Default,,0,0,20,,Taylor, jos nimi on oikein.\N-Taylor, jos hän on olemassa.
+Dialogue: 0,10:38:40.20,10:38:45.24,Default,,0,0,20,,Jätetään hänet viimeiseksi.\NEn voi uskoa näitä jätkiä.
+Dialogue: 0,10:38:45.32,10:38:48.52,Default,,0,0,20,,Mikä on vähiten todennäköisesti\Nnollavastaus?
+Dialogue: 0,10:38:48.60,10:38:51.52,Default,,0,0,20,,Robert Carlyle.\NTai Ronnie O'Sullivan.
+Dialogue: 0,10:38:51.60,10:38:54.16,Default,,0,0,22,,Laitetaan Ronnie O'Sullivan keskelle.
+Dialogue: 0,10:38:54.24,10:38:57.52,Default,,0,0,22,,Otetaan vastaukset näkyviin.
+Dialogue: 0,10:38:57.60,10:39:01.92,Default,,0,0,20,,Robert Carlyle, Ronnie O'Sullivan\Nja Dennis Taylor.
+Dialogue: 0,10:39:02.00,10:39:04.68,Default,,0,0,20,,Ensimmäinen vastaus on\NRobert Carlyle.
+Dialogue: 0,10:39:04.76,10:39:08.64,Default,,0,0,20,,Hän oli mielestänne\Nepätodennäköisimmin nollavastaus.
+Dialogue: 0,10:39:08.72,10:39:11.88,Default,,0,0,22,,Jos se on, voitatte 8 000 puntaa.
+Dialogue: 0,10:39:11.96,10:39:14.52,Default,,0,0,22,,Jamie, mitä tekisit osuudellasi?
+Dialogue: 0,10:39:14.60,10:39:17.40,Default,,0,0,22,,Haluaisin lähteä lomamatkalle.
+Dialogue: 0,10:39:17.48,10:39:21.28,Default,,0,0,20,,Loppukokeiden jälkeen\Nminulla on viimeinen pitkä loma.
+Dialogue: 0,10:39:21.36,10:39:25.88,Default,,0,0,20,,Sitten aloitan työni lääkärinä.\NLähtisin jonnekin lämpimään.
+Dialogue: 0,10:39:25.96,10:39:28.60,Default,,0,0,20,,Entä Ryan?\N-Lähtisin Etelä-Amerikkaan.
+Dialogue: 0,10:39:28.68,10:39:31.44,Default,,0,0,22,,Siellä voisi harjoitella espanjaa.
+Dialogue: 0,10:39:31.52,10:39:34.12,Default,,0,0,22,,Loistavaa. Vastauksia on kolme.
+Dialogue: 0,10:39:34.20,10:39:36.76,Default,,0,0,22,,Ehkä joku niistä tuo potin teille.
+Dialogue: 0,10:39:36.84,10:39:39.80,Default,,0,0,20,,Katsotaan,\Nmitä Robert Carlylesta sanotaan.
+Dialogue: 0,10:39:39.88,10:39:42.24,Default,,0,0,22,,Voitte voittaa 8 000 puntaa.
+Dialogue: 0,10:39:42.32,10:39:45.84,Default,,0,0,20,,Oliko Robert Carlyle\Nelokuvassa "Housut pois"?
+Dialogue: 0,10:39:48.92,10:39:51.24,Default,,0,0,22,,Kyllä hän oli.
+Dialogue: 0,10:39:51.32,10:39:54.68,Default,,0,0,22,,Mennään alle 60:een ja alle 50:een.
+Dialogue: 0,10:39:54.76,10:39:58.00,Default,,0,0,22,,Jos palkki putoaa nollaan asti... 35.
+Dialogue: 0,10:40:01.24,10:40:05.40,Default,,0,0,20,,Olisitte yllättyneet,\Njos Carlyle olisi ollut nollavastaus.
+Dialogue: 0,10:40:05.48,10:40:08.24,Default,,0,0,22,,35 on ihan hyvä pistemäärä.
+Dialogue: 0,10:40:08.32,10:40:11.24,Default,,0,0,20,,Toinen vastauksenne oli\NRonnie O'Sullivan.
+Dialogue: 0,10:40:11.32,10:40:14.00,Default,,0,0,20,,Jos se on nollavastaus,\Nvoitatte rahat.
+Dialogue: 0,10:40:14.08,10:40:19.88,Default,,0,0,20,,Onko Ronnie O'Sullivan tehnyt 147\Npisteen breikin MM-turnauksessa?
+Dialogue: 0,10:40:22.76,10:40:24.72,Default,,0,0,22,,Vastaus on oikein.
+Dialogue: 0,10:40:24.80,10:40:28.12,Default,,0,0,22,,Saitte äsken 35 pistettä.
+Dialogue: 0,10:40:28.20,10:40:31.76,Default,,0,0,22,,Ronnie O'Sullivan ohittaa sen. 33.
+Dialogue: 0,10:40:31.84,10:40:36.36,Default,,0,0,22,,Tasaista työtä. Pilkuntarkkaa.
+Dialogue: 0,10:40:37.52,10:40:41.08,Default,,0,0,20,,Ei tosin nollavastausta.\NEnää yksi mahdollisuus.
+Dialogue: 0,10:40:41.16,10:40:43.84,Default,,0,0,22,,Kaikki on kiinni Dennis Taylorista.
+Dialogue: 0,10:40:43.92,10:40:46.88,Default,,0,0,22,,Nimestä, jonka uskotte keksineenne.
+Dialogue: 0,10:40:46.96,10:40:49.44,Default,,0,0,22,,Nollavastaus voittaa rahat teille.
+Dialogue: 0,10:40:49.52,10:40:54.00,Default,,0,0,20,,Onko Dennis Taylor tehnyt 147 pisteen\Nbreikin MM-turnauksessa?
+Dialogue: 0,10:40:55.08,10:40:57.20,Default,,0,0,22,,Huonoa tuuria.
+Dialogue: 0,10:40:59.68,10:41:05.08,Default,,0,0,20,,Kaksi hyvää vastausta,\Nmutta nollavastausta ei löytynyt -
+Dialogue: 0,10:41:05.16,10:41:09.36,Default,,0,0,20,,joten ette voittaneet rahoja.\NSumma siirtyy seuraavaan jaksoon.
+Dialogue: 0,10:41:09.44,10:41:11.20,Default,,0,0,22,,Hienoa, että olitte mukana.
+Dialogue: 0,10:41:11.28,10:41:16.32,Default,,0,0,20,,Toki saatte Pointless-pokaalit\Nmukaanne.
+Dialogue: 0,10:41:21.28,10:41:24.48,Default,,0,0,20,,Moni olisi antanut paljon\Npäästäkseen vastaamaan.
+Dialogue: 0,10:41:24.56,10:41:29.24,Default,,0,0,20,,Moni snooker- ja Pulp-fani\Nodottaa malttamattomana vastauksia.
+Dialogue: 0,10:41:29.32,10:41:32.60,Default,,0,0,20,,Taisitte hakea\Nnäyttelijä Mark Addyn nimeä.
+Dialogue: 0,10:41:32.68,10:41:35.76,Default,,0,0,22,,Hänestä olisi tullut kaksi pistettä.
+Dialogue: 0,10:41:35.84,10:41:39.60,Default,,0,0,20,,Snookerissa\Noli vain yksi nollavastaus.
+Dialogue: 0,10:41:39.68,10:41:43.80,Default,,0,0,20,,Loistavaa,\Njos joku sanoi Mark Williamsin.
+Dialogue: 0,10:41:43.88,10:41:47.72,Default,,0,0,20,,Muita 147 breikin tehneitä ovat\NAli Carter, kaksi pistettä -
+Dialogue: 0,10:41:47.80,10:41:50.36,Default,,0,0,20,,Cliff Thorburn, 11,\NJimmy White, 19 -
+Dialogue: 0,10:41:50.44,10:41:55.08,Default,,0,0,20,,Stephen Hendry, 24,\Nja tietenkin Ronnie O'Sullivan.
+Dialogue: 0,10:41:55.16,10:41:59.00,Default,,0,0,20,,Sitten Pulpin singlet.\NLuettelen nollavastaukset.
+Dialogue: 0,10:41:59.08,10:42:02.88,Default,,0,0,20,,Hienoa, jos joku tiesi kappaleen\N"A Little Soul".
+Dialogue: 0,10:42:02.96,10:42:06.76,Default,,0,0,22,,"Bad Cover Version", "Mis-shapes" -
+Dialogue: 0,10:42:06.84,10:42:10.92,Default,,0,0,20,,"Party Hard"\Nja hitti "Something Changed".
+Dialogue: 0,10:42:11.00,10:42:14.48,Default,,0,0,22,,"Sunrise" ja "This is Hardcore".
+Dialogue: 0,10:42:14.56,10:42:16.68,Default,,0,0,22,,Siinä kaikki nollavastaukset.
+Dialogue: 0,10:42:16.76,10:42:20.24,Default,,0,0,20,,Näyttelijöistä löytyi myös\Nnollavastauksia.
+Dialogue: 0,10:42:20.32,10:42:24.24,Default,,0,0,20,,Bruce Jones, joka oli myös\N"Coronation Streetissä".
+Dialogue: 0,10:42:24.32,10:42:28.60,Default,,0,0,20,,Emily Woof näytteli\NCarlylen ex-vaimoa.
+Dialogue: 0,10:42:28.68,10:42:31.68,Default,,0,0,22,,Paul Barber oli näistä helpoin.
+Dialogue: 0,10:42:31.76,10:42:35.96,Default,,0,0,20,,Hän oli "Only Fools and Horses..."\N-elokuvassa. Steve Huison.
+Dialogue: 0,10:42:36.04,10:42:39.56,Default,,0,0,20,,Hienosti tehty,\Njos joku katsoja tiesi nuo.
+Dialogue: 0,10:42:39.64,10:42:43.88,Default,,0,0,20,,Ikävä kyllä hyvästelemme teidät nyt.\NHienoa, että olitte mukana.
+Dialogue: 0,10:42:43.96,10:42:49.00,Default,,0,0,20,,Kiitos teille.\NLoistavia kilpailijoita.
+Dialogue: 0,10:42:50.32,10:42:52.52,Default,,0,0,22,,Jamie ja Ryan eivät voittaneet -
+Dialogue: 0,10:42:52.60,10:42:58.00,Default,,0,0,20,,joten voittopotti siirtyy eteenpäin.\NTarjolla on 9 000 puntaa.
+Dialogue: 0,10:42:59.04,10:43:02.04,Default,,0,0,22,,Nähdään taas. Richard sanoo näkemiin.
+Dialogue: 0,10:43:02.12,10:43:04.68,Default,,0,0,22,,Näkemiin myös minulta.
+Dialogue: 0,10:43:07.96,10:43:11.96,Default,,0,0,20,,Suomennos: Jutta Jäntti\NBTI Studios

@@ -1,0 +1,676 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 0
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Default,,0,0,20,,STORY: BBCWW-02275523-O\NLANG: SWE
+Dialogue: 0,10:00:21.00,10:00:23.16,Default,,0,0,20,,Tack. Hej, jag heter\NAlexander Armstrong-
+Dialogue: 0,10:00:23.24,10:00:26.64,Default,,0,0,20,,-och här är "Pointless", där vi\Nsätter obskyr kunskap på prov.
+Dialogue: 0,10:00:26.72,10:00:28.68,Default,,0,0,22,,Vi träffar dagens deltagare.
+Dialogue: 0,10:00:32.12,10:00:33.68,Default,,0,0,22,,Par nummer 1.
+Dialogue: 0,10:00:33.76,10:00:37.08,Default,,0,0,20,,Hej, jag heter Salma. Här är Nikki,\Noch vi är från södra London.
+Dialogue: 0,10:00:37.16,10:00:39.44,Default,,0,0,20,,-Par nummer 2.\N-Hej, Lisa här med pappa Bob...
+Dialogue: 0,10:00:39.52,10:00:41.44,Default,,0,0,20,,...från Ouston\Noch Chester-le-Street.
+Dialogue: 0,10:00:41.52,10:00:43.20,Default,,0,0,20,,-Par nummer 3.\N-Jag heter Paula.
+Dialogue: 0,10:00:43.28,10:00:45.72,Default,,0,0,20,,Här är min kille Dave.\NVi är från Canterbury i Kent.
+Dialogue: 0,10:00:45.80,10:00:49.32,Default,,0,0,20,,-Slutligen har vi par 4.\N-Hej, Ryan från London här.
+Dialogue: 0,10:00:49.40,10:00:51.60,Default,,0,0,20,,Här är min bror Jamie\Nsom bor i Newcastle.
+Dialogue: 0,10:00:51.68,10:00:54.32,Default,,0,0,22,,Det här är dagens deltagare.
+Dialogue: 0,10:00:56.64,10:00:59.64,Default,,0,0,20,,Tack. Vi får veta mer om er\Nunder programmets gång.
+Dialogue: 0,10:00:59.72,10:01:04.24,Default,,0,0,20,,Jag har bara en person kvar att\Npresentera. Den obskyraste av alla.
+Dialogue: 0,10:01:04.32,10:01:07.24,Default,,0,0,20,,Han är så smart att jag får hitta\Npå ord som beskriver honom.
+Dialogue: 0,10:01:07.32,10:01:12.40,Default,,0,0,20,,-Det är min vän Richard.\N-Tjena. Hej, allihop. Tjena.
+Dialogue: 0,10:01:15.20,10:01:20.24,Default,,0,0,20,,God eftermiddag. Jag ser fram emot\Ndet här av en rad olika anledningar.
+Dialogue: 0,10:01:20.32,10:01:23.60,Default,,0,0,20,,Anledning 1:\NBob and Lisa är tillbaka.
+Dialogue: 0,10:01:24.48,10:01:28.36,Default,,0,0,20,,Vi fick inte se så mycket\Nav dem sist. Stackars Bob.
+Dialogue: 0,10:01:28.44,10:01:32.20,Default,,0,0,20,,Jo, vi såg mycket av dem,\Nmen de var inte med så länge.
+Dialogue: 0,10:01:32.28,10:01:35.80,Default,,0,0,20,,De var med i runda 1,\Nmen vi kommer minnas den länge.
+Dialogue: 0,10:01:35.88,10:01:42.00,Default,,0,0,20,,Stackars Bob. Han är ingen blyg viol.\NHan jobbar på en ammunitionsfabrik.
+Dialogue: 0,10:01:42.08,10:01:44.00,Default,,0,0,22,,När du svarade fel-
+Dialogue: 0,10:01:44.08,10:01:47.88,Default,,0,0,20,,-blev jag livrädd för din säkerhet.\NDet måste jag säga, Bob.
+Dialogue: 0,10:01:47.96,10:01:51.60,Default,,0,0,20,,-Visst var Lisa rasande?\N-Ja.
+Dialogue: 0,10:01:51.68,10:01:55.60,Default,,0,0,20,,Hon brukade brottas och är snut.\NHon kan ta hand om sig själv.
+Dialogue: 0,10:01:55.68,10:01:59.00,Default,,0,0,20,,-Gick det bra, Bob?\N-Hon tog ett Nelson-grepp.
+Dialogue: 0,10:02:00.56,10:02:04.44,Default,,0,0,20,,-Har du förlåtit pappa?\N-Ja, men han har förlåtit sig själv?
+Dialogue: 0,10:02:04.52,10:02:06.20,Default,,0,0,22,,Jag var rätt arg på mig själv.
+Dialogue: 0,10:02:06.28,10:02:09.36,Default,,0,0,20,,Jaså? Men inte lika arg som\NLisa var på dig.
+Dialogue: 0,10:02:09.92,10:02:11.80,Default,,0,0,20,,Hade vi inte\Nmed Dave och Paula också?
+Dialogue: 0,10:02:11.88,10:02:17.68,Default,,0,0,20,,Dave har varit ihop med Paula\Ni tretton år men vägrar fria.
+Dialogue: 0,10:02:17.76,10:02:21.24,Default,,0,0,20,,Du sa att om det gick bra här\Nså kanske du skulle fria ändå.
+Dialogue: 0,10:02:21.32,10:02:25.12,Default,,0,0,20,,Du svarade fel på allt.\NPaula hade alla rätt.
+Dialogue: 0,10:02:25.20,10:02:28.48,Default,,0,0,20,,Dave hade alla fel, och vi tror det\Nkan ha varit med flit.
+Dialogue: 0,10:02:28.56,10:02:32.52,Default,,0,0,20,,Sen hade vi Toby och Kat\Nsom fick ett 1-poängssvar.
+Dialogue: 0,10:02:32.60,10:02:34.88,Default,,0,0,22,,De fick rätt svar i fel kategori.
+Dialogue: 0,10:02:34.96,10:02:37.84,Default,,0,0,20,,Det var första gången sen vi\Nbytte slutspelet.
+Dialogue: 0,10:02:37.92,10:02:41.00,Default,,0,0,20,,-Jackpotten växer, inte sant?\N-Ja, det gör den.
+Dialogue: 0,10:02:41.08,10:02:44.68,Default,,0,0,20,,Det är en fin liten jackpott\Natt vinna. Det blir nog en bra dag.
+Dialogue: 0,10:02:44.76,10:02:47.12,Default,,0,0,20,,Tusen tack, Richard.\N- Alla frågor...
+Dialogue: 0,10:02:47.20,10:02:49.20,Default,,0,0,22,,...har ställts till 100 personer.
+Dialogue: 0,10:02:49.28,10:02:52.56,Default,,0,0,20,,Deltagarna ska hitta de obskyra\Nsvaren som de 100 inte uppgav.
+Dialogue: 0,10:02:52.64,10:02:56.44,Default,,0,0,20,,Alla försöker hitta ett poänglöst\Nsvar som ingen av de 100 sa-
+Dialogue: 0,10:02:56.52,10:02:59.28,Default,,0,0,20,,-och var gång det sker ökar\Njackpotten med 250 pund.
+Dialogue: 0,10:02:59.36,10:03:02.88,Default,,0,0,20,,Toby och Kat vann inte jackpotten,\Nså vi ökar den med 1 000 pund.
+Dialogue: 0,10:03:02.96,10:03:06.36,Default,,0,0,22,,Dagens jackpott börjar på 8 000 pund.
+Dialogue: 0,10:03:09.68,10:03:13.24,Default,,0,0,20,,Om alla är redo\Nså spelar vi "Pointless".
+Dialogue: 0,10:03:16.60,10:03:20.56,Default,,0,0,20,,I första rundan vill jag ha ett svar\Nfrån er var utan överläggning.
+Dialogue: 0,10:03:20.64,10:03:24.00,Default,,0,0,20,,Den som har högst poäng i slutet\Nav rundan får åka hem.
+Dialogue: 0,10:03:24.08,10:03:30.12,Default,,0,0,20,,Första kategorin i dag är "Kända\Nmänniskor". Kända människor.
+Dialogue: 0,10:03:30.20,10:03:34.72,Default,,0,0,20,,Bestäm er för vem som är först\Noch vem som är andre man.
+Dialogue: 0,10:03:34.80,10:03:38.72,Default,,0,0,20,,Den som börjar\Nfår kliva fram till podiet.
+Dialogue: 0,10:03:39.92,10:03:45.52,Default,,0,0,20,,Frågan rör kända före detta\Nflickscouter.
+Dialogue: 0,10:03:46.52,10:03:51.24,Default,,0,0,20,,Kända före detta flickscouter.\NLycka till. - Richard.
+Dialogue: 0,10:03:51.32,10:03:54.48,Default,,0,0,20,,Vi visar er sju beskrivningar i varje\Nvarv av kända personer-
+Dialogue: 0,10:03:54.56,10:03:58.24,Default,,0,0,20,,-som råkade vara flickscouter\Ni Storbritannien eller USA.
+Dialogue: 0,10:03:58.32,10:04:02.56,Default,,0,0,20,,Ni ska säga vilka de är. Det blir\Nsammanlagt fjorton stycken.
+Dialogue: 0,10:04:02.64,10:04:06.32,Default,,0,0,20,,Tack. - Vi letar efter kända\Nföre detta flickscouter.
+Dialogue: 0,10:04:06.40,10:04:08.96,Default,,0,0,20,,Här är vår första tavla.\NVi har:
+Dialogue: 0,10:04:09.04,10:04:12.72,Default,,0,0,20,,"Elvafaldig paralympisk guldmedaljör\Nsom blev en Dame 2005".
+Dialogue: 0,10:04:12.80,10:04:15.56,Default,,0,0,20,,"1991 blev hon den första britten\Ni rymden."
+Dialogue: 0,10:04:15.64,10:04:19.24,Default,,0,0,20,,"Hon hade en hit med 'All I Want\Nfor Christmas is You' 1994."
+Dialogue: 0,10:04:19.32,10:04:24.20,Default,,0,0,20,,"Advokat som fick en CBE 2013\Nför tjänster i kvinnofrågor".
+Dialogue: 0,10:04:24.28,10:04:29.12,Default,,0,0,20,,"Journalist och nyhetsankare från\N'Big Cat Live' och 'The Speaker'".
+Dialogue: 0,10:04:29.20,10:04:32.24,Default,,0,0,20,,"Komiker och skådis från\N'I Love Lucy'"-
+Dialogue: 0,10:04:32.32,10:04:36.88,Default,,0,0,20,,-och "Tvåfaldig Oscarvinnare som\Nspelade Nanny McPhee 2005."
+Dialogue: 0,10:04:37.36,10:04:42.76,Default,,0,0,20,,Och igen: "Elvafaldig paralympisk\Nguldmedaljör som blev Dame 2005."
+Dialogue: 0,10:04:42.84,10:04:45.36,Default,,0,0,20,,"1991 blev hon den första britten\Ni rymden."
+Dialogue: 0,10:04:45.44,10:04:48.68,Default,,0,0,20,,"Hon hade en hit med 'All I Want\Nfor Christmas is You' 1994".
+Dialogue: 0,10:04:48.76,10:04:53.68,Default,,0,0,20,,"Advokat som fick en CBE 2013\Nför tjänster i kvinnofrågor".
+Dialogue: 0,10:04:53.76,10:04:57.64,Default,,0,0,20,,"Journalist och nyhetsankare från\N'Big Cat Live' och 'The Speaker'".
+Dialogue: 0,10:04:57.72,10:05:00.56,Default,,0,0,20,,"Komiker och skådis\Nfrån 'I Love Lucy'"-
+Dialogue: 0,10:05:00.64,10:05:04.96,Default,,0,0,20,,-och "tvåfaldig Oscarvinnare som\Nspelade Nanny McPhee 2005".
+Dialogue: 0,10:05:05.04,10:05:07.52,Default,,0,0,22,,Salma och Nikki, ni drog lott förut-
+Dialogue: 0,10:05:07.60,10:05:14.04,Default,,0,0,20,,-och i dag börjar Salma. Välkomna.\NDen där tavlan, alltså.
+Dialogue: 0,10:05:14.12,10:05:16.64,Default,,0,0,20,,Det lät tufft, sen lät det lätt,\Nsen tufft igen.
+Dialogue: 0,10:05:16.72,10:05:20.92,Default,,0,0,20,,Ja. Jag blev förvirrad av kategorin\Noch sen tänkte jag:
+Dialogue: 0,10:05:21.00,10:05:24.12,Default,,0,0,20,,-"Okej, det blir ledtrådar."\N-Det finns mycket du vet där.
+Dialogue: 0,10:05:24.20,10:05:27.04,Default,,0,0,20,,-Salma, vad gör du?\N-Jag är grafisk designer.
+Dialogue: 0,10:05:27.12,10:05:30.92,Default,,0,0,20,,-Vilken sorts grafisk design?\N-Webbsidor och illustrationer.
+Dialogue: 0,10:05:31.00,10:05:34.64,Default,,0,0,20,,Det beror på uppdraget.\NJag gör animerade videor också.
+Dialogue: 0,10:05:34.72,10:05:38.88,Default,,0,0,20,,Ja, det är ett coolt jobb.\NJag får göra en massa saker.
+Dialogue: 0,10:05:38.96,10:05:42.40,Default,,0,0,20,,-Hur känner du Nikki?\N-Vi delar hus.
+Dialogue: 0,10:05:42.48,10:05:48.24,Default,,0,0,20,,-Har ni känt varandra länge?\N-Ja. Vi träffades 2005...
+Dialogue: 0,10:05:48.32,10:05:53.28,Default,,0,0,20,,...när vi jobbade som nissar\Ni tomtens grotta.
+Dialogue: 0,10:05:53.36,10:05:57.88,Default,,0,0,20,,-I vilken av hans många grottor?\N-I glamourösa Nottingham.
+Dialogue: 0,10:05:57.96,10:06:03.60,Default,,0,0,20,,-Precis efter högskoleexamen.\N-Är nissens arbetsdag tung?
+Dialogue: 0,10:06:03.68,10:06:07.92,Default,,0,0,20,,-Ja. Jag var ledarnisse.\N-Hon var min chef.
+Dialogue: 0,10:06:08.00,10:06:11.48,Default,,0,0,22,,Jag rekvirerade Nikki från gatan.
+Dialogue: 0,10:06:11.56,10:06:16.36,Default,,0,0,20,,Är ledarnissen i grottan eller jobbar\Ndu bakom kulisserna också?
+Dialogue: 0,10:06:16.44,10:06:18.76,Default,,0,0,22,,Man är överallt.
+Dialogue: 0,10:06:18.84,10:06:23.60,Default,,0,0,20,,Det visste jag inte. Jag visste inte\Nens att det fanns en hierarki.
+Dialogue: 0,10:06:23.68,10:06:28.60,Default,,0,0,20,,Det finns många olika yrken\Ninom nationella nissekåren.
+Dialogue: 0,10:06:30.40,10:06:36.00,Default,,0,0,20,,Förlåt. Förlåt för att ni fick komma\Nända hit för att höra det.
+Dialogue: 0,10:06:36.08,10:06:38.24,Default,,0,0,22,,Salma, du är först på den här tavlan.
+Dialogue: 0,10:06:38.32,10:06:43.20,Default,,0,0,20,,Ja. Jag vet att det finns uppenbara\Nnamn där som jag borde kunna.
+Dialogue: 0,10:06:43.28,10:06:47.88,Default,,0,0,20,,Jag satsar på det som rätt\Ntydligt dök upp i skallen.
+Dialogue: 0,10:06:47.96,10:06:51.72,Default,,0,0,20,,Det är komikern och skådisen\Nfrån "I Love Lucy".
+Dialogue: 0,10:06:51.80,10:06:55.04,Default,,0,0,20,,-Jag säger Lucille Ball.\N-Du säger Lucille Ball.
+Dialogue: 0,10:06:55.12,10:06:59.64,Default,,0,0,20,,Lucille Ball. Vi ser om det stämmer\Noch i så fall hur många som sa det.
+Dialogue: 0,10:07:01.80,10:07:03.48,Default,,0,0,22,,Det stämmer.
+Dialogue: 0,10:07:06.88,10:07:08.36,Default,,0,0,22,,39.
+Dialogue: 0,10:07:10.88,10:07:13.92,Default,,0,0,20,,39 poäng för Lucille Ball. Snyggt,\NSalma. En bra början.
+Dialogue: 0,10:07:14.00,10:07:16.64,Default,,0,0,20,,Hon gick i samma teaterklass\Nsom Bette Davis.
+Dialogue: 0,10:07:16.72,10:07:19.16,Default,,0,0,22,,Bette Davis var också flickscout.
+Dialogue: 0,10:07:19.24,10:07:23.08,Default,,0,0,20,,Jag vet inte vad vi ska dra för\Nslutsatser, men det gick bra för dem.
+Dialogue: 0,10:07:23.16,10:07:26.80,Default,,0,0,20,,Visst gjorde det det.\N- Bob, välkommen tillbaka.
+Dialogue: 0,10:07:26.88,10:07:29.76,Default,,0,0,20,,Vad hände förra gången?\NBerätta för oss.
+Dialogue: 0,10:07:29.84,10:07:32.32,Default,,0,0,22,,Jag gjorde bort mig totalt på tv.
+Dialogue: 0,10:07:32.40,10:07:36.96,Default,,0,0,20,,Ja och nej.\NVi stryker ett streck över det.
+Dialogue: 0,10:07:37.04,10:07:39.88,Default,,0,0,22,,Du kom med ett helt rimligt svar.
+Dialogue: 0,10:07:39.96,10:07:44.04,Default,,0,0,20,,Lisa var högljudd\Ni sina invändningar.
+Dialogue: 0,10:07:44.12,10:07:49.64,Default,,0,0,20,,Du sa att Gateshead var den\Neuropeiska kulturhuvudstaden.
+Dialogue: 0,10:07:49.72,10:07:54.24,Default,,0,0,20,,-Folk skrattar!\N-Men lugn nu, Lisa!
+Dialogue: 0,10:07:54.32,10:07:57.96,Default,,0,0,20,,-De förlorade mot Liverpool.\N-Som vi fick veta, ja.
+Dialogue: 0,10:07:58.04,10:07:59.76,Default,,0,0,22,,Bob, påminn oss om vad du jobbar med.
+Dialogue: 0,10:07:59.84,10:08:03.64,Default,,0,0,20,,Jag jobbar i en ammunitionsfabrik\Noch gör patroner till armén.
+Dialogue: 0,10:08:03.72,10:08:08.72,Default,,0,0,20,,Så om Richard och jag dök upp\Noch ville ha ett par patroner...
+Dialogue: 0,10:08:08.80,10:08:11.68,Default,,0,0,20,,Jag kan ge er ett par bläckpatroner\Nom ni vill.
+Dialogue: 0,10:08:11.76,10:08:14.44,Default,,0,0,20,,Okej, jag fattar.\NTillbaka till spelet.
+Dialogue: 0,10:08:14.52,10:08:18.96,Default,,0,0,20,,Vad tycker du om tavlan, Bob?\NJag tycker den är rätt knepig.
+Dialogue: 0,10:08:19.04,10:08:24.76,Default,,0,0,20,,Den jag var säker på är borta.\NJag är väl lite naiv.
+Dialogue: 0,10:08:24.84,10:08:29.84,Default,,0,0,20,,Den enda jag tror jag kan är hitlåten\Nfrån 1994. Det är Mariah Carey.
+Dialogue: 0,10:08:30.20,10:08:33.48,Default,,0,0,20,,Mariah Carey, säger Bob.\NMariah Carey. Vi ser om det är rätt.
+Dialogue: 0,10:08:33.56,10:08:36.72,Default,,0,0,20,,-Lisa, tror du det är rätt?\N-Ja, det gör jag.
+Dialogue: 0,10:08:38.04,10:08:43.40,Default,,0,0,20,,Fint. Vi ser efter. Är Mariah Carey\Nrätt och hur många sa det i så fall?
+Dialogue: 0,10:08:43.48,10:08:45.12,Default,,0,0,22,,Det är rätt.
+Dialogue: 0,10:08:47.04,10:08:48.52,Default,,0,0,22,,51.
+Dialogue: 0,10:08:51.08,10:08:54.76,Default,,0,0,22,,51 är inte illa, Bob. Vilken lättnad.
+Dialogue: 0,10:08:54.84,10:08:57.08,Default,,0,0,20,,-Pust!\N-Ja, jag menar det.
+Dialogue: 0,10:08:57.16,10:08:59.20,Default,,0,0,20,,Den var tvåa på listan\Nnär den först släpptes.
+Dialogue: 0,10:08:59.28,10:09:03.52,Default,,0,0,20,,Den släpps igen vartenda år\Noch hamnar alltid i topp-40.
+Dialogue: 0,10:09:03.60,10:09:07.88,Default,,0,0,20,,Tack, Richard. - Hallå, Paula.\NVälkommen tillbaka.
+Dialogue: 0,10:09:07.96,10:09:10.04,Default,,0,0,20,,-Runda 2 förra gången.\N-Ja.
+Dialogue: 0,10:09:10.12,10:09:13.96,Default,,0,0,20,,-Men du gjorde inget misstag.\N-Nej.
+Dialogue: 0,10:09:14.04,10:09:16.64,Default,,0,0,22,,Vänta nu. Det var Dave.
+Dialogue: 0,10:09:16.72,10:09:20.72,Default,,0,0,20,,-John McEnroe är visst rätt känd.\N-Ja, han är ganska berömd.
+Dialogue: 0,10:09:20.80,10:09:23.84,Default,,0,0,22,,Ja, men det visste inte Dave.
+Dialogue: 0,10:09:23.92,10:09:27.48,Default,,0,0,20,,-Visst är det här en bättre tavla?\N-Nej.
+Dialogue: 0,10:09:27.96,10:09:30.88,Default,,0,0,22,,Jag skulle säga Mariah Carey.
+Dialogue: 0,10:09:30.96,10:09:37.12,Default,,0,0,20,,Jag tror jag kan Nanny McPhee,\Nmen jag kan ha fel.
+Dialogue: 0,10:09:37.20,10:09:44.56,Default,,0,0,20,,Jag tar den överst och säger\NDame Tanni Grey-Thompson.
+Dialogue: 0,10:09:45.00,10:09:47.44,Default,,0,0,20,,Okej. Tanni Grey-Thompson,\Nsäger Paula.
+Dialogue: 0,10:09:47.52,10:09:51.88,Default,,0,0,20,,Vi ser om det är rätt och i så fall\Nhur många som sa det.
+Dialogue: 0,10:09:51.96,10:09:54.52,Default,,0,0,22,,Helt rätt, Paula. Bra jobbat.
+Dialogue: 0,10:09:54.60,10:09:57.56,Default,,0,0,20,,51 är högsta poäng,\Noch det går du förbi, så även 39.
+Dialogue: 0,10:09:57.64,10:09:59.56,Default,,0,0,22,,30! Bra svar.
+Dialogue: 0,10:10:04.00,10:10:07.56,Default,,0,0,20,,Snyggt. Hon är döpt till Carys\Noch Tanni är från ett smeknamn.
+Dialogue: 0,10:10:07.64,10:10:10.96,Default,,0,0,20,,Hennes syster kallade\Nhenne Tanni för att hon var "tiny"-
+Dialogue: 0,10:10:11.04,10:10:14.24,Default,,0,0,20,,-som bebis,\Nså nu kallar hon sig själv för det.
+Dialogue: 0,10:10:14.32,10:10:16.12,Default,,0,0,20,,-Vad fint.\N-Visst är det?
+Dialogue: 0,10:10:16.20,10:10:19.68,Default,,0,0,20,,Särskilt när man\Nhar "Dame" framför det.
+Dialogue: 0,10:10:19.76,10:10:22.32,Default,,0,0,20,,-Mycket bra. - Jamie.\N-Hej.
+Dialogue: 0,10:10:22.40,10:10:24.56,Default,,0,0,20,,Jamie, du är sist på tavlan.\NGå igenom den.
+Dialogue: 0,10:10:24.64,10:10:31.24,Default,,0,0,20,,Jag önskar jag kunde det. Jag känner\Npå mig att brorsan kan men inte jag.
+Dialogue: 0,10:10:31.32,10:10:32.92,Default,,0,0,22,,Jag får gissa.
+Dialogue: 0,10:10:33.00,10:10:37.36,Default,,0,0,20,,-Vad sysslar du med, Jamie?\N-Pluggar på Newcastle University.
+Dialogue: 0,10:10:37.44,10:10:39.96,Default,,0,0,20,,-Vad pluggar du?\N-Läkarlinjen. Jag går sista året.
+Dialogue: 0,10:10:40.40,10:10:44.68,Default,,0,0,20,,Jaha. Då får du nästan ta upp\Nstetoskopet i ursinne.
+Dialogue: 0,10:10:44.76,10:10:48.72,Default,,0,0,20,,-Var ska du göra det?\N-I Newcastle de första två åren.
+Dialogue: 0,10:10:48.80,10:10:51.80,Default,,0,0,22,,Okej. Vad gör du på fritiden, Jamie?
+Dialogue: 0,10:10:51.88,10:10:55.08,Default,,0,0,20,,Jag gillar att fotvandra\Noch var nyligen vid Kilimanjaro.
+Dialogue: 0,10:10:55.16,10:10:58.84,Default,,0,0,20,,-Wow. Hur lång tid tog det?\N-Sex dagar. Det var rätt lång tid.
+Dialogue: 0,10:10:58.92,10:11:01.96,Default,,0,0,20,,-Är det lång tid?\N-Det kändes så.
+Dialogue: 0,10:11:03.80,10:11:06.16,Default,,0,0,22,,Okej. Vad ska du satsa på?
+Dialogue: 0,10:11:06.24,10:11:12.76,Default,,0,0,20,,Jag gissar på advokaten\Nsom fick en CBE.
+Dialogue: 0,10:11:12.84,10:11:16.36,Default,,0,0,22,,Jag gissar på Cherie Blair.
+Dialogue: 0,10:11:16.44,10:11:20.96,Default,,0,0,20,,Cherie Blair. Vi kollar om det är\Nrätt och hur många som sa det.
+Dialogue: 0,10:11:21.04,10:11:23.04,Default,,0,0,22,,Dave nickar.
+Dialogue: 0,10:11:23.12,10:11:25.16,Default,,0,0,22,,Det är rätt. Bra jobbat, Jamie.
+Dialogue: 0,10:11:25.24,10:11:28.52,Default,,0,0,20,,30 är lägsta poängen hittills,\Noch den har du passerat.
+Dialogue: 0,10:11:28.60,10:11:31.96,Default,,0,0,20,,Titta där. Du går ner till 15.\NDu har halverat poängen.
+Dialogue: 0,10:11:33.44,10:11:38.44,Default,,0,0,20,,-Bra svar, Jamie. Snyggt.\N-En bra gissning, Jamie. Bra gjort.
+Dialogue: 0,10:11:38.52,10:11:41.04,Default,,0,0,20,,Både Blair och Grey-Thompson\Nhar pratat-
+Dialogue: 0,10:11:41.12,10:11:43.88,Default,,0,0,20,,-om hur viktiga flickscouterna\Nvar för dem.
+Dialogue: 0,10:11:43.96,10:11:47.80,Default,,0,0,20,,Resten av tavlan. Man tror\Natt den första britten i rymden vore-
+Dialogue: 0,10:11:47.88,10:11:50.92,Default,,0,0,20,,-en av Storbritanniens mest kända\Npersoner, eller hur?
+Dialogue: 0,10:11:51.00,10:11:53.20,Default,,0,0,20,,-Minns du vad hon heter?\N-Nej.
+Dialogue: 0,10:11:53.28,10:11:58.24,Default,,0,0,20,,Helen Sharman. Namnet Helen\NSharman skulle ha gett 6 poäng.
+Dialogue: 0,10:11:58.32,10:12:01.48,Default,,0,0,20,,Vi går ner. Vad skulle du ha sagt\Nom Nanny McPhee, Paula?
+Dialogue: 0,10:12:01.56,10:12:05.56,Default,,0,0,20,,-Kate Winslet, tror jag.\N-Tur att du inte sa det.
+Dialogue: 0,10:12:05.64,10:12:08.60,Default,,0,0,20,,Det är Emma Thompson och skulle\Nha gett 48 poäng.
+Dialogue: 0,10:12:08.68,10:12:11.72,Default,,0,0,20,,Du hade fått fler poäng,\Nså bra att du inte sa det.
+Dialogue: 0,10:12:11.80,10:12:16.52,Default,,0,0,20,,Journalisten och nyhetsankaret från\N"Big Cat Live" är Kate Silverton.
+Dialogue: 0,10:12:16.60,10:12:19.68,Default,,0,0,20,,1 poäng. Det var det bästa svaret.\NBra jobbat om ni sa det.
+Dialogue: 0,10:12:19.76,10:12:22.16,Default,,0,0,20,,Tusen tack.\NVi är halvvägs igenom rundan-
+Dialogue: 0,10:12:22.24,10:12:24.52,Default,,0,0,20,,-så vi tittar på ställningen.\N15 poäng är bäst.
+Dialogue: 0,10:12:24.60,10:12:26.92,Default,,0,0,22,,Med en så svår tavla-
+Dialogue: 0,10:12:27.00,10:12:30.04,Default,,0,0,22,,-kan det vara bra att tvingas-
+Dialogue: 0,10:12:30.12,10:12:32.20,Default,,0,0,20,,-gissa på nåt man kanske\Nskulle ha undvikit.
+Dialogue: 0,10:12:32.28,10:12:35.04,Default,,0,0,20,,Det gav utdelning.\NNi har 15 poäng. Snyggt.
+Dialogue: 0,10:12:35.12,10:12:38.60,Default,,0,0,20,,Med 30 poäng har vi Paula och Dave,\Noch 39 har Salma and Nikki...
+Dialogue: 0,10:12:38.68,10:12:43.20,Default,,0,0,20,,...och med 51 poäng\Nhar vi Bob och Lisa. - Lisa.
+Dialogue: 0,10:12:43.28,10:12:45.96,Default,,0,0,20,,Du vet vad som krävs.\NEn väldigt låg poäng.
+Dialogue: 0,10:12:48.84,10:12:51.96,Default,,0,0,20,,Vi sätter upp sju till ledtrådar\Npå tavlan, och här är de.
+Dialogue: 0,10:12:52.04,10:12:57.40,Default,,0,0,20,,"Första kvinnliga vicepresident-\Nkandidaten i USA".
+Dialogue: 0,10:12:57.48,10:13:01.28,Default,,0,0,20,,"Tennisspelare som har vunnit 10\NGrand Slam med systern Serena".
+Dialogue: 0,10:13:01.36,10:13:04.88,Default,,0,0,20,,"Hennes hitlåtar inkluderar\N'Mama Do' och 'All About Tonight'".
+Dialogue: 0,10:13:04.96,10:13:09.36,Default,,0,0,20,,"Sprinter från Essex som tog guld\Ni OS 1992 i 400 m häck".
+Dialogue: 0,10:13:09.44,10:13:13.00,Default,,0,0,20,,"Hon hade hitlåtar som 'Walk on By'\Noch 'Heartbreaker'".
+Dialogue: 0,10:13:13.08,10:13:17.04,Default,,0,0,20,,"Tv-journalist och första kvinnliga\Nankaret på kvällsnyheter i USA".
+Dialogue: 0,10:13:17.12,10:13:21.08,Default,,0,0,20,,"Hon spelade prinsessan Leia\Ni 'Stjärnornas krig' 1977".
+Dialogue: 0,10:13:21.16,10:13:23.64,Default,,0,0,22,,Jag läser dem en gång till.
+Dialogue: 0,10:13:23.72,10:13:27.24,Default,,0,0,20,,"Första kvinnliga vicepresident-\Nkandidaten i USA".
+Dialogue: 0,10:13:27.32,10:13:31.44,Default,,0,0,20,,"Tennisspelare som har vunnit 10\NGrand Slam med systern Serena".
+Dialogue: 0,10:13:31.52,10:13:34.64,Default,,0,0,20,,"Hon har hitsinglar som\N'Mama Do' och 'All About Tonight'".
+Dialogue: 0,10:13:34.72,10:13:39.84,Default,,0,0,20,,"Sprinter från Essex som tog guld\Ni OS 1992 i 400 m häck".
+Dialogue: 0,10:13:39.92,10:13:43.32,Default,,0,0,20,,"Hon hade hitlåtar som 'Walk on By'\Noch 'Heartbreaker'".
+Dialogue: 0,10:13:43.40,10:13:47.00,Default,,0,0,20,,"Första kvinnliga ankaret\Npå kvällsnyheter i USA".
+Dialogue: 0,10:13:47.08,10:13:50.96,Default,,0,0,20,,"Hon spelade prinsessan Leia\Ni 'Stjärnornas krig' 1977".
+Dialogue: 0,10:13:51.76,10:13:54.48,Default,,0,0,20,,-Där har vi det. - Ryan.\N-Hej.
+Dialogue: 0,10:13:54.56,10:13:57.68,Default,,0,0,20,,Ryan, välkommen till "Pointless".\NVad gör du, Ryan?
+Dialogue: 0,10:13:57.76,10:13:59.48,Default,,0,0,22,,Jag är högstadielärare.
+Dialogue: 0,10:13:59.56,10:14:03.20,Default,,0,0,20,,-I vilket ämne?\N-Engelska.
+Dialogue: 0,10:14:03.28,10:14:08.32,Default,,0,0,20,,Okej. Då får du rätt mycket fritid.\NVad gör du på den?
+Dialogue: 0,10:14:08.40,10:14:14.12,Default,,0,0,22,,Man får väl lov om man är lärare?
+Dialogue: 0,10:14:14.20,10:14:16.28,Default,,0,0,20,,-Ja, man får lov.\N-Fina, långa skollov.
+Dialogue: 0,10:14:16.36,10:14:20.48,Default,,0,0,20,,Lärare jobbar hårt, men de\Nfår långa lov som de behöver.
+Dialogue: 0,10:14:20.56,10:14:23.16,Default,,0,0,20,,Ja. Jag menar ju inte\Natt du inte förtjänar dem, Ryan.
+Dialogue: 0,10:14:23.24,10:14:27.88,Default,,0,0,20,,-Vad gör du på loven?\N-Mer betygsättning och planering.
+Dialogue: 0,10:14:27.96,10:14:32.88,Default,,0,0,20,,Jag gillar att baka,\Noch jag försöker lära mig spanska.
+Dialogue: 0,10:14:32.96,10:14:36.40,Default,,0,0,20,,Mycket bra. Hursomhelst.\NVad tycker du om tavlan?
+Dialogue: 0,10:14:36.48,10:14:38.92,Default,,0,0,20,,-Jag tycker den är svår.\N-Det är båda tavlorna.
+Dialogue: 0,10:14:39.00,10:14:43.48,Default,,0,0,20,,Jag satsar på den kvinnliga\Nvicepresidentkandidaten...
+Dialogue: 0,10:14:43.56,10:14:46.76,Default,,0,0,20,,-...och säger Sarah Palin.\N-Sarah Palin.
+Dialogue: 0,10:14:46.84,10:14:51.08,Default,,0,0,20,,Sarah Palin, säger Ryan.\NNi har 15, högsta poäng är 51-
+Dialogue: 0,10:14:51.16,10:14:53.68,Default,,0,0,20,,-så får du 35 eller mindre\Ngår ni vidare.
+Dialogue: 0,10:14:53.76,10:14:59.20,Default,,0,0,20,,Där är röda strecket. Vi ser om Sarah\NPalin tar er under det. Är det rätt?
+Dialogue: 0,10:15:02.16,10:15:04.60,Default,,0,0,20,,Tyvärr, Ryan.\NDet är ett felaktigt svar.
+Dialogue: 0,10:15:04.68,10:15:07.80,Default,,0,0,20,,Ni får maxpoäng på 100,\Nså nu har ni 115.
+Dialogue: 0,10:15:07.88,10:15:11.08,Default,,0,0,20,,Det är kanske inte varvets\Nsista felaktiga svar.
+Dialogue: 0,10:15:11.16,10:15:15.76,Default,,0,0,20,,Sarah Palin var den andra kvinnan\Nsom kandiderade till vicepresident-
+Dialogue: 0,10:15:15.84,10:15:20.56,Default,,0,0,20,,-för republikanerna eller\Ndemokraterna och inte den första.
+Dialogue: 0,10:15:20.64,10:15:24.72,Default,,0,0,20,,-Tack. - Välkommen åter, Dave!\N-Hej. Tack.
+Dialogue: 0,10:15:24.80,10:15:28.84,Default,,0,0,20,,-Dave, påminn oss om vad du gör.\N-Jag jobbar med bilförsäkringar.
+Dialogue: 0,10:15:28.92,10:15:33.00,Default,,0,0,20,,-Men på fritiden, då?\N-Då sysslar jag med ståuppkomik.
+Dialogue: 0,10:15:33.08,10:15:37.96,Default,,0,0,20,,Fint. Har du skrivit nåt om ditt\Nsista "Pointless"-framträdande?
+Dialogue: 0,10:15:38.04,10:15:41.96,Default,,0,0,20,,-Inte än. Vi ser hur det går i dag.\N-Fint. Vad ska du satsa på?
+Dialogue: 0,10:15:42.04,10:15:48.16,Default,,0,0,20,,Jag tar sprintern från Essex\Nsom vann guld i OS...
+Dialogue: 0,10:15:48.24,10:15:51.48,Default,,0,0,20,,-...och jag säger Sally Gunnell.\N-Sally Gunnell, säger Dave.
+Dialogue: 0,10:15:51.56,10:15:54.80,Default,,0,0,20,,Ni har 30 poäng. Ryan och Jamie\Nhar högst poäng med 115.
+Dialogue: 0,10:15:54.88,10:15:57.44,Default,,0,0,20,,84 poäng eller mindre\Ngår ni vidare på.
+Dialogue: 0,10:15:57.52,10:16:01.40,Default,,0,0,20,,Sally Gunnell, är det rätt?\NHur många sa det?
+Dialogue: 0,10:16:01.48,10:16:03.64,Default,,0,0,22,,Det är rätt, och ni har gått vidare.
+Dialogue: 0,10:16:07.56,10:16:12.68,Default,,0,0,20,,21 poäng. Ni har totalt 51 poäng.\NBra jobbat.
+Dialogue: 0,10:16:12.76,10:16:15.64,Default,,0,0,20,,Snyggt, David. Den lysande Sally\NGunnell. Hon vann OS-
+Dialogue: 0,10:16:15.72,10:16:19.92,Default,,0,0,20,,-VM, EM och Samväldesspelen\Ni 400 m häck samma år-
+Dialogue: 0,10:16:20.00,10:16:21.60,Default,,0,0,22,,-och det är inte illa, det.
+Dialogue: 0,10:16:22.84,10:16:27.76,Default,,0,0,20,,Lisa. Lisa, du har fått\Nen livlina där. Kolla.
+Dialogue: 0,10:16:27.84,10:16:35.08,Default,,0,0,20,,115 är högst poäng. Ni har 51. Får du\Nmindre än 63 går ni vidare.
+Dialogue: 0,10:16:35.16,10:16:38.60,Default,,0,0,20,,Jag kan två. Jag tror\Natt en är rätt uppenbar.
+Dialogue: 0,10:16:38.68,10:16:41.48,Default,,0,0,20,,Den andra är jag nog\Nbara säker på skådisen i-
+Dialogue: 0,10:16:41.56,10:16:45.68,Default,,0,0,20,,-för hon hade en biroll\Ni "Sex and the City".
+Dialogue: 0,10:16:45.76,10:16:48.40,Default,,0,0,20,,-Det duger väl?\N-Jag satsar på...
+Dialogue: 0,10:16:48.48,10:16:51.44,Default,,0,0,22,,...prinsessan Leia, Carrie Fisher.
+Dialogue: 0,10:16:51.52,10:16:54.48,Default,,0,0,20,,Du säger Carrie Fisher.\NMen innan vi kollar-
+Dialogue: 0,10:16:54.56,10:16:59.36,Default,,0,0,20,,-så pratade vi ju mycket\Nom din brottning förra gången.
+Dialogue: 0,10:16:59.44,10:17:04.00,Default,,0,0,20,,Men du har en annan sida\Noch det är som tjänsteman.
+Dialogue: 0,10:17:04.08,10:17:07.44,Default,,0,0,20,,Det var det enda du var blyg\Nmed förra gången.
+Dialogue: 0,10:17:07.52,10:17:12.68,Default,,0,0,20,,Du jobbar visst för polisen.\NÄr du snut eller byråkrat?
+Dialogue: 0,10:17:12.76,10:17:16.16,Default,,0,0,22,,Jag pluggar till "special constable".
+Dialogue: 0,10:17:16.24,10:17:18.32,Default,,0,0,20,,Wow. Lycka till med det.\NÄr det kul?
+Dialogue: 0,10:17:18.40,10:17:21.24,Default,,0,0,20,,-Jag älskar det. Det är otroligt.\N-Lysande.
+Dialogue: 0,10:17:21.32,10:17:23.96,Default,,0,0,20,,-Du har sagt Carrie Fisher.\N-Ja.
+Dialogue: 0,10:17:24.04,10:17:26.60,Default,,0,0,20,,Där är röda strecket.\NHamnar du under går ni vidare.
+Dialogue: 0,10:17:26.68,10:17:32.04,Default,,0,0,20,,Lycka till. - Vi ser om Carrie Fisher\Nkan få Lisa under röda strecket.
+Dialogue: 0,10:17:33.08,10:17:37.64,Default,,0,0,20,,Det är helt rätt.\NOch ni går vidare. Bra jobbat.
+Dialogue: 0,10:17:38.44,10:17:41.60,Default,,0,0,22,,31, lysande. Ni har 72 poäng totalt.
+Dialogue: 0,10:17:43.64,10:17:48.16,Default,,0,0,20,,Ja, snyggt, Lisa. Skådisen\Noch författaren Carrie Fisher.
+Dialogue: 0,10:17:48.24,10:17:52.68,Default,,0,0,20,,Fint att ha med Lisa och Bob i runda\N2, om så bara för fridens skull.
+Dialogue: 0,10:17:55.04,10:17:56.96,Default,,0,0,20,,-Tack.\N-Nikki.
+Dialogue: 0,10:17:57.04,10:18:00.72,Default,,0,0,20,,Nikki. Slutligen är vi hos dig.\NVad jobbar du med?
+Dialogue: 0,10:18:00.80,10:18:04.28,Default,,0,0,20,,Jag jobbar med design,\Nfrämst inom tv-reklam.
+Dialogue: 0,10:18:04.36,10:18:07.60,Default,,0,0,20,,-Vad kul. Jag vet att sånt är kul.\N-Ja, det är bra.
+Dialogue: 0,10:18:07.68,10:18:12.80,Default,,0,0,20,,Du bygger små modeller\Noch visar upp dem.
+Dialogue: 0,10:18:12.88,10:18:17.80,Default,,0,0,20,,Ja, jag får göra skumma skapelser\Nsom stökar till det hemma hos oss.
+Dialogue: 0,10:18:17.88,10:18:19.88,Default,,0,0,22,,Vad är det bästa du har gjort?
+Dialogue: 0,10:18:19.96,10:18:25.32,Default,,0,0,20,,Saker av kartong och papper.\NEn explosion av post-it-lappar.
+Dialogue: 0,10:18:25.40,10:18:29.40,Default,,0,0,20,,-Lysande. Vad gör du på fritiden?\N-Jag spelar fotboll.
+Dialogue: 0,10:18:29.48,10:18:32.32,Default,,0,0,20,,-Går det bra?\N-Vi ligger i mitten.
+Dialogue: 0,10:18:32.40,10:18:35.20,Default,,0,0,20,,Fint. Vad ska du ta på tavlan?\NDu är sist ut.
+Dialogue: 0,10:18:35.28,10:18:38.32,Default,,0,0,20,,Om du vill får du gå igenom\Nallt och fylla i tomrummen.
+Dialogue: 0,10:18:38.40,10:18:41.64,Default,,0,0,20,,Tennisspelaren är Venus,\Nmen det blir nog för hög poäng-
+Dialogue: 0,10:18:41.72,10:18:44.12,Default,,0,0,20,,-och den tredje tror jag\När Pixie Lott-
+Dialogue: 0,10:18:44.20,10:18:49.08,Default,,0,0,20,,-och "Walk on By" är Gabrielle,\Noch jag tror jag väljer det.
+Dialogue: 0,10:18:49.16,10:18:52.12,Default,,0,0,20,,Säger du Gabrielle för "Walk on By"\Noch "Heartbreaker"?
+Dialogue: 0,10:18:52.20,10:18:55.40,Default,,0,0,20,,Gabrielle. Är det rätt\Noch hur många av de 100 sa det?
+Dialogue: 0,10:18:55.48,10:18:57.28,Default,,0,0,22,,Där är ert röda streck.
+Dialogue: 0,10:18:58.64,10:19:01.60,Default,,0,0,22,,Oj, vilken otur. Otur.
+Dialogue: 0,10:19:01.68,10:19:04.52,Default,,0,0,20,,Det är tyvärr ett felaktigt svar.\NNi får 100 poäng-
+Dialogue: 0,10:19:04.60,10:19:07.20,Default,,0,0,22,,-så nu har ni totalt 139. Beklagar.
+Dialogue: 0,10:19:07.28,10:19:09.88,Default,,0,0,20,,Nikki, du har haft otur\Nav flera anledningar.
+Dialogue: 0,10:19:09.96,10:19:12.88,Default,,0,0,20,,Gabrielle gjorde en cover\Npå "Walk on By"-
+Dialogue: 0,10:19:12.96,10:19:16.32,Default,,0,0,20,,-men båda låtarna var hittar\Nför Dionne Warwick-
+Dialogue: 0,10:19:16.40,10:19:18.36,Default,,0,0,22,,-och skulle ha gett er 45 poäng.
+Dialogue: 0,10:19:18.44,10:19:21.20,Default,,0,0,20,,Om du hade tagit\NVenus Williams-
+Dialogue: 0,10:19:21.28,10:19:24.96,Default,,0,0,20,,-hade du fått 52 poäng,\Nså det hade tagit er vidare.
+Dialogue: 0,10:19:25.04,10:19:28.24,Default,,0,0,20,,Om du hade sagt Pixie Lott\Nhade du också haft rätt.
+Dialogue: 0,10:19:28.32,10:19:32.00,Default,,0,0,20,,Det hade bara gett 19 poäng.\NDu hade verkligen otur.
+Dialogue: 0,10:19:32.08,10:19:37.24,Default,,0,0,20,,Den enda turen du har haft är att du\Ninte är i samma lag som Lisa.
+Dialogue: 0,10:19:37.32,10:19:41.08,Default,,0,0,20,,Det är den enda trösten.\NDu går helskinnad härifrån.
+Dialogue: 0,10:19:41.16,10:19:43.52,Default,,0,0,20,,Den första kvinnliga\Nvicepresidentkandidaten-
+Dialogue: 0,10:19:43.60,10:19:47.92,Default,,0,0,20,,-var Walter Mondales parhäst\Npå 80-talet, Geraldine Ferraro.
+Dialogue: 0,10:19:48.00,10:19:51.32,Default,,0,0,20,,Bra jobbat om ni sa det,\Nför det gav bara 2 poäng.
+Dialogue: 0,10:19:51.40,10:19:55.16,Default,,0,0,20,,Det andra svaret som är ännu bättre\När det andra från USA-
+Dialogue: 0,10:19:55.24,10:19:59.68,Default,,0,0,20,,-för tv-journalisten är Barbara\NWalters, 1 poäng. Bra, om ni sa det.
+Dialogue: 0,10:19:59.76,10:20:02.32,Default,,0,0,20,,Tack, Richard.\NI slutet av första rundan-
+Dialogue: 0,10:20:02.40,10:20:04.68,Default,,0,0,20,,-är paret som ska hem\Nmed högst poäng på 139-
+Dialogue: 0,10:20:04.76,10:20:07.12,Default,,0,0,22,,-är tyvärr Nikki och Salma.
+Dialogue: 0,10:20:07.20,10:20:10.88,Default,,0,0,20,,Tufft. Och du fyllde nästan i hela\Ntavlan åt oss.
+Dialogue: 0,10:20:10.96,10:20:13.60,Default,,0,0,20,,Två lysande svar\Nsom ni skulle ha gått vidare på.
+Dialogue: 0,10:20:13.68,10:20:16.88,Default,,0,0,22,,Men ni kommer förberedda nästa gång-
+Dialogue: 0,10:20:16.96,10:20:19.36,Default,,0,0,20,,-och då går ni säkert\Nända till final.
+Dialogue: 0,10:20:19.44,10:20:24.52,Default,,0,0,20,,Till dess tackar vi för att ni\Nvar med. Härligt att ha er här.
+Dialogue: 0,10:20:29.92,10:20:32.60,Default,,0,0,20,,Det finns bara plats för två par\Ni man-mot-man-rundan-
+Dialogue: 0,10:20:32.68,10:20:35.08,Default,,0,0,20,,-så i slutet av rundan nu\Nfår vi tar farväl av ett par.
+Dialogue: 0,10:20:35.16,10:20:38.80,Default,,0,0,20,,Bob och Lisa. Kolla där.\NNi är i runda 2.
+Dialogue: 0,10:20:38.88,10:20:42.08,Default,,0,0,20,,-Jag vet. Jag är skraj nu.\N-Det är väldigt spännande.
+Dialogue: 0,10:20:42.16,10:20:43.92,Default,,0,0,22,,Spännande. En runda till, Bob-
+Dialogue: 0,10:20:44.00,10:20:46.20,Default,,0,0,20,,-och sen får du lyssna på Lisa\Ninnan du svarar.
+Dialogue: 0,10:20:46.28,10:20:49.36,Default,,0,0,20,,-Hon får göra allt.\N-Det är hennes fel om det går snett.
+Dialogue: 0,10:20:49.44,10:20:52.60,Default,,0,0,20,,Dave, för första gången\Ni din poänglösa karriär...
+Dialogue: 0,10:20:52.68,10:20:56.84,Default,,0,0,20,,Jag omformulerar mig. För första\Ngången i programmet för din del...
+Dialogue: 0,10:20:56.92,10:21:00.40,Default,,0,0,20,,-Nej, du sa rätt först.\N-...så fick du mindre än Paula.
+Dialogue: 0,10:21:00.48,10:21:03.00,Default,,0,0,20,,-Planen funkar inte.\N-Jo.
+Dialogue: 0,10:21:03.08,10:21:06.52,Default,,0,0,20,,Eller så låtsas Paula vara\Nhårdflörtad. Det kanske är så.
+Dialogue: 0,10:21:06.60,10:21:09.24,Default,,0,0,20,,Jamie och Ryan,\Nni gjorde en stadig insats.
+Dialogue: 0,10:21:09.32,10:21:12.88,Default,,0,0,20,,Men Dave och Paula har minst\Noch det är dem man ska klå.
+Dialogue: 0,10:21:12.96,10:21:18.12,Default,,0,0,20,,Lycka till alla tre par. Kategorin\Ni runda 2 är "Rugby union".
+Dialogue: 0,10:21:19.88,10:21:23.68,Default,,0,0,20,,Bestäm vem som börjar\Noch vem som är andre man.
+Dialogue: 0,10:21:23.76,10:21:27.68,Default,,0,0,20,,Den som börjar får kliva fram\Ntill podiet.
+Dialogue: 0,10:21:28.92,10:21:30.76,Default,,0,0,22,,Vi ser vad frågan är. Här är den.
+Dialogue: 0,10:21:30.84,10:21:35.24,Default,,0,0,20,,100 personer fick 100 sekunder att\Nnamnge länder som har mött England-
+Dialogue: 0,10:21:35.32,10:21:39.44,Default,,0,0,22,,-i rugby union-vm-finaler.
+Dialogue: 0,10:21:39.52,10:21:44.36,Default,,0,0,20,,Länder som har mött England i rugby\Nunion-världsmästerskapsfinaler.
+Dialogue: 0,10:21:44.44,10:21:47.00,Default,,0,0,20,,Bara namnet på ett land\Nsom har mött England-
+Dialogue: 0,10:21:47.08,10:21:50.08,Default,,0,0,20,,-i nån av turneringarna\Nfrån den första 1987-
+Dialogue: 0,10:21:50.16,10:21:54.24,Default,,0,0,22,,-till den som var 2011. Lycka till.
+Dialogue: 0,10:21:54.32,10:21:58.72,Default,,0,0,20,,Tusen tack.\N- Bob. Kollar du på rugby?
+Dialogue: 0,10:21:58.80,10:22:02.04,Default,,0,0,20,,-Inte alls.\N-Toppen.
+Dialogue: 0,10:22:02.12,10:22:07.80,Default,,0,0,20,,Men jag kan namnet på några länder\Ni världen. Jag säger Italien.
+Dialogue: 0,10:22:09.00,10:22:15.12,Default,,0,0,20,,Bob säger Italien. Vi ser om det är\Nrätt och hur många som sa så.
+Dialogue: 0,10:22:16.92,10:22:19.12,Default,,0,0,22,,Det stämmer, Bob.
+Dialogue: 0,10:22:22.32,10:22:24.00,Default,,0,0,22,,25. Bra svar.
+Dialogue: 0,10:22:28.60,10:22:32.48,Default,,0,0,20,,De spelade tre gånger på 90-talet.\NEngland vann alla matcher.
+Dialogue: 0,10:22:32.56,10:22:36.88,Default,,0,0,20,,Trots att Lisa gnällde\Nnär du sa Italien.
+Dialogue: 0,10:22:36.96,10:22:41.20,Default,,0,0,20,,Paula. Paula, vad tycker du\Nom den här rundan?
+Dialogue: 0,10:22:41.28,10:22:43.28,Default,,0,0,22,,Jag ser inte på rugby.
+Dialogue: 0,10:22:43.36,10:22:48.80,Default,,0,0,20,,Men Bob har demonstrerat att det inte\Nbehöver hindra ett korrekt svar.
+Dialogue: 0,10:22:48.88,10:22:52.20,Default,,0,0,20,,-Jag säger Frankrike.\N-Frankrike säger Paula.
+Dialogue: 0,10:22:52.28,10:22:57.36,Default,,0,0,20,,Vi ser om det är rätt, och hur många\Nav de 100 som sa Frankrike.
+Dialogue: 0,10:22:57.44,10:23:03.84,Default,,0,0,20,,Det stämmer. 25 är lägst hittills.\NDu får 56 poäng för Frankrike.
+Dialogue: 0,10:23:05.40,10:23:08.48,Default,,0,0,20,,Det stämmer. Mycket bättre än 100.\NDe möttes fem gånger-
+Dialogue: 0,10:23:08.56,10:23:12.84,Default,,0,0,20,,-och England vann tre gånger,\NFrankrike två. De vann 2011.
+Dialogue: 0,10:23:12.92,10:23:18.60,Default,,0,0,20,,-Tack. - Ryan, är det bra för dig?\N-Verkligen inte.
+Dialogue: 0,10:23:20.16,10:23:24.04,Default,,0,0,20,,Det är nog uppenbart,\Nmen jag säger Nya Zeeland.
+Dialogue: 0,10:23:24.12,10:23:29.52,Default,,0,0,20,,Nya Zeeland säger Ryan. Vi ser om det\Nstämmer och hur många som sa det.
+Dialogue: 0,10:23:33.72,10:23:36.56,Default,,0,0,22,,65. Nya Zeeland.
+Dialogue: 0,10:23:38.20,10:23:40.92,Default,,0,0,20,,Vi har mött dem tre gånger\Ni samma världsmästerskap-
+Dialogue: 0,10:23:41.00,10:23:44.28,Default,,0,0,20,,-som vi mötte Italien,\Nmen vi förlorade alla tre.
+Dialogue: 0,10:23:44.36,10:23:47.28,Default,,0,0,20,,Föga förvånande. Vi tar en titt\Npå ställningen.
+Dialogue: 0,10:23:47.36,10:23:50.36,Default,,0,0,20,,25 var bäst poäng i det varvet, Bob.\NMycket starkt jobbat.
+Dialogue: 0,10:23:50.44,10:23:53.32,Default,,0,0,20,,Lisa, du verkar ha ditt på det torra\Ntack vare pappa.
+Dialogue: 0,10:23:53.40,10:23:57.52,Default,,0,0,20,,56 poäng har Paula och Dave,\Noch 65 har Ryan och Jamie.
+Dialogue: 0,10:23:57.60,10:24:01.76,Default,,0,0,20,,Ni är inte så långt i förväg, men ni\Nska få låg poäng för att vara kvar.
+Dialogue: 0,10:24:01.84,10:24:03.52,Default,,0,0,22,,Lycka till. Vi tar ett varv till nu.
+Dialogue: 0,10:24:03.60,10:24:07.96,Default,,0,0,20,,Kan nästa spelare\Nställa sig vid podiet?
+Dialogue: 0,10:24:08.64,10:24:11.04,Default,,0,0,20,,Okej. Vi letar efter ett land\Nsom har mött England-
+Dialogue: 0,10:24:11.12,10:24:12.88,Default,,0,0,22,,-i ett vm i rugby.
+Dialogue: 0,10:24:12.96,10:24:17.00,Default,,0,0,20,,Jamie, ni har högst poäng med 65.\NPassar det här dig?
+Dialogue: 0,10:24:17.08,10:24:19.20,Default,,0,0,22,,Jag spelar faktiskt rugby.
+Dialogue: 0,10:24:19.28,10:24:22.72,Default,,0,0,20,,Eftersom vi har så hög poäng\Nsom måste jag ta en risk.
+Dialogue: 0,10:24:22.80,10:24:26.12,Default,,0,0,20,,Vissa är jag inte säker på,\Nmen det kan ge låg poäng.
+Dialogue: 0,10:24:26.20,10:24:28.64,Default,,0,0,22,,Jag säger Japan.
+Dialogue: 0,10:24:29.08,10:24:33.64,Default,,0,0,20,,Japan, säger Jamie. Ni får inget\Nrött streck för ni har högst poäng.
+Dialogue: 0,10:24:33.72,10:24:38.44,Default,,0,0,20,,Lisa flämtade till där.\NVi ser vad det innebär.
+Dialogue: 0,10:24:38.52,10:24:41.60,Default,,0,0,20,,Japan. Är det rätt?\NHur många sa det?
+Dialogue: 0,10:24:43.36,10:24:45.60,Default,,0,0,22,,Det är rätt. Bra svar, Jamie.
+Dialogue: 0,10:24:46.72,10:24:49.72,Default,,0,0,20,,25 är vår lägsta poäng hittills.\NDet susade du förbi.
+Dialogue: 0,10:24:49.80,10:24:52.60,Default,,0,0,22,,Den landar på 4. Strålande.
+Dialogue: 0,10:24:54.04,10:24:56.44,Default,,0,0,20,,Ni har 69 poäng totalt.\NBra jobbat.
+Dialogue: 0,10:24:59.08,10:25:03.20,Default,,0,0,20,,Snyggt. En av de mer ovanliga\Nrugbyspelande nationerna är Japan.
+Dialogue: 0,10:25:03.28,10:25:07.48,Default,,0,0,20,,Vi mötte dem 1987\Noch klådde dem med 60-7.
+Dialogue: 0,10:25:07.56,10:25:11.08,Default,,0,0,20,,-Tusen tack. - Dave.\N-Hej!
+Dialogue: 0,10:25:11.16,10:25:15.36,Default,,0,0,20,,Dave, ni har 56. Högst poäng\Nhar Jamie och Ryan med 69.
+Dialogue: 0,10:25:15.44,10:25:18.12,Default,,0,0,20,,12 poäng eller mindre,\Nså får ni vara kvar.
+Dialogue: 0,10:25:18.20,10:25:22.40,Default,,0,0,20,,Jag tänker på två. En är riskabel,\Nmen stämmer den så duger den.
+Dialogue: 0,10:25:22.48,10:25:27.44,Default,,0,0,20,,Jag tror jag spelar säkert\Noch säger Sydafrika.
+Dialogue: 0,10:25:27.52,10:25:32.32,Default,,0,0,20,,Sydafrika? Okej, Sydafrika.\NDär är röda strecket. Det är lågt.
+Dialogue: 0,10:25:32.40,10:25:38.28,Default,,0,0,20,,Vi ser om Sydafrika tar er\Nnånstans i närheten. Sydafrika.
+Dialogue: 0,10:25:38.36,10:25:40.20,Default,,0,0,22,,Det stämmer.
+Dialogue: 0,10:25:42.76,10:25:44.52,Default,,0,0,22,,45.
+Dialogue: 0,10:25:46.80,10:25:49.48,Default,,0,0,22,,45 poäng ger er totalt 101.
+Dialogue: 0,10:25:50.24,10:25:52.64,Default,,0,0,20,,-Allt hänger på Lisa.\N-Det var en hög poäng, Dave.
+Dialogue: 0,10:25:52.72,10:25:54.80,Default,,0,0,20,,Sen frågar jag\Nvad det riskabla svaret var.
+Dialogue: 0,10:25:54.88,10:25:59.00,Default,,0,0,20,,De möttes fyra gånger.\NVi klådde dem 2003.
+Dialogue: 0,10:25:59.08,10:26:01.56,Default,,0,0,20,,-Tack, Richard. - Lisa.\N-Hej! Ja.
+Dialogue: 0,10:26:01.64,10:26:06.00,Default,,0,0,20,,Det är det avgörande svaret. Högst\Npoäng har Dave och Paula med 101.
+Dialogue: 0,10:26:06.08,10:26:09.16,Default,,0,0,20,,-Ni ska få 75 poäng eller mindre.\N-Ja.
+Dialogue: 0,10:26:09.24,10:26:13.52,Default,,0,0,20,,75 poäng tar er till man-mot-man-\Nrundan. Du kan berätta hur du tänker.
+Dialogue: 0,10:26:13.60,10:26:16.48,Default,,0,0,20,,Här kan allt vända\Nså pappa ger sig på mig-
+Dialogue: 0,10:26:16.56,10:26:20.84,Default,,0,0,20,,-men jag sa att om vi nådde så här\Nlångt så skulle jag ta nåt uppenbart-
+Dialogue: 0,10:26:20.92,10:26:24.96,Default,,0,0,20,,-och det här är uppenbart för nån\Nsom inte kollar på rugby union-
+Dialogue: 0,10:26:25.04,10:26:27.52,Default,,0,0,22,,-så jag säger Wales.
+Dialogue: 0,10:26:27.60,10:26:30.76,Default,,0,0,20,,Wales, säger Lisa.\NWales. Här är ert röda streck.
+Dialogue: 0,10:26:30.84,10:26:34.64,Default,,0,0,20,,Om du tar dig under strecket\Ngår ni vidare.
+Dialogue: 0,10:26:34.72,10:26:38.80,Default,,0,0,20,,Vi ser efter. Är Wales rätt?\NHur många sa det?
+Dialogue: 0,10:26:39.88,10:26:43.76,Default,,0,0,20,,Det är rätt. Och ni har gått\Nvidare. Bra jobbat.
+Dialogue: 0,10:26:43.84,10:26:49.32,Default,,0,0,20,,49 för Wales. 74 poäng totalt.\NBra jobbat, Lisa.
+Dialogue: 0,10:26:52.08,10:26:54.20,Default,,0,0,20,,-Det var spänt.\N-Verkligen.
+Dialogue: 0,10:26:54.28,10:26:57.48,Default,,0,0,20,,England och Wales har mötts två\Ngånger och vunnit en gång var.
+Dialogue: 0,10:26:57.56,10:27:01.00,Default,,0,0,20,,Det finns svar med få poäng\Nmen bara ett poänglöst svar-
+Dialogue: 0,10:27:01.08,10:27:05.48,Default,,0,0,20,,-och det var laget vi vann med mest\Nmot. Det var 2003.
+Dialogue: 0,10:27:05.56,10:27:09.68,Default,,0,0,22,,Vi vann med 111-13 mot Uruguay.
+Dialogue: 0,10:27:09.76,10:27:12.48,Default,,0,0,20,,Georgien har vi mött två gånger.\NDet gav 1 poäng.
+Dialogue: 0,10:27:12.56,10:27:15.88,Default,,0,0,20,,Rumänien mötte vi en gång,\Noch det hade gett 3 poäng.
+Dialogue: 0,10:27:15.96,10:27:18.40,Default,,0,0,20,,Japan var toppen.\NDet var det fjärde bästa.
+Dialogue: 0,10:27:18.48,10:27:22.56,Default,,0,0,20,,USA hade gett er 6 poäng, Tonga 8\Noch Samoa 11.
+Dialogue: 0,10:27:22.64,10:27:25.88,Default,,0,0,20,,Fiji hade gett 15 poäng och de i topp\N3 har vi redan sett några av.
+Dialogue: 0,10:27:25.96,10:27:29.40,Default,,0,0,20,,Paula gav oss nummer 3:\NFrankrike med 56 poäng.
+Dialogue: 0,10:27:29.48,10:27:31.48,Default,,0,0,22,,Nummer 2: Australien, 60 poäng.
+Dialogue: 0,10:27:31.56,10:27:36.24,Default,,0,0,20,,Högst upp på tavlan, Ryan,\Nvar Nya Zeeland med 65 poäng.
+Dialogue: 0,10:27:36.32,10:27:38.08,Default,,0,0,22,,Dave hade ett riskabelt svar. Vilket?
+Dialogue: 0,10:27:38.16,10:27:43.36,Default,,0,0,20,,-Jag tänkte Argentina.\N-Med det hade det blivit oavgjort.
+Dialogue: 0,10:27:44.64,10:27:49.44,Default,,0,0,20,,Det hade blivit förlängning och\Nförsten som tog poäng hade vunnit.
+Dialogue: 0,10:27:49.52,10:27:51.80,Default,,0,0,22,,Tusen tack. I slutet av runda 2-
+Dialogue: 0,10:27:51.88,10:27:54.32,Default,,0,0,20,,-är det tyvärr Dave och Paula\Nvi ska ta farväl av.
+Dialogue: 0,10:27:54.40,10:27:57.16,Default,,0,0,22,,Jag trodde ni skulle gå till final-
+Dialogue: 0,10:27:57.24,10:27:59.52,Default,,0,0,20,,-och då hade vi\Nkunnat viga er direkt.
+Dialogue: 0,10:27:59.60,10:28:03.08,Default,,0,0,20,,Det hade varit otroligt.\NSå blir det tyvärr inte.
+Dialogue: 0,10:28:03.16,10:28:06.04,Default,,0,0,20,,Det är alltså bara finalen\Nsom inte blir av.
+Dialogue: 0,10:28:06.12,10:28:08.72,Default,,0,0,22,,Resten av det får du sköta, Dave.
+Dialogue: 0,10:28:08.80,10:28:11.88,Default,,0,0,20,,Du vet vad du ska göra.\NFint att ha med er i programmet.
+Dialogue: 0,10:28:11.96,10:28:15.68,Default,,0,0,20,,Tusen tack för att ni medverkade.\NDave och Paula.
+Dialogue: 0,10:28:22.84,10:28:26.52,Default,,0,0,20,,Grattis Bob, Lisa, Jamie och Ryan.\NNi är ett steg närmare finalen-
+Dialogue: 0,10:28:26.60,10:28:31.48,Default,,0,0,20,,-och en chans att spela om vår\Njackpott som är 8 000 pund.
+Dialogue: 0,10:28:33.96,10:28:36.48,Default,,0,0,20,,Vi ska avgöra vilket par\Nsom spelar om den-
+Dialogue: 0,10:28:36.56,10:28:38.36,Default,,0,0,22,,-och alltså möts ni man-mot-man.
+Dialogue: 0,10:28:38.44,10:28:41.00,Default,,0,0,20,,Skillnaden är\Natt ni får överlägga nu-
+Dialogue: 0,10:28:41.08,10:28:44.60,Default,,0,0,20,,-och första paret som vinner två\Nfrågor tävlar om 8 000 pund.
+Dialogue: 0,10:28:44.68,10:28:49.36,Default,,0,0,20,,Bob och Lisa. Bob hade minst\Npoäng av alla i förra rundan.
+Dialogue: 0,10:28:49.44,10:28:53.24,Default,,0,0,20,,-Jag förlåter honom nu.\N-Ja. Det var väldigt imponerande.
+Dialogue: 0,10:28:53.32,10:28:58.04,Default,,0,0,22,,Jamie och Ryan. Japan. Vilket svar!
+Dialogue: 0,10:28:58.12,10:29:01.40,Default,,0,0,20,,Vilket svar. Nu när ni kan slå\Nera kloka huvuden ihop-
+Dialogue: 0,10:29:01.48,10:29:03.88,Default,,0,0,20,,-blir nog det här\Nen spännande tredje runda.
+Dialogue: 0,10:29:03.96,10:29:07.72,Default,,0,0,20,,Lycka till till båda paret.\NVi spelar man-mot-man.
+Dialogue: 0,10:29:11.72,10:29:18.40,Default,,0,0,20,,Här är första frågan och den rör\Nfärgglada fjärilar. - Richard?
+Dialogue: 0,10:29:18.48,10:29:22.36,Default,,0,0,20,,Vi visar er fem bilder på fjärilar\Nmed färger i namnen.
+Dialogue: 0,10:29:22.44,10:29:25.96,Default,,0,0,22,,Kan ni namnge fjärilarna? Lycka till.
+Dialogue: 0,10:29:26.04,10:29:28.96,Default,,0,0,20,,Vi avslöjar fjärilarna,\Noch här är de.
+Dialogue: 0,10:29:29.04,10:29:32.44,Default,,0,0,22,,Vi har A som är "Green ---".
+Dialogue: 0,10:29:33.96,10:29:35.96,Default,,0,0,22,,B är "--- Brown".
+Dialogue: 0,10:29:37.40,10:29:39.64,Default,,0,0,22,,C är "Purple ---".
+Dialogue: 0,10:29:41.92,10:29:44.24,Default,,0,0,22,,D är "--- Copper".
+Dialogue: 0,10:29:45.24,10:29:48.32,Default,,0,0,22,,E är "Red --- blank".
+Dialogue: 0,10:29:51.00,10:29:53.68,Default,,0,0,20,,Där har vi det.\NFem färgglada fjärilar.
+Dialogue: 0,10:29:53.76,10:29:59.16,Default,,0,0,20,,Bob och Lisa, ni har gjort bäst ifrån\Ner så ni får börja.
+Dialogue: 0,10:30:00.88,10:30:06.20,Default,,0,0,20,,Jag kan bara en, så jag får säga den:\N"Red Admiral", amiralfjärilen.
+Dialogue: 0,10:30:06.60,10:30:10.72,Default,,0,0,20,,Ni säger att E är "Red Admiral". "Red\NAdmiral" är E säger Bob och Lisa.
+Dialogue: 0,10:30:10.80,10:30:14.08,Default,,0,0,20,,Jamie och Ryan.\NVad satsar ni på?
+Dialogue: 0,10:30:14.16,10:30:16.60,Default,,0,0,20,,-Vi kan inte gå igenom tavlan.\N-Okej.
+Dialogue: 0,10:30:16.68,10:30:21.12,Default,,0,0,20,,Det vi kom överens om\När att C är "Purple Emperor".
+Dialogue: 0,10:30:21.48,10:30:27.84,Default,,0,0,20,,"Purple Emperor" är C. Vi har "Red\NAdmiral" och "Purple Emperor".
+Dialogue: 0,10:30:27.92,10:30:30.64,Default,,0,0,20,,Bob och Lisa säger Red Admiral\Npå E. Vi ser om det är rätt-
+Dialogue: 0,10:30:30.72,10:30:35.40,Default,,0,0,20,,-och om det är det hur många\Nsom sa Red Admiral.
+Dialogue: 0,10:30:35.48,10:30:40.60,Default,,0,0,20,,Det är rätt. Det ger hög poäng.\NTitta där. 76.
+Dialogue: 0,10:30:42.92,10:30:46.44,Default,,0,0,20,,Jamie och Ryan har sagt\Natt C är Purple Emperor.
+Dialogue: 0,10:30:46.52,10:30:51.36,Default,,0,0,20,,Vi ser om det är rätt\Noch hur många som sa så.
+Dialogue: 0,10:30:51.44,10:30:56.00,Default,,0,0,20,,Det är rätt. Och ni vinner.\NBra jobbat med Purple Emperor.
+Dialogue: 0,10:30:56.08,10:31:01.20,Default,,0,0,22,,Den fortsätter ner. 13. Bra svar.
+Dialogue: 0,10:31:04.12,10:31:07.64,Default,,0,0,20,,Jamie och Ryan,\Ndet är 1-0 till er efter en fråga.
+Dialogue: 0,10:31:07.72,10:31:10.88,Default,,0,0,20,,Snyggt, Jamie och Ryan. Vi kollar\Nresten. Det är en tuff tavla.
+Dialogue: 0,10:31:10.96,10:31:14.84,Default,,0,0,20,,A är "Green Hairstreak",\Ngrönsnabbvinge.
+Dialogue: 0,10:31:16.24,10:31:20.56,Default,,0,0,20,,Den hade gett 3 poäng.\NDet är en väldigt skygg fjäril.
+Dialogue: 0,10:31:20.64,10:31:24.60,Default,,0,0,20,,Den hänger på vegetation\Neller så solar den.
+Dialogue: 0,10:31:24.68,10:31:28.80,Default,,0,0,20,,B är "Meadow Brown",\Nslåttergräsfjäril.
+Dialogue: 0,10:31:28.88,10:31:32.00,Default,,0,0,22,,Den hade gett er 5 poäng.
+Dialogue: 0,10:31:32.08,10:31:36.88,Default,,0,0,20,,Jag trodde du skulle ta D, Lisa.\NEn "Small Copper", mindre guldvinge.
+Dialogue: 0,10:31:38.88,10:31:41.44,Default,,0,0,20,,-Den hade gett 6 poäng.\N-Se så liten den är.
+Dialogue: 0,10:31:41.52,10:31:44.40,Default,,0,0,20,,-Den har en maskros bakom sig.\N-Vilken svår tavla.
+Dialogue: 0,10:31:44.48,10:31:46.80,Default,,0,0,22,,Bra jobbat av er att ta två svar.
+Dialogue: 0,10:31:46.88,10:31:49.04,Default,,0,0,20,,Tusen tack.\NHär kommer vår andra fråga.
+Dialogue: 0,10:31:49.12,10:31:52.60,Default,,0,0,20,,Bob och Lisa, ni måste vinna\Nför att vara kvar. Lycka till.
+Dialogue: 0,10:31:52.68,10:31:58.60,Default,,0,0,20,,Den rör Arnold Schwarzenegger.\N- Arnold Schwarzenegger, Richard.
+Dialogue: 0,10:31:58.68,10:32:01.32,Default,,0,0,20,,Vi ger er fem ledtrådar\Ntill fakta om Schwarzenegger-
+Dialogue: 0,10:32:01.40,10:32:03.24,Default,,0,0,22,,-och ni ska ge ett obskyrt svar.
+Dialogue: 0,10:32:03.32,10:32:05.76,Default,,0,0,22,,Här har vi våra fem ledtrådar.
+Dialogue: 0,10:32:05.84,10:32:08.16,Default,,0,0,22,,Vi har: "Årtiondet när han föddes"-
+Dialogue: 0,10:32:08.24,10:32:10.88,Default,,0,0,20,,-"delstaten där han\Nblev guvernör 2003"-
+Dialogue: 0,10:32:10.96,10:32:15.32,Default,,0,0,20,,-"kvinnan han gifte sig med 1986",\N"regissören av 'Terminator'"-
+Dialogue: 0,10:32:15.40,10:32:17.68,Default,,0,0,22,,-och "landet han föddes i".
+Dialogue: 0,10:32:17.76,10:32:20.40,Default,,0,0,22,,Och igen: "Årtiondet när han föddes"-
+Dialogue: 0,10:32:20.48,10:32:24.68,Default,,0,0,20,,-"delstaten där han blev guvernör\N2003", "kvinnan han gifte sig med"-
+Dialogue: 0,10:32:24.76,10:32:27.12,Default,,0,0,22,,-"regissören av 'Terminator'"-
+Dialogue: 0,10:32:27.20,10:32:29.36,Default,,0,0,22,,-och "landet han föddes i".
+Dialogue: 0,10:32:29.44,10:32:32.60,Default,,0,0,20,,Jamie och Ryan\Nfår börja den här gången.
+Dialogue: 0,10:32:33.52,10:32:37.88,Default,,0,0,20,,Vi satsar på landet där han föddes\Noch tror det är Österrike.
+Dialogue: 0,10:32:37.96,10:32:41.24,Default,,0,0,20,,Österrike, säger Jamie och Ryan.\NÄr det landet han föddes i?
+Dialogue: 0,10:32:41.32,10:32:45.56,Default,,0,0,20,,Bob och Lisa, tavlan är er.\NVill ni gå igenom den med oss?
+Dialogue: 0,10:32:45.64,10:32:49.88,Default,,0,0,20,,Årtiondet han föddes\Ntror jag är 50-talet.
+Dialogue: 0,10:32:49.96,10:32:53.40,Default,,0,0,20,,-Delstaten där han blev...\N-Kalifornien.
+Dialogue: 0,10:32:53.48,10:32:57.24,Default,,0,0,20,,Kvinnan han gifte sig med\Nkan ha varit Marie Helvin.
+Dialogue: 0,10:32:57.32,10:33:00.24,Default,,0,0,20,,Jag vet inte vem som regisserade\N"Terminator".
+Dialogue: 0,10:33:00.32,10:33:04.04,Default,,0,0,20,,Vi tar årtiondet när han föddes\Noch säger 50-talet.
+Dialogue: 0,10:33:04.12,10:33:06.64,Default,,0,0,20,,50-talet, säger Bob och Lisa.\N50-talet.
+Dialogue: 0,10:33:06.72,10:33:10.04,Default,,0,0,20,,Jamie och Ryan tror han föddes\Ni Österrike-
+Dialogue: 0,10:33:10.12,10:33:15.00,Default,,0,0,20,,-och Bob och Lisa tror han föddes\Npå 50-talet.
+Dialogue: 0,10:33:15.08,10:33:19.48,Default,,0,0,20,,Jamie och Ryan. Är Österrike rätt\Noch i så fall, hur många sa det?
+Dialogue: 0,10:33:20.60,10:33:22.08,Default,,0,0,22,,Det är rätt.
+Dialogue: 0,10:33:24.36,10:33:26.56,Default,,0,0,22,,62.
+Dialogue: 0,10:33:29.80,10:33:32.88,Default,,0,0,20,,Bob och Lisa har sagt\Natt han föddes på 50-talet.
+Dialogue: 0,10:33:32.96,10:33:38.36,Default,,0,0,20,,Vi ser om det stämmer och ser hur\Nmånga av våra 100 som sa det.
+Dialogue: 0,10:33:41.76,10:33:45.56,Default,,0,0,20,,Det är inte 50-talet, Bob och Lisa.\NDet innebär att Jamie och Ryan-
+Dialogue: 0,10:33:45.64,10:33:49.28,Default,,0,0,20,,-går direkt till finalen med 2-0\Nefter bara två frågor.
+Dialogue: 0,10:33:49.36,10:33:53.16,Default,,0,0,20,,Bra jobbat, Jamie och Ryan. - Otur,\NBob och Lisa. Fint att ha er här.
+Dialogue: 0,10:33:53.24,10:33:57.20,Default,,0,0,20,,Född den 30 juli 1947\När Arnold Schwarzenegger.
+Dialogue: 0,10:33:57.28,10:34:01.76,Default,,0,0,20,,Han ser rätt bra ut för det. Ni hade\Nfått 22 poäng för ett korrekt svar.
+Dialogue: 0,10:34:01.84,10:34:03.88,Default,,0,0,20,,Det var smart att inte\Nta Kalifornien.
+Dialogue: 0,10:34:03.96,10:34:07.44,Default,,0,0,20,,Ni visste att det skulle ge för många\Npoäng. Det hade gett 68.
+Dialogue: 0,10:34:07.52,10:34:11.64,Default,,0,0,20,,Kvinnan han gifte sig med var inte\NMarie Helvin utan Maria Shriver.
+Dialogue: 0,10:34:11.72,10:34:13.20,Default,,0,0,22,,Det hade gett 9 poäng-
+Dialogue: 0,10:34:13.28,10:34:18.12,Default,,0,0,20,,-och regissören av "Terminator"\Nvar James Cameron, 18 poäng.
+Dialogue: 0,10:34:18.20,10:34:21.84,Default,,0,0,20,,-Bra jobbat om ni tog alla fem.\N-Tusen tack.
+Dialogue: 0,10:34:21.92,10:34:26.48,Default,,0,0,20,,I slutet av man-mot-man-rundan\När det Bob och Lisa som lämnar oss.
+Dialogue: 0,10:34:26.56,10:34:30.04,Default,,0,0,20,,Det var ju upplagt\Nför att ni skulle gå till final.
+Dialogue: 0,10:34:30.12,10:34:32.56,Default,,0,0,20,,Det hade varit otroligt.\NVi måste tyvärr ta farväl.
+Dialogue: 0,10:34:32.64,10:34:34.72,Default,,0,0,20,,Fint att ha med er\Ni bägge programmen.
+Dialogue: 0,10:34:34.80,10:34:37.16,Default,,0,0,20,,Tack för att ni spelade.\NBob och Lisa.
+Dialogue: 0,10:34:37.24,10:34:40.08,Default,,0,0,22,,Bra jobbat, grabbar. Bra jobbat.
+Dialogue: 0,10:34:44.80,10:34:47.60,Default,,0,0,20,,Grattis, Jamie och Ryan.\NNi har krossat allt motstånd-
+Dialogue: 0,10:34:47.68,10:34:52.48,Default,,0,0,20,,-och vunnit vår åtrådda trofé.\NVäldigt starkt jobbat.
+Dialogue: 0,10:34:56.60,10:35:02.32,Default,,0,0,20,,Nu har ni chansen att vinna vår\Njackpott som är på 8 000 pund.
+Dialogue: 0,10:35:06.48,10:35:09.32,Default,,0,0,20,,Jättekul att ni har tagit er\Ntill final. Bra jobbat.
+Dialogue: 0,10:35:09.40,10:35:13.36,Default,,0,0,20,,Jag är lite besviken, för jag hade\Nhoppats ha med er i nästa program.
+Dialogue: 0,10:35:13.44,10:35:17.36,Default,,0,0,20,,Det blir bara en gång nu. Jag som\Nhade så mycket att prata mer er om.
+Dialogue: 0,10:35:17.44,10:35:21.00,Default,,0,0,20,,Ryan. Du är en gåta.\NJag borde inte säga det här på tv-
+Dialogue: 0,10:35:21.08,10:35:26.36,Default,,0,0,20,,-men fram tills i dag var du anonym\Nrestauranggäst. Berätta om det.
+Dialogue: 0,10:35:26.44,10:35:29.56,Default,,0,0,20,,Man går och äter\Npå nån restaurang-
+Dialogue: 0,10:35:29.64,10:35:31.88,Default,,0,0,20,,-och det är gratis\Noch sen recenserar man det.
+Dialogue: 0,10:35:31.96,10:35:35.08,Default,,0,0,20,,Restaurangen får recensionen,\Noch vi får middag.
+Dialogue: 0,10:35:35.16,10:35:38.36,Default,,0,0,20,,Du måste visa dina meriter\Nsom en ätare av bra mat.
+Dialogue: 0,10:35:38.44,10:35:40.72,Default,,0,0,20,,Jag har många meriter\Nvad gäller ätande.
+Dialogue: 0,10:35:40.80,10:35:43.76,Default,,0,0,20,,Fint. Fantastiskt. Ledsen\Natt jag har avslöjat dig-
+Dialogue: 0,10:35:43.84,10:35:47.40,Default,,0,0,20,,-men vilket lysande jobb.\NDet skulle jag älska att syssla med.
+Dialogue: 0,10:35:47.48,10:35:51.16,Default,,0,0,20,,Som alltid med den här rundan\Nbörjar ni med att välja kategori-
+Dialogue: 0,10:35:51.24,10:35:54.12,Default,,0,0,22,,-och ni har fyra alternativ. De är:
+Dialogue: 0,10:35:54.20,10:35:59.68,Default,,0,0,20,,Countrymusikstjärnor, Sheffield,\NAlan Bennet och tysk sport.
+Dialogue: 0,10:36:00.24,10:36:03.44,Default,,0,0,20,,Vi inte direkt nåt\Nom nån av kategorierna.
+Dialogue: 0,10:36:03.52,10:36:09.04,Default,,0,0,20,,Jamie frågade vem Alan Bennett är,\Nså då fattar ni vilken nivå vi är på.
+Dialogue: 0,10:36:09.12,10:36:11.52,Default,,0,0,20,,-Det måste bli Sheffield.\N-Okej, Sheffield.
+Dialogue: 0,10:36:11.60,10:36:15.40,Default,,0,0,20,,Sheffield. Okej. Sheffield blir det.\N- Richard.
+Dialogue: 0,10:36:15.48,10:36:18.20,Default,,0,0,20,,Som ofta så ser\Nkategorierna breda ut-
+Dialogue: 0,10:36:18.28,10:36:21.08,Default,,0,0,20,,-men det finns tre olika\Nunderkategorier-
+Dialogue: 0,10:36:21.16,10:36:23.08,Default,,0,0,22,,-och ni kan svara ur vilken ni vill.
+Dialogue: 0,10:36:23.16,10:36:26.76,Default,,0,0,20,,Vi letar efter män\Nsom samlade ihop 147 poäng-
+Dialogue: 0,10:36:26.84,10:36:29.52,Default,,0,0,22,,-i snooker-vm på The Crucible.
+Dialogue: 0,10:36:29.60,10:36:33.84,Default,,0,0,20,,Vi letar efter Pulp-låtar\Nsom blev topp-40 i Storbritannien-
+Dialogue: 0,10:36:33.92,10:36:38.20,Default,,0,0,20,,-och vi letar efter personer som var\Nmed i filmen "Allt eller inget".
+Dialogue: 0,10:36:38.28,10:36:40.16,Default,,0,0,22,,Det är ett rätt bra urval.
+Dialogue: 0,10:36:40.24,10:36:42.00,Default,,0,0,22,,Hoppas ni där hemma hittar nåt.
+Dialogue: 0,10:36:42.08,10:36:46.32,Default,,0,0,20,,En man som fått 147 på The Crucible,\Nen topp-40-hit av Pulp-
+Dialogue: 0,10:36:46.40,10:36:50.60,Default,,0,0,20,,-eller nån som var med\Ni "Allt eller inget" enligt IMDb.
+Dialogue: 0,10:36:50.68,10:36:53.20,Default,,0,0,22,,Lycka till, killar.
+Dialogue: 0,10:36:53.28,10:36:56.48,Default,,0,0,20,,Som alltid har ni en minut på er\Natt komma med tre svar.
+Dialogue: 0,10:36:56.56,10:37:01.04,Default,,0,0,20,,För att vinna jackpotten på 8 000\Npund ska ett av dem vara poänglöst.
+Dialogue: 0,10:37:01.12,10:37:04.40,Default,,0,0,20,,Svaren får komma från\Nvilken som helst av kategorierna.
+Dialogue: 0,10:37:04.48,10:37:08.60,Default,,0,0,20,,Det kan vara alla tre från en\Neller ett från varje. Det avgör ni.
+Dialogue: 0,10:37:08.68,10:37:10.16,Default,,0,0,20,,-Är ni redo?\N-Ja.
+Dialogue: 0,10:37:10.24,10:37:15.64,Default,,0,0,20,,Vi sätter 60 sekunder på klockan.\NDär är de. Er tid börjar nu.
+Dialogue: 0,10:37:15.72,10:37:20.60,Default,,0,0,20,,Snooker-spelare. Vilka kan vi?\NRonnie O'Sullivan.
+Dialogue: 0,10:37:20.68,10:37:23.32,Default,,0,0,20,,-Det är nog inte poänglöst.\N-Steven Hendry.
+Dialogue: 0,10:37:23.40,10:37:27.32,Default,,0,0,20,,"Allt eller inget", då?\NRobert Carlyle.
+Dialogue: 0,10:37:27.40,10:37:29.44,Default,,0,0,20,,-Han var väl stjärnan?\N-Ja.
+Dialogue: 0,10:37:29.52,10:37:33.28,Default,,0,0,20,,Det är den stora killen som var med\Ni "Mitt liv som snut".
+Dialogue: 0,10:37:34.28,10:37:37.96,Default,,0,0,20,,-Kan du hans namn? Jag kan inte.\N-Jag vet inte vem du syftar på.
+Dialogue: 0,10:37:38.04,10:37:44.04,Default,,0,0,20,,Han var med i "Mitt liv som snut".\NDen stora snubben.
+Dialogue: 0,10:37:44.12,10:37:49.48,Default,,0,0,20,,Jag kommer inte lista ut det.\NKan du nåt om Pulp? Inget?
+Dialogue: 0,10:37:49.56,10:37:53.40,Default,,0,0,20,,Vi har en som var med\Ni "Allt eller inget". Nåt mer?
+Dialogue: 0,10:37:53.48,10:37:57.72,Default,,0,0,20,,-Ronnie O'Sullivan.\N-Har du nån mer snookerspelare?
+Dialogue: 0,10:37:59.48,10:38:04.32,Default,,0,0,20,,-Vad heter killen från Belfast?\N-Dennis Taylor?
+Dialogue: 0,10:38:04.40,10:38:08.76,Default,,0,0,20,,-Tio sekunder kvar.\N-Dennis Taylor. Ska vi ta Carlyle?
+Dialogue: 0,10:38:08.84,10:38:13.40,Default,,0,0,22,,Okej. Ja, okej.
+Dialogue: 0,10:38:14.72,10:38:18.52,Default,,0,0,20,,Okej. Där var tiden ute.\NJag behöver era tre svar.
+Dialogue: 0,10:38:18.60,10:38:22.80,Default,,0,0,20,,Vi vet inget om snooker,\Nmen vi säger Dennis Taylor.
+Dialogue: 0,10:38:22.88,10:38:26.24,Default,,0,0,20,,-Dennis Taylor.\N-Ronnie O'Sullivan.
+Dialogue: 0,10:38:26.32,10:38:28.44,Default,,0,0,20,,-Ronnie O'Sullivan.\N-För Crucible...
+Dialogue: 0,10:38:28.52,10:38:32.24,Default,,0,0,20,,-...och Robert Carlyle för filmen.\N-Och Robert Carlyle.
+Dialogue: 0,10:38:32.32,10:38:36.36,Default,,0,0,20,,Av de tre, vilket svar tror ni\Nmest sannolikt är poänglöst?
+Dialogue: 0,10:38:36.44,10:38:40.08,Default,,0,0,20,,-Om namnet stämmer, Taylor.\N-Dennis Taylor, om han finns.
+Dialogue: 0,10:38:40.16,10:38:45.20,Default,,0,0,20,,Vi tar Dennis Taylor sist. Ofattbart\Natt de säger att det är Dennis.
+Dialogue: 0,10:38:45.28,10:38:48.48,Default,,0,0,20,,Vad tar vi först? Vad är antagligen\Ninte poänglöst?
+Dialogue: 0,10:38:48.56,10:38:51.48,Default,,0,0,20,,Robert Carlyle.\NEller Ronnie O'Sullivan.
+Dialogue: 0,10:38:51.56,10:38:54.12,Default,,0,0,20,,Ronnie O'Sullivan\Nsätter vi alltså i mitten.
+Dialogue: 0,10:38:54.20,10:38:57.48,Default,,0,0,20,,Vi sätter upp dem på tavlan,\Noch här har vi dem.
+Dialogue: 0,10:38:57.56,10:39:01.88,Default,,0,0,20,,Vi har Robert Carlyle,\NRonnie O'Sullivan och Dennis Taylor.
+Dialogue: 0,10:39:01.96,10:39:04.64,Default,,0,0,20,,Lycka till nu.\NErt första svar var Robert Carlyle.
+Dialogue: 0,10:39:04.72,10:39:08.60,Default,,0,0,20,,Det trodde ni antagligen\Ninte skulle bli poänglöst.
+Dialogue: 0,10:39:08.68,10:39:11.84,Default,,0,0,20,,Men om det är poänglöst\Nvinner ni 8 000 pund.
+Dialogue: 0,10:39:11.92,10:39:14.48,Default,,0,0,20,,Jamie, vad skulle du\Ngöra för din del?
+Dialogue: 0,10:39:14.56,10:39:17.36,Default,,0,0,22,,Jag skulle vilja åka på semester.
+Dialogue: 0,10:39:17.44,10:39:21.24,Default,,0,0,20,,Jag har slutprov snart, och efter det\Nhar jag mitt livs sista långa lov-
+Dialogue: 0,10:39:21.32,10:39:25.84,Default,,0,0,20,,-innan jag börjar jobba som läkare,\Nså jag vill gärna åka till solen.
+Dialogue: 0,10:39:25.92,10:39:28.56,Default,,0,0,20,,-Ryan, vad säger du?\N-Jag vill till Sydamerika...
+Dialogue: 0,10:39:28.64,10:39:31.40,Default,,0,0,20,,...och öva på spanskan,\Nså jag tror jag åker dit.
+Dialogue: 0,10:39:31.48,10:39:34.08,Default,,0,0,22,,Perfekt. Vi har tre svar på tavlan.
+Dialogue: 0,10:39:34.16,10:39:36.72,Default,,0,0,20,,Nåt av dem kanske är poänglöst\Noch vinner jackpotten.
+Dialogue: 0,10:39:36.80,10:39:39.76,Default,,0,0,20,,Det första är Robert Carlyle.\NVi tar en titt.
+Dialogue: 0,10:39:39.84,10:39:42.20,Default,,0,0,20,,Om det är poänglöst\Nvinner ni 8 000 pund.
+Dialogue: 0,10:39:42.28,10:39:45.80,Default,,0,0,20,,Robert Carlyle.\NVar han med i "Allt eller inget"?
+Dialogue: 0,10:39:48.88,10:39:51.20,Default,,0,0,22,,Visst var han det.
+Dialogue: 0,10:39:51.28,10:39:54.64,Default,,0,0,20,,Robert Carlyle tar oss ned\Nmot 40 poäng.
+Dialogue: 0,10:39:54.72,10:39:57.96,Default,,0,0,20,,Om han når ända ned till 0...\NJaha. 35.
+Dialogue: 0,10:40:01.20,10:40:05.36,Default,,0,0,20,,35. Det skulle ha varit förvånande\Nom Robert Carlyle var poänglöst.
+Dialogue: 0,10:40:05.44,10:40:08.20,Default,,0,0,20,,Inget att bli upprörd över.\N35 är ingen dålig poäng.
+Dialogue: 0,10:40:08.28,10:40:11.20,Default,,0,0,22,,Ert andra svar var Ronnie O'Sullivan.
+Dialogue: 0,10:40:11.28,10:40:13.96,Default,,0,0,20,,Om det här är poänglöst\Nvinner ni jackpotten-
+Dialogue: 0,10:40:14.04,10:40:19.84,Default,,0,0,20,,-så för 8 000 pund, har Ronnie\NO'Sullivan fått 147 poäng?
+Dialogue: 0,10:40:22.72,10:40:24.68,Default,,0,0,22,,Det stämmer. Det är det första.
+Dialogue: 0,10:40:24.76,10:40:28.08,Default,,0,0,22,,Robert Carlyle tog er ner till 35.
+Dialogue: 0,10:40:28.16,10:40:31.72,Default,,0,0,20,,Ronnie O'Sullivan\Ntar er under det till 33.
+Dialogue: 0,10:40:31.80,10:40:36.32,Default,,0,0,22,,Lysande grupperat. Nästan kusligt.
+Dialogue: 0,10:40:37.48,10:40:41.04,Default,,0,0,20,,Tyvärr inte poänglöst. Ni har\Nen chans till på dagens jackpott.
+Dialogue: 0,10:40:41.12,10:40:43.80,Default,,0,0,22,,Allt hänger på Dennis Taylor-
+Dialogue: 0,10:40:43.88,10:40:46.84,Default,,0,0,20,,-ett namn ni trodde ni hittade på.\NVi ser efter.
+Dialogue: 0,10:40:46.92,10:40:49.40,Default,,0,0,20,,Är det poänglöst\Nså vinner ni jackpotten.
+Dialogue: 0,10:40:49.48,10:40:53.96,Default,,0,0,20,,För 8 000 pund, har Dennis Taylor\Nfått 147 poäng på The Crucible?
+Dialogue: 0,10:40:55.04,10:40:57.16,Default,,0,0,22,,Otur.
+Dialogue: 0,10:40:59.64,10:41:05.04,Default,,0,0,20,,Otur. Två bra svar, men ni hittade\Ninget poänglöst svar-
+Dialogue: 0,10:41:05.12,10:41:09.32,Default,,0,0,20,,-så ni vinner inte jackpotten,\Nutan den finns kvar i nästa program.
+Dialogue: 0,10:41:09.40,10:41:11.12,Default,,0,0,22,,Men det var fint att ha er här-
+Dialogue: 0,10:41:11.20,10:41:16.28,Default,,0,0,20,,-och ni får så klart ta med er\Nvarsin trofé hem. Bra jobbat.
+Dialogue: 0,10:41:21.24,10:41:24.44,Default,,0,0,20,,Otur. Det var kategorier som vissa\Ndeltagare hade dödat för.
+Dialogue: 0,10:41:24.52,10:41:27.40,Default,,0,0,20,,Snooker-fans och Pulp-fans\Nsitter som på nålar-
+Dialogue: 0,10:41:27.48,10:41:29.20,Default,,0,0,20,,-för att se om de\Nhar poänglösa svar.
+Dialogue: 0,10:41:29.28,10:41:32.56,Default,,0,0,20,,Skådisen från "Allt eller inget"\Nni nämnde var Mark Addy-
+Dialogue: 0,10:41:32.64,10:41:35.72,Default,,0,0,20,,-och han hade gett 2 poäng.\NInte ett poänglöst svar.
+Dialogue: 0,10:41:35.80,10:41:39.56,Default,,0,0,20,,Det finns bara\Nett poänglöst svar om snooker-
+Dialogue: 0,10:41:39.64,10:41:43.76,Default,,0,0,20,,-så ni har skött er bra\Nom ni sa Mark Williams.
+Dialogue: 0,10:41:43.84,10:41:47.68,Default,,0,0,20,,De andra med 147 poäng är\NAli Carter som hade gett er 2-
+Dialogue: 0,10:41:47.76,10:41:50.32,Default,,0,0,20,,-Cliff Thorburn hade gett 11,\NJimmy White, 19-
+Dialogue: 0,10:41:50.40,10:41:55.04,Default,,0,0,20,,-Stephen Hendry hade gett 24 poäng\Noch så hade vi Ronnie O'Sullivan.
+Dialogue: 0,10:41:55.12,10:41:58.96,Default,,0,0,20,,Pulp-singlarna, då.\NJag läser alla poänglösa svar.
+Dialogue: 0,10:41:59.04,10:42:02.84,Default,,0,0,20,,Bra om ni sa "A Little Soul",\Nför det var poänglöst-
+Dialogue: 0,10:42:02.92,10:42:06.72,Default,,0,0,20,,-"Bad Cover Version" var poänglöst\Noch det var "Mis-shapes" också-
+Dialogue: 0,10:42:06.80,10:42:10.88,Default,,0,0,20,,-och även "Party Hard". "Something\NChanged" var också poänglöst.
+Dialogue: 0,10:42:10.96,10:42:14.44,Default,,0,0,20,,"Sunrise" och "This is Hardcore"\Nfrån albumet "This is Hardcore"-
+Dialogue: 0,10:42:14.52,10:42:16.64,Default,,0,0,22,,-var alla poänglösa svar där.
+Dialogue: 0,10:42:16.72,10:42:20.20,Default,,0,0,20,,Med "Allt eller inget"-skådisar fanns\Ndet poänglösa svar också.
+Dialogue: 0,10:42:20.28,10:42:24.20,Default,,0,0,20,,Bruce Jones som var Les Battersby\Ni "Coronation Street" gav 0 poäng.
+Dialogue: 0,10:42:24.28,10:42:28.56,Default,,0,0,20,,Emily Woof spekar Robert Carlyles\Nex-fru i filmen och gav 0 poäng.
+Dialogue: 0,10:42:28.64,10:42:31.64,Default,,0,0,20,,Paul Barber var kanske\Ndet lättaste poänglösa svaret-
+Dialogue: 0,10:42:31.72,10:42:35.92,Default,,0,0,20,,-för han var Denzel i "Only Fools\Nand Horses". Steve Huison gav 0.
+Dialogue: 0,10:42:36.00,10:42:39.52,Default,,0,0,20,,Bra jobbat där hemma\Nom ni sa nåt av det.
+Dialogue: 0,10:42:39.60,10:42:41.64,Default,,0,0,20,,Tusen tack.\NVi måste tyvärr ta farväl-
+Dialogue: 0,10:42:41.72,10:42:43.84,Default,,0,0,20,,-av er, Jamie och Ryan,\Nmen fint att ha er här.
+Dialogue: 0,10:42:43.92,10:42:48.96,Default,,0,0,20,,Tusen tack. Toppendeltagare,\NJamie och Ryan.
+Dialogue: 0,10:42:50.28,10:42:52.48,Default,,0,0,20,,Tyvärr vann de inte\Nvår jackpott i dag-
+Dialogue: 0,10:42:52.56,10:42:57.96,Default,,0,0,20,,-så den finns kvar, och i nästa\Nprogram spelar vi om 9 000 pund.
+Dialogue: 0,10:42:59.00,10:43:02.00,Default,,0,0,20,,Var med och se om nån vinner.\NNu är det hej då från Richard.
+Dialogue: 0,10:43:02.08,10:43:04.64,Default,,0,0,20,,Och det är hej då från mig.\NHej då.
+Dialogue: 0,10:43:07.92,10:43:11.92,Default,,0,0,20,,Översättning: Emma Gustafsson\Nwww.btistudios.com

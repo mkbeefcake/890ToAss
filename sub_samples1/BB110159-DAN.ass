@@ -1,0 +1,610 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 0
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Default,,0,0,20,,STORY: BBCWW-02275521-O\NLANG: DAN
+Dialogue: 0,10:00:23.48,10:00:26.72,Default,,0,0,20,,Jeg er Alexander Armstrong.\NVelkommen til-
+Dialogue: 0,10:00:26.80,10:00:32.20,Default,,0,0,20,,-quizzen, hvor man skal score lavest.\NMød dagens deltagere.
+Dialogue: 0,10:00:34.60,10:00:37.20,Default,,0,0,20,,-Par nummer et.\N-Jeg hedder Hannah.
+Dialogue: 0,10:00:37.28,10:00:40.84,Default,,0,0,20,,Det er min kæreste, Andy.\NVi bor i en lille by i Sussex.
+Dialogue: 0,10:00:40.92,10:00:42.40,Default,,0,0,22,,Nummer to.
+Dialogue: 0,10:00:42.48,10:00:45.76,Default,,0,0,20,,Simon.\NDet er min ven og kollega, Steve-
+Dialogue: 0,10:00:45.84,10:00:48.16,Default,,0,0,22,,-fra Malvern. Jeg fra Bicester.
+Dialogue: 0,10:00:48.24,10:00:49.72,Default,,0,0,22,,Nummer tre.
+Dialogue: 0,10:00:49.80,10:00:53.24,Default,,0,0,20,,Heather. Min veninde, Nicki.\NVi er fra Birmingham.
+Dialogue: 0,10:00:53.32,10:00:55.16,Default,,0,0,22,,Par nummer fire.
+Dialogue: 0,10:00:55.24,10:00:58.88,Default,,0,0,20,,James. Det er Tom.\NVi gik i skole sammen i Sailsbury.
+Dialogue: 0,10:00:58.96,10:01:01.96,Default,,0,0,22,,De er dagens deltagere.
+Dialogue: 0,10:01:04.32,10:01:07.44,Default,,0,0,22,,Tak. Vi hører mere om jer undervejs.
+Dialogue: 0,10:01:07.52,10:01:09.80,Default,,0,0,22,,Nu er der kun en tilbage.
+Dialogue: 0,10:01:09.88,10:01:14.56,Default,,0,0,20,,Han er så klog, at han overbeviste\NHMRC om, at de skyldte ham skat.
+Dialogue: 0,10:01:14.64,10:01:20.00,Default,,0,0,20,,-Her er min Pointless-ven, Richard.\N-Hej.
+Dialogue: 0,10:01:21.84,10:01:25.28,Default,,0,0,20,,-Hej. Hvordan har du det?\N-Fint.
+Dialogue: 0,10:01:25.36,10:01:29.32,Default,,0,0,20,,Godt. Vi har tre par i dag,\Nsom er gengangere. Det er rart.
+Dialogue: 0,10:01:29.40,10:01:32.84,Default,,0,0,20,,James og Tom er tilbage.\NJames er pilot, ikke?
+Dialogue: 0,10:01:32.92,10:01:37.76,Default,,0,0,20,,-Det er et rigtigt job, ikke?\N-Ja, det er det.
+Dialogue: 0,10:01:37.84,10:01:40.20,Default,,0,0,22,,Andy og Hannah er også tilbage.
+Dialogue: 0,10:01:40.28,10:01:42.72,Default,,0,0,22,,De gik i min gamle skole.
+Dialogue: 0,10:01:42.80,10:01:44.80,Default,,0,0,20,,-Warden Park.\N-Ja, i Sussex.
+Dialogue: 0,10:01:44.88,10:01:49.00,Default,,0,0,20,,Den har ry for\Nat fostre stærke intellekter.
+Dialogue: 0,10:01:49.08,10:01:52.00,Default,,0,0,22,,Jeg tror, de tabte med vilje sidst-
+Dialogue: 0,10:01:52.08,10:01:57.12,Default,,0,0,20,,-for et tegn på dem fra Warden Park\Ner klasse og respekt for andre.
+Dialogue: 0,10:01:57.20,10:02:01.52,Default,,0,0,20,,Nu er det deres sidste chance,\Nså jeg ved, at de vinder.
+Dialogue: 0,10:02:01.60,10:02:04.60,Default,,0,0,22,,I runde et må de vise, deres værd.
+Dialogue: 0,10:02:04.68,10:02:09.56,Default,,0,0,20,,Emnet er finkulturelt,\Nom jeg så må sige.
+Dialogue: 0,10:02:09.64,10:02:14.64,Default,,0,0,20,,Den slags runder er ret interessante\Naf alle de forkerte grunde.
+Dialogue: 0,10:02:14.72,10:02:17.88,Default,,0,0,20,,Alle spørgsmål\Ner testet på 100 personer.
+Dialogue: 0,10:02:17.96,10:02:21.84,Default,,0,0,20,,Deltagerne skal finde de svar,\Nde 100 ikke gav.
+Dialogue: 0,10:02:21.92,10:02:23.60,Default,,0,0,22,,Målet er nul point-
+Dialogue: 0,10:02:23.68,10:02:26.24,Default,,0,0,20,,-for et svar,\Ningen af de 100 gættede.
+Dialogue: 0,10:02:26.32,10:02:29.20,Default,,0,0,20,,Sker det,\Nstiger jackpotten med 250 pund.
+Dialogue: 0,10:02:29.28,10:02:31.84,Default,,0,0,22,,John og Ann vandt ikke jackpot sidst-
+Dialogue: 0,10:02:31.92,10:02:38.72,Default,,0,0,20,,-så den steg med 1.000 pund,\Nog i dag starter den på 6.000 pund.
+Dialogue: 0,10:02:40.32,10:02:43.44,Default,,0,0,22,,Godt, lad os starte.
+Dialogue: 0,10:02:47.60,10:02:51.80,Default,,0,0,20,,Jeg skal have et svar fra jer alle,\Nmen I må ikke tale sammen.
+Dialogue: 0,10:02:51.88,10:02:54.36,Default,,0,0,22,,Parret med flest point ryger hjem.
+Dialogue: 0,10:02:54.44,10:02:57.00,Default,,0,0,22,,Sørg for, det ikke bliver jer.
+Dialogue: 0,10:02:57.08,10:03:02.48,Default,,0,0,22,,Den første kategori i dag er: Kultur.
+Dialogue: 0,10:03:03.32,10:03:07.60,Default,,0,0,22,,Vælg, hvem der skal starte.
+Dialogue: 0,10:03:07.68,10:03:11.24,Default,,0,0,22,,De første bedes træde frem.
+Dialogue: 0,10:03:13.20,10:03:20.00,Default,,0,0,22,,Emnet er operaer. Operaer, Richard?
+Dialogue: 0,10:03:20.08,10:03:24.08,Default,,0,0,20,,I får de engelske navne på\Nsyv operaer eller operetter-
+Dialogue: 0,10:03:24.16,10:03:26.88,Default,,0,0,20,,-men et ord mangler.\NDet skal I gætte.
+Dialogue: 0,10:03:26.96,10:03:30.28,Default,,0,0,22,,Der bliver 14 titler. Held og lykke.
+Dialogue: 0,10:03:30.36,10:03:33.28,Default,,0,0,20,,Tak.\NVi søger altså det manglende ord-
+Dialogue: 0,10:03:33.36,10:03:38.32,Default,,0,0,20,,-i operatitlerne.\NHer er de første syv.
+Dialogue: 0,10:03:38.40,10:03:43.08,Default,,0,0,20,,"Madame..." (Puccini).\N"Hertug Blåskægs..." (Bartok).
+Dialogue: 0,10:03:43.16,10:03:48.12,Default,,0,0,20,,"Lady... fra Mtsensk",\N(Shostakovich). "...Tell" (Rossini).
+Dialogue: 0,10:03:48.20,10:03:52.56,Default,,0,0,20,,"Dido og..." (Purcell).\N"Tristan og..." (Wagner).
+Dialogue: 0,10:03:52.64,10:03:57.56,Default,,0,0,20,,"The... of Penzance"\N(Gilbert & Sullivan). En gang til:
+Dialogue: 0,10:03:57.64,10:04:00.72,Default,,0,0,20,,"Madame..." (Puccini).\N"Hertug Blåskægs..."
+Dialogue: 0,10:04:00.80,10:04:05.32,Default,,0,0,20,,"Lady... fra Mtsensk",\N(Shostakovich). "...Tell" (Rossini).
+Dialogue: 0,10:04:05.40,10:04:09.28,Default,,0,0,20,,"Dido og..." (Purcell).\N"Tristan og..." (Wagner).
+Dialogue: 0,10:04:09.36,10:04:12.28,Default,,0,0,20,,"The... of Penzance"\N(Gilbert & Sullivan).
+Dialogue: 0,10:04:12.36,10:04:16.68,Default,,0,0,22,,Hannah og Andy, I starter.
+Dialogue: 0,10:04:16.76,10:04:18.64,Default,,0,0,20,,-Velkommen tilbage.\N-Hej.
+Dialogue: 0,10:04:18.72,10:04:25.60,Default,,0,0,20,,-Hej. Hvad skete der sidst?\N-Vi blev snydt, ganske enkelt.
+Dialogue: 0,10:04:25.68,10:04:30.64,Default,,0,0,20,,Nej, det handlede om held,\Nog vi var ikke heldige.
+Dialogue: 0,10:04:30.72,10:04:35.28,Default,,0,0,20,,I kom med to gode svar. Jeg blev\Noverrasket over de høje point.
+Dialogue: 0,10:04:35.36,10:04:39.00,Default,,0,0,20,,Hvad vælger du?\NEr opera et godt emne?
+Dialogue: 0,10:04:39.08,10:04:44.80,Default,,0,0,20,,Ja, faktisk. Jeg kender fire af dem.\NJeg vælger "Madame Butterfly".
+Dialogue: 0,10:04:44.88,10:04:51.92,Default,,0,0,20,,"Madame Butterfly" siger Hannah.\NStemmer det, og hvor mange sagde det?
+Dialogue: 0,10:04:53.64,10:04:59.32,Default,,0,0,22,,Uh! 93 for "Madame Butterfly".
+Dialogue: 0,10:05:01.08,10:05:05.56,Default,,0,0,20,,-Hannah? Kom nu.\N-Det var et dårligt valg.
+Dialogue: 0,10:05:05.64,10:05:07.72,Default,,0,0,20,,-Det var dog korrekt.\N-Ja.
+Dialogue: 0,10:05:07.80,10:05:10.08,Default,,0,0,22,,Du må give hendes skole kredit.
+Dialogue: 0,10:05:10.16,10:05:14.00,Default,,0,0,22,,Ja. Mange tak, Richard.
+Dialogue: 0,10:05:14.08,10:05:17.64,Default,,0,0,20,,Steve. Velkommen.\NHvad laver du, Steve?
+Dialogue: 0,10:05:17.72,10:05:20.56,Default,,0,0,22,,Jeg udvikler ting på nettet.
+Dialogue: 0,10:05:20.64,10:05:24.20,Default,,0,0,22,,Godt. Hvad laver du i din fritid?
+Dialogue: 0,10:05:24.28,10:05:30.12,Default,,0,0,20,,Vi har en baby, så enten\Nsover jeg eller skifter bleer-
+Dialogue: 0,10:05:30.20,10:05:33.20,Default,,0,0,22,,-men vi bor et sted med bakker-
+Dialogue: 0,10:05:33.28,10:05:37.00,Default,,0,0,20,,-så vi går ture.\NJeg kan lide friluftsliv.
+Dialogue: 0,10:05:37.08,10:05:40.36,Default,,0,0,20,,-Hvordan har du det med opera?\N-Blandet.
+Dialogue: 0,10:05:40.44,10:05:44.92,Default,,0,0,22,,Der er tre tilbage, som jeg kender.
+Dialogue: 0,10:05:45.00,10:05:49.88,Default,,0,0,20,,Jeg tror, jeg vælger:\N"Tristan og Isolde".
+Dialogue: 0,10:05:49.96,10:05:55.00,Default,,0,0,20,,"Tristan og Isolde".\NHvor mange af de 100 sagde det?
+Dialogue: 0,10:05:56.84,10:05:59.36,Default,,0,0,22,,Korrekt.
+Dialogue: 0,10:06:01.52,10:06:07.36,Default,,0,0,22,,43. 43 for "Tristan og Isolde".
+Dialogue: 0,10:06:07.44,10:06:09.96,Default,,0,0,22,,Ja, det er en opera i tre akter.
+Dialogue: 0,10:06:10.04,10:06:15.20,Default,,0,0,20,,Først hed den "Tristan og hans\Nstorebror", men han ændrede plottet.
+Dialogue: 0,10:06:17.24,10:06:20.44,Default,,0,0,20,,Mange tak.\NHeather, velkommen tilbage.
+Dialogue: 0,10:06:20.52,10:06:24.40,Default,,0,0,20,,-Hvad skete der sidst?\N-Jeg blev forbandet af Harry Potter.
+Dialogue: 0,10:06:24.48,10:06:29.16,Default,,0,0,20,,Ja, det var en hård runde.\NMind os om, hvad du laver.
+Dialogue: 0,10:06:29.24,10:06:32.36,Default,,0,0,22,,Jeg er bogholder i et byggefirma.
+Dialogue: 0,10:06:32.44,10:06:34.32,Default,,0,0,22,,Hvad med din fritid?
+Dialogue: 0,10:06:34.40,10:06:40.40,Default,,0,0,20,,Vi går til mange fester,\Nudklædningsfester.
+Dialogue: 0,10:06:40.48,10:06:46.48,Default,,0,0,20,,Åh ja, udklædningsfester.\NEr opera en af dine hobbyer?
+Dialogue: 0,10:06:46.56,10:06:53.88,Default,,0,0,20,,Ikke specielt.\NDer er vist en, som jeg kender.
+Dialogue: 0,10:06:53.96,10:06:59.12,Default,,0,0,20,,-"William Tell" af Rossini.\N-"William Tell".
+Dialogue: 0,10:06:59.20,10:07:04.64,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:07:04.72,10:07:07.12,Default,,0,0,22,,Korrekt.
+Dialogue: 0,10:07:07.20,10:07:13.44,Default,,0,0,22,,70. 70 for "William Tell".
+Dialogue: 0,10:07:13.52,10:07:16.52,Default,,0,0,20,,Ja, "William Tell Overture"\Ner meget kendt.
+Dialogue: 0,10:07:16.60,10:07:19.32,Default,,0,0,20,,-Den spilles i "Lone Ranger".\N-Tak.
+Dialogue: 0,10:07:19.40,10:07:23.60,Default,,0,0,20,,Tom, velkommen tilbage.\NHvad skete der sidst?
+Dialogue: 0,10:07:23.68,10:07:27.36,Default,,0,0,20,,-Girls Aloud slog os hjem.\N-I nåede langt.
+Dialogue: 0,10:07:27.44,10:07:31.88,Default,,0,0,20,,-Mind os om, hvad du arbejder med?\N-Finansiel service.
+Dialogue: 0,10:07:31.96,10:07:36.96,Default,,0,0,20,,Sidste sagde du,\Nat du var til det finkulturelle.
+Dialogue: 0,10:07:37.04,10:07:41.88,Default,,0,0,20,,Det må jeg nok tage i mig igen,\Nikke så finkulturelt som det her.
+Dialogue: 0,10:07:41.96,10:07:46.48,Default,,0,0,20,,Du er den sidste for nu.\NDu kan fylde hullerne.
+Dialogue: 0,10:07:46.56,10:07:51.60,Default,,0,0,20,,Bare jeg kunne.\NJeg kender kun den nederste.
+Dialogue: 0,10:07:51.68,10:07:57.36,Default,,0,0,20,,-"The Pirates of Penzance".\N-Godt.
+Dialogue: 0,10:07:57.44,10:08:00.96,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:08:05.52,10:08:10.92,Default,,0,0,22,,Det var et højt tal.
+Dialogue: 0,10:08:11.00,10:08:15.28,Default,,0,0,20,,Sikke nogle høje point.\NIngen forkerte svar, men høje point.
+Dialogue: 0,10:08:15.36,10:08:17.52,Default,,0,0,22,,Du kender nok nogle af de her.
+Dialogue: 0,10:08:17.60,10:08:19.68,Default,,0,0,22,,Jeg kender vist dem alle.
+Dialogue: 0,10:08:19.76,10:08:22.56,Default,,0,0,20,,-"Hertug Blåskægs..."\N-"Borg".
+Dialogue: 0,10:08:22.64,10:08:26.16,Default,,0,0,20,,Korrekt. Den gav syv point.\NLady...?
+Dialogue: 0,10:08:26.24,10:08:29.08,Default,,0,0,22,,Jeg er mindre sikker. "Lady Macbeth"?
+Dialogue: 0,10:08:29.16,10:08:32.64,Default,,0,0,20,,Netop. "Lady Macbeth"\Naf Shostakovich. Fem point.
+Dialogue: 0,10:08:32.72,10:08:36.76,Default,,0,0,20,,Så er der "Dido og Aeneas",\Nsom gav 17 point.
+Dialogue: 0,10:08:36.84,10:08:40.40,Default,,0,0,20,,Det bedste svar var "Macbeth".\NFlot gæt.
+Dialogue: 0,10:08:40.48,10:08:42.60,Default,,0,0,22,,Lad os se på pointene.
+Dialogue: 0,10:08:42.68,10:08:47.24,Default,,0,0,20,,Steve, du scorede lavest med 43.\NGodt gået.
+Dialogue: 0,10:08:47.32,10:08:50.52,Default,,0,0,22,,Så har Heather og Nicki 70 point.
+Dialogue: 0,10:08:50.60,10:08:55.16,Default,,0,0,20,,Tom og James fik 87.\NHannah and Andy fik 93.
+Dialogue: 0,10:08:55.24,10:08:57.96,Default,,0,0,20,,Takket være\N"The Pirates of Penzance"-
+Dialogue: 0,10:08:58.04,10:09:02.80,Default,,0,0,20,,-er Tom og James\Nkun et skridt bag jer. I har selskab.
+Dialogue: 0,10:09:02.88,10:09:06.76,Default,,0,0,20,,Af og til er det værre.\NNu er Andy knapt så presset.
+Dialogue: 0,10:09:06.84,10:09:11.24,Default,,0,0,20,,-Er opera et godt emne for dig?\N-Nej.
+Dialogue: 0,10:09:11.32,10:09:16.52,Default,,0,0,20,,Held og lykke.\NDe næste bedes træde frem.
+Dialogue: 0,10:09:18.28,10:09:21.80,Default,,0,0,22,,Nu kommer der syv nye operaer.
+Dialogue: 0,10:09:21.88,10:09:25.84,Default,,0,0,20,,"Figaros..." (Mozart).\N"...Grimes" (Britten).
+Dialogue: 0,10:09:25.92,10:09:29.04,Default,,0,0,20,,"Porgy og..." (Gershwin).\N"... on the Beach".
+Dialogue: 0,10:09:29.12,10:09:32.76,Default,,0,0,20,,"Hans og...".\N"Den fiffige lille..." (Janacek),
+Dialogue: 0,10:09:32.84,10:09:39.60,Default,,0,0,20,,"The Rise and Fall\Nof the City of..." (Weill). Igen:
+Dialogue: 0,10:09:39.68,10:09:42.16,Default,,0,0,20,,"Figaros...".\N"... Grimes.
+Dialogue: 0,10:09:42.24,10:09:44.60,Default,,0,0,20,,"Porgy og...".\N"...on the Beach"
+Dialogue: 0,10:09:44.68,10:09:48.40,Default,,0,0,20,,"Hans og..."\N"Den fiffige lille..."
+Dialogue: 0,10:09:48.48,10:09:53.08,Default,,0,0,20,,"The Rise and Fall\Nof the City of..." (Weill).
+Dialogue: 0,10:09:53.16,10:09:57.12,Default,,0,0,22,,Vi søger de manglende ord.
+Dialogue: 0,10:09:57.20,10:10:01.32,Default,,0,0,20,,James, du skal gætte operaen,\Nde færreste gættede.
+Dialogue: 0,10:10:01.40,10:10:07.60,Default,,0,0,20,,Når du flyver som pilot,\Nog du letter...
+Dialogue: 0,10:10:07.68,10:10:09.52,Default,,0,0,22,,Du skal sige noget.
+Dialogue: 0,10:10:09.60,10:10:14.80,Default,,0,0,20,,-Hvor ligger din stemme?\N-Lavt som en baryton.
+Dialogue: 0,10:10:14.88,10:10:19.64,Default,,0,0,20,,Det har en effekt,\Nhvis nogen er lidt panikslagne.
+Dialogue: 0,10:10:19.72,10:10:21.56,Default,,0,0,22,,Hvorfor gå i panik?
+Dialogue: 0,10:10:21.64,10:10:27.56,Default,,0,0,22,,En nonchalant stemme har en effekt.
+Dialogue: 0,10:10:27.64,10:10:34.48,Default,,0,0,20,,-Er det noget, I lærer?\N-Det er vores primære træning.
+Dialogue: 0,10:10:34.56,10:10:37.00,Default,,0,0,22,,Godt. James, du er den første her.
+Dialogue: 0,10:10:37.08,10:10:40.20,Default,,0,0,22,,Hvad er operaernes fulde navne?
+Dialogue: 0,10:10:40.28,10:10:44.12,Default,,0,0,20,,Jeg tager Gershwin\Nmed "Porgy og Bess".
+Dialogue: 0,10:10:44.20,10:10:50.00,Default,,0,0,20,,"Porgy og Bess". Lad os se,\Nhvor mange der sagde det.
+Dialogue: 0,10:10:50.08,10:10:52.28,Default,,0,0,22,,Din røde linje er ret langt nede.
+Dialogue: 0,10:10:54.20,10:10:57.28,Default,,0,0,22,,Korrekt. 78.
+Dialogue: 0,10:10:59.84,10:11:04.16,Default,,0,0,20,,Så har I 165 point.\NDe er gode, ikke?
+Dialogue: 0,10:11:04.24,10:11:09.32,Default,,0,0,20,,Ja. "Porgy og Bess"\Nhar også være opført på Broadway.
+Dialogue: 0,10:11:09.40,10:11:16.28,Default,,0,0,20,,De kaldte den ikke en opera, for ikke\Nat skræmme nogen væk, men det er det.
+Dialogue: 0,10:11:16.36,10:11:22.80,Default,,0,0,20,,-Velkommen tilbage. Hvad laver du?\N-Jeg er PA på Birmingham University.
+Dialogue: 0,10:11:22.88,10:11:26.88,Default,,0,0,20,,-Hvad med din fritid?\N-Heather og jeg klæder os ud.
+Dialogue: 0,10:11:26.96,10:11:30.16,Default,,0,0,20,,-En masse udklædning.\N-Ja.
+Dialogue: 0,10:11:30.24,10:11:34.08,Default,,0,0,20,,-Hvor tit gør I det?\N-Så tit som muligt.
+Dialogue: 0,10:11:34.16,10:11:36.56,Default,,0,0,20,,-Hver uge?\N-Jeg gør det mest.
+Dialogue: 0,10:11:36.64,10:11:40.00,Default,,0,0,20,,Jeg arbejder også\Nfor et "murder mystery"-firma.
+Dialogue: 0,10:11:40.08,10:11:45.52,Default,,0,0,20,,Har du oplevet en aften, hvor nogen\Nnægtede at følge manuskriptet?
+Dialogue: 0,10:11:45.60,10:11:50.32,Default,,0,0,22,,Ja. To gang måtte jeg myrde min mand.
+Dialogue: 0,10:11:50.40,10:11:54.68,Default,,0,0,20,,Han var med til arrangementet, ikke?\NGodt.
+Dialogue: 0,10:11:54.76,10:11:58.00,Default,,0,0,22,,Hvad vælger du?
+Dialogue: 0,10:11:58.08,10:12:01.76,Default,,0,0,20,,I har 70 point.\NDe højeste point er 165.
+Dialogue: 0,10:12:01.84,10:12:07.00,Default,,0,0,20,,Du skal bare score 94 eller mindre,\Nså går I videre.
+Dialogue: 0,10:12:07.08,10:12:11.20,Default,,0,0,20,,To kender jeg helt klart,\Nog en kender jeg måske.
+Dialogue: 0,10:12:11.28,10:12:16.76,Default,,0,0,22,,Jeg ved ikke, om jeg tør satse.
+Dialogue: 0,10:12:16.84,10:12:22.60,Default,,0,0,20,,-Jeg siger "Hans og Grete".\N-"Hans og Grete" siger Nicki.
+Dialogue: 0,10:12:22.68,10:12:25.48,Default,,0,0,22,,Ryger du under linjen, går I videre.
+Dialogue: 0,10:12:25.56,10:12:29.48,Default,,0,0,22,,Hvor mange sagde "Hans og Grete".
+Dialogue: 0,10:12:30.36,10:12:34.60,Default,,0,0,20,,Korrekt, og I går lige præcis videre.\N90 point.
+Dialogue: 0,10:12:36.52,10:12:40.44,Default,,0,0,20,,Det var på et hængende hår,\Nmen I går videre.
+Dialogue: 0,10:12:40.52,10:12:44.92,Default,,0,0,20,,Flot.\NDer er godt nok nogle høje point-
+Dialogue: 0,10:12:45.00,10:12:48.24,Default,,0,0,22,,-men stadig ingen forkerte svar.
+Dialogue: 0,10:12:48.32,10:12:52.44,Default,,0,0,20,,Simon. Før du siger noget,\Nkan jeg fortælle, at I går videre.
+Dialogue: 0,10:12:52.52,10:12:57.60,Default,,0,0,20,,De højeste point er 165.\NI har 43 point takket være Steve.
+Dialogue: 0,10:12:57.68,10:13:01.80,Default,,0,0,20,,-Hvad laver du?\N-Jeg udvikler software ligesom Steve.
+Dialogue: 0,10:13:01.88,10:13:04.88,Default,,0,0,22,,I arbejder på projekter sammen.
+Dialogue: 0,10:13:04.96,10:13:08.64,Default,,0,0,20,,Mødes I,\Neller kommuniker I mest online?
+Dialogue: 0,10:13:08.72,10:13:11.68,Default,,0,0,20,,Ja, af og til\Narbejder vi det samme sted.
+Dialogue: 0,10:13:11.76,10:13:15.60,Default,,0,0,22,,Andre gange er det bare online.
+Dialogue: 0,10:13:15.68,10:13:17.96,Default,,0,0,22,,Hvad min din fritid?
+Dialogue: 0,10:13:18.04,10:13:23.36,Default,,0,0,20,,Vi har også en baby.\NHun elsker faktisk "Pointless".
+Dialogue: 0,10:13:23.44,10:13:28.00,Default,,0,0,20,,I meget af min fritid ser jeg\N"Pointless" sammen med Lucy.
+Dialogue: 0,10:13:28.08,10:13:30.36,Default,,0,0,22,,Hvad med de her operaer?
+Dialogue: 0,10:13:30.44,10:13:34.36,Default,,0,0,20,,Jeg kunne spille sikkert,\Nmen vi går jo videre.
+Dialogue: 0,10:13:34.44,10:13:40.36,Default,,0,0,20,,Jeg vil satse på at score nul,\Nså jackpotten stiger lidt.
+Dialogue: 0,10:13:40.44,10:13:45.56,Default,,0,0,20,,Det er et rent gæt. "The Rise\Nand Fall of the City of Rome".
+Dialogue: 0,10:13:45.64,10:13:49.16,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:13:49.24,10:13:52.08,Default,,0,0,22,,Ingen rød linje. I går videre.
+Dialogue: 0,10:13:53.44,10:13:56.20,Default,,0,0,22,,Uheldigt. Desværre, Simon.
+Dialogue: 0,10:13:56.28,10:14:00.76,Default,,0,0,20,,Du scorer desværre 100 point.\NSå ligger I på 143 point.
+Dialogue: 0,10:14:00.84,10:14:04.16,Default,,0,0,20,,Flot forsøg, Simon.\NDu vidste, den var svær.
+Dialogue: 0,10:14:04.24,10:14:06.36,Default,,0,0,22,,I får det rette svar bagefter.
+Dialogue: 0,10:14:06.44,10:14:10.12,Default,,0,0,22,,Nu til Andy.
+Dialogue: 0,10:14:10.20,10:14:14.28,Default,,0,0,22,,Der er meget på spil.
+Dialogue: 0,10:14:14.36,10:14:20.76,Default,,0,0,20,,Du er elev på Richards gamle skole,\Nog du underviser der nu.
+Dialogue: 0,10:14:20.84,10:14:23.40,Default,,0,0,20,,-Jeg er assistent.\N-Ja.
+Dialogue: 0,10:14:23.48,10:14:30.00,Default,,0,0,20,,Du har ånden af Warden Park\Nmed ind i studiet.
+Dialogue: 0,10:14:30.08,10:14:34.36,Default,,0,0,20,,I røg hjem efter første runde sidst.\NDet må ikke ske i dag.
+Dialogue: 0,10:14:34.44,10:14:40.76,Default,,0,0,20,,I har 93 point. Du skal score\N71 eller mindre. Det er ret nemt.
+Dialogue: 0,10:14:40.84,10:14:43.88,Default,,0,0,20,,-Måske i en anden runde.\N-Gennemgå tavlen.
+Dialogue: 0,10:14:43.96,10:14:48.92,Default,,0,0,22,,Jeg kender desværre ingen af dem.
+Dialogue: 0,10:14:49.00,10:14:53.40,Default,,0,0,20,,"The Music of Figaro"?\NDen springer jeg over.
+Dialogue: 0,10:14:53.48,10:15:00.76,Default,,0,0,20,,"Betty Grimes"? Det lyder sjovt.\N"Murder on the Beach" lyder sjovt.
+Dialogue: 0,10:15:00.84,10:15:05.20,Default,,0,0,22,,"The Cunning Little Rabbit". Måske?
+Dialogue: 0,10:15:05.28,10:15:10.32,Default,,0,0,22,,Jeg gætter dog på den sidste.
+Dialogue: 0,10:15:10.40,10:15:14.80,Default,,0,0,20,,"The Rise and Fall\Nof the City of Atlantis".
+Dialogue: 0,10:15:14.88,10:15:19.84,Default,,0,0,20,,"The Rise and Fall\Nof the City of Atlantis."
+Dialogue: 0,10:15:19.92,10:15:26.84,Default,,0,0,20,,Her er din røde linje.\NRyger du under, går I videre.
+Dialogue: 0,10:15:26.92,10:15:32.32,Default,,0,0,20,,"Atlantis" er det korrekt,\Nog hvor mange sagde det?
+Dialogue: 0,10:15:35.84,10:15:40.04,Default,,0,0,22,,Andy. Jeg beklager. Det var forkert.
+Dialogue: 0,10:15:40.12,10:15:45.12,Default,,0,0,20,,Du får 100 point,\Nså nu har I 193 point.
+Dialogue: 0,10:15:45.20,10:15:48.20,Default,,0,0,22,,Åh, Andy...
+Dialogue: 0,10:15:48.28,10:15:53.40,Default,,0,0,20,,Bare jeg kunne sige noget, der hjalp,\Nmen det kan jeg ikke.
+Dialogue: 0,10:15:53.48,10:15:56.84,Default,,0,0,20,,Svaret er altså\Nhverken Atlantis eller Rom.
+Dialogue: 0,10:15:56.92,10:16:00.96,Default,,0,0,20,,Det er selvfølgelig "The Rise\Nand Fall of the City of...?"
+Dialogue: 0,10:16:01.04,10:16:02.52,Default,,0,0,22,,Pas.
+Dialogue: 0,10:16:02.60,10:16:05.88,Default,,0,0,22,,"Mahagonny". Det svar gav fire point.
+Dialogue: 0,10:16:05.96,10:16:09.48,Default,,0,0,20,,"City of Mahagonny".\NDet er værd at huske.
+Dialogue: 0,10:16:09.56,10:16:11.96,Default,,0,0,20,,-Ikke musik...\N-"Figaros bryllup".
+Dialogue: 0,10:16:12.04,10:16:15.36,Default,,0,0,22,,"Figaros bryllup" gav kun 67 point.
+Dialogue: 0,10:16:15.44,10:16:18.16,Default,,0,0,20,,-Den næste er...\N-"Peter Grimes".
+Dialogue: 0,10:16:18.24,10:16:21.52,Default,,0,0,20,,Peter Grimes, Betty Grimes' mand.\NJa, 28 pont.
+Dialogue: 0,10:16:21.60,10:16:24.36,Default,,0,0,20,,-Ikke "mord".\N-"Einstein on the Beach".
+Dialogue: 0,10:16:24.44,10:16:28.92,Default,,0,0,20,,"Einstein on the Beach" gav\Nseks point. "Den fiffige lille..."
+Dialogue: 0,10:16:29.00,10:16:33.36,Default,,0,0,20,,-"Ræv".\N-"Kanin", nej "ræv". 17 point.
+Dialogue: 0,10:16:33.44,10:16:37.20,Default,,0,0,20,,Mange tak. Det var første runde.\NFrygteligt.
+Dialogue: 0,10:16:37.28,10:16:40.64,Default,,0,0,20,,Det er anden gang i første runde.\NAndy og Hannah-
+Dialogue: 0,10:16:40.72,10:16:46.32,Default,,0,0,20,,-to kompetente deltagere,\Nmen opera var emnet.
+Dialogue: 0,10:16:46.40,10:16:48.64,Default,,0,0,22,,"Figaros bryllup". Kender du...
+Dialogue: 0,10:16:48.72,10:16:51.72,Default,,0,0,20,,Lidt, men jeg er\Nikke så meget til opera.
+Dialogue: 0,10:16:51.80,10:16:53.88,Default,,0,0,22,,Fint. I ryger desværre hjem.
+Dialogue: 0,10:16:53.96,10:16:57.36,Default,,0,0,20,,Denne gang er det et farvel.\NSkønt at have jer med-
+Dialogue: 0,10:16:57.44,10:17:03.00,Default,,0,0,22,,-kortvarigt begge gange. Tak.
+Dialogue: 0,10:17:03.56,10:17:06.20,Default,,0,0,22,,Nu er det tid til runde to.
+Dialogue: 0,10:17:12.00,10:17:14.24,Default,,0,0,22,,Der er tre par-
+Dialogue: 0,10:17:14.32,10:17:17.84,Default,,0,0,20,,-men efter denne runde\Nryger et par hjem.
+Dialogue: 0,10:17:17.92,10:17:20.80,Default,,0,0,22,,Der var ikke mange forkerte svar før-
+Dialogue: 0,10:17:20.88,10:17:26.32,Default,,0,0,20,,-men måske den runde\Nmed de højeste point nogensinde.
+Dialogue: 0,10:17:26.40,10:17:30.80,Default,,0,0,22,,Den næste kategori er: Tennis.
+Dialogue: 0,10:17:30.88,10:17:33.88,Default,,0,0,22,,Vælg, hvem der skal starte.
+Dialogue: 0,10:17:33.96,10:17:38.16,Default,,0,0,22,,De første bedes træde frem.
+Dialogue: 0,10:17:39.68,10:17:41.76,Default,,0,0,22,,Her kommer spørgsmålet.
+Dialogue: 0,10:17:41.84,10:17:45.28,Default,,0,0,20,,100 personer fik 100 sekunder\Ntil at nævne dem-
+Dialogue: 0,10:17:45.36,10:17:49.96,Default,,0,0,20,,-som har slået Andy Murray\Ni en Grand Slam-turnering.
+Dialogue: 0,10:17:50.04,10:17:53.12,Default,,0,0,20,,Spillere, der har slået Andy Murray.\NRichard?
+Dialogue: 0,10:17:53.20,10:17:58.56,Default,,0,0,20,,Nævn en, der har slået Andy Murray\Ni single i en Grand Slam-turnering.
+Dialogue: 0,10:17:58.64,10:18:03.44,Default,,0,0,20,,Han spillede som professionel\Nfra 2005 til 2013.
+Dialogue: 0,10:18:03.52,10:18:05.80,Default,,0,0,22,,Det kan være fra Australian Open-
+Dialogue: 0,10:18:05.88,10:18:09.80,Default,,0,0,20,,-French Open, Wimbledon\Neller US Open. Held og lykke.
+Dialogue: 0,10:18:09.88,10:18:13.16,Default,,0,0,20,,Tak. En hvilken som helst\Ntennisspiller-
+Dialogue: 0,10:18:13.24,10:18:15.64,Default,,0,0,22,,-som har slået Andy Murray.
+Dialogue: 0,10:18:15.72,10:18:21.04,Default,,0,0,20,,-Simon. Er det et godt emne?\N-Nej, slet ikke.
+Dialogue: 0,10:18:21.12,10:18:26.60,Default,,0,0,20,,Jeg scorer nok højt nu,\Nman kan kun sige Roger Federer.
+Dialogue: 0,10:18:26.68,10:18:30.88,Default,,0,0,20,,Roger Federer.\NLad os se, hvor mange der sagde det.
+Dialogue: 0,10:18:32.96,10:18:36.28,Default,,0,0,22,,Korrekt.
+Dialogue: 0,10:18:36.36,10:18:43.32,Default,,0,0,22,,54. Pænt. 54 for Roger Federer.
+Dialogue: 0,10:18:43.40,10:18:46.76,Default,,0,0,20,,Ja, han var\Ndenne rundes "Madame Butterfly".
+Dialogue: 0,10:18:46.84,10:18:49.48,Default,,0,0,22,,Han slog Murray tre gange i finalen-
+Dialogue: 0,10:18:49.56,10:18:52.52,Default,,0,0,20,,-i Wimbledon,\NUS Open og French Open.
+Dialogue: 0,10:18:52.60,10:18:58.32,Default,,0,0,20,,-Nicki. Hvad siger du til tennis?\N-Det er fint nok.
+Dialogue: 0,10:18:58.40,10:19:02.24,Default,,0,0,20,,Skal vi spille tennis?\NVi har nogle ketsjere.
+Dialogue: 0,10:19:02.32,10:19:04.32,Default,,0,0,22,,Er det i orden med dig?
+Dialogue: 0,10:19:04.40,10:19:09.04,Default,,0,0,20,,Absolut, bare vi\Nmå fortsætte med quizzen.
+Dialogue: 0,10:19:09.12,10:19:11.60,Default,,0,0,22,,Vi må hellere blive. Nicki.
+Dialogue: 0,10:19:11.68,10:19:13.60,Default,,0,0,22,,Nævn en tennisspiller-
+Dialogue: 0,10:19:13.68,10:19:18.44,Default,,0,0,20,,-som har slået Andy Murray\Ni en Grand Slam-turnering?
+Dialogue: 0,10:19:18.52,10:19:23.08,Default,,0,0,20,,-Jeg kan godt være forsigtig.\N-Nej, lad være med det.
+Dialogue: 0,10:19:23.16,10:19:30.04,Default,,0,0,20,,-Jeg tager Jo-Wilfried Tsonga.\N-Jo-Wilfried Tsonga.
+Dialogue: 0,10:19:30.12,10:19:34.08,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:19:35.76,10:19:38.24,Default,,0,0,22,,Korrekt.
+Dialogue: 0,10:19:43.40,10:19:50.80,Default,,0,0,20,,Tre, Nicki. Flot svar.\NJo-Wilfreid Tsonga.
+Dialogue: 0,10:19:51.72,10:19:54.04,Default,,0,0,22,,Flot. Murray slog ham et par gange-
+Dialogue: 0,10:19:54.12,10:19:59.40,Default,,0,0,20,,-men Tsonga slog Murray i den første\Nrunde i Australian Open i 2008.
+Dialogue: 0,10:19:59.48,10:20:04.44,Default,,0,0,20,,Tom. En tennisspiller,\Nder har slået Andy Murray?
+Dialogue: 0,10:20:04.52,10:20:08.76,Default,,0,0,20,,-Stanislas Wawrinka.\N-Fint. Sig det langsomt.
+Dialogue: 0,10:20:08.84,10:20:12.40,Default,,0,0,20,,-Stanislas Wawrinka.\N-Stanislas Wawrinka.
+Dialogue: 0,10:20:12.48,10:20:16.40,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:20:17.88,10:20:19.96,Default,,0,0,22,,Korrekt.
+Dialogue: 0,10:20:25.00,10:20:31.64,Default,,0,0,22,,To. To for Wawrinka. Meget flot.
+Dialogue: 0,10:20:33.16,10:20:38.24,Default,,0,0,22,,Ja, han slog ham i US Open i 2010.
+Dialogue: 0,10:20:38.32,10:20:41.04,Default,,0,0,22,,Tak. Lad os se på pointene.
+Dialogue: 0,10:20:41.12,10:20:44.32,Default,,0,0,22,,To er det laveste. Meget flot.
+Dialogue: 0,10:20:44.40,10:20:49.36,Default,,0,0,20,,Nicki og Heather har 3 point,\Nog Simon og Steve har hele 54 point.
+Dialogue: 0,10:20:49.44,10:20:53.52,Default,,0,0,20,,-Ved du noget om tennis?\N-Simon hæver niveauet.
+Dialogue: 0,10:20:53.60,10:20:55.72,Default,,0,0,22,,Jeg er ikke så kry nu.
+Dialogue: 0,10:20:55.80,10:20:58.48,Default,,0,0,22,,Jeg tror, jeg ved, hvad der sker.
+Dialogue: 0,10:20:58.56,10:21:04.48,Default,,0,0,22,,Godt, nu bedes de næste træde frem.
+Dialogue: 0,10:21:05.64,10:21:08.40,Default,,0,0,20,,En tennisspiller,\Nder slog Andy Murray-
+Dialogue: 0,10:21:08.48,10:21:11.96,Default,,0,0,22,,-i en Grand Slam-turnering.
+Dialogue: 0,10:21:12.04,10:21:15.44,Default,,0,0,22,,Det er ikke et godt emne for mig.
+Dialogue: 0,10:21:15.52,10:21:19.60,Default,,0,0,20,,Det er lidt af et gæt.\NNovak Djokovic.
+Dialogue: 0,10:21:19.68,10:21:24.92,Default,,0,0,20,,Novak Djokovic. I har 2 point.\NSteve og Simon har 54.
+Dialogue: 0,10:21:25.00,10:21:29.96,Default,,0,0,20,,Scorer du 51 eller mindre,\Ngår I videre.
+Dialogue: 0,10:21:30.04,10:21:32.92,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:21:35.04,10:21:40.04,Default,,0,0,22,,Korrekt. I går videre. Flot.
+Dialogue: 0,10:21:40.12,10:21:45.52,Default,,0,0,20,,Den ryger stadig ned. 26 point.\NFlot, nu har I 28 point.
+Dialogue: 0,10:21:47.84,10:21:51.16,Default,,0,0,20,,Djokovic slog Murray\Ntre gange i Australien-
+Dialogue: 0,10:21:51.24,10:21:55.92,Default,,0,0,20,,-i finalerne i 2011 og 2013\Nog i semifinalen i 2012.
+Dialogue: 0,10:21:56.00,10:22:01.16,Default,,0,0,20,,-Murray slog ham jo i US Open i 2012.\N-Tak.
+Dialogue: 0,10:22:01.24,10:22:06.76,Default,,0,0,20,,-Heather. Er det et dårligt emne?\N-Ja.
+Dialogue: 0,10:22:06.84,10:22:13.48,Default,,0,0,20,,Du skal bare score 50 eller mindre,\Nog så går I videre.
+Dialogue: 0,10:22:13.56,10:22:17.60,Default,,0,0,20,,En tennisspiller,\Nder har slået Andy Murray?
+Dialogue: 0,10:22:17.68,10:22:21.84,Default,,0,0,20,,-Er Andy Roddick en tennisspiller?\N-Hvem spørger du?
+Dialogue: 0,10:22:21.92,10:22:25.44,Default,,0,0,20,,-Jeg tænker højt.\N-Ingen må fortælle det.
+Dialogue: 0,10:22:25.52,10:22:29.68,Default,,0,0,20,,-Andy Roddick.\N-Andy Roddick.
+Dialogue: 0,10:22:29.76,10:22:33.64,Default,,0,0,20,,Der er din røde linje.\NRyger du under den, går I videre.
+Dialogue: 0,10:22:33.72,10:22:36.68,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:22:38.44,10:22:44.04,Default,,0,0,22,,Korrekt. I går endda videre.
+Dialogue: 0,10:22:45.64,10:22:49.08,Default,,0,0,22,,Syv. Rundens tredjelaveste point.
+Dialogue: 0,10:22:52.20,10:22:55.04,Default,,0,0,20,,-Nu har I ti point.\N-Der var jeg heldig.
+Dialogue: 0,10:22:55.12,10:22:58.56,Default,,0,0,20,,-Endnu et mistænkeligt godt svar.\N-Ja.
+Dialogue: 0,10:22:58.64,10:23:04.28,Default,,0,0,20,,Han slog Murray i semifinalen\Ni Wimbledon i 2009.
+Dialogue: 0,10:23:04.36,10:23:09.44,Default,,0,0,20,,Mange tak.\NSteve, det ser ikke så lyst ud.
+Dialogue: 0,10:23:09.52,10:23:13.12,Default,,0,0,22,,I har flest point allerede nu-
+Dialogue: 0,10:23:13.20,10:23:18.80,Default,,0,0,20,,-men hvad ville du sige? Hvad siger\Ndu? Vi vil stadig gerne have et svar.
+Dialogue: 0,10:23:18.88,10:23:25.96,Default,,0,0,20,,Jeg ved mindre om tennis end Simon.\NLleyton Hewitt?
+Dialogue: 0,10:23:26.88,10:23:30.68,Default,,0,0,20,,Lleyton Hewitt?\NLad os se, om det er korrekt.
+Dialogue: 0,10:23:30.76,10:23:33.52,Default,,0,0,22,,Der er ingen rød linje, desværre.
+Dialogue: 0,10:23:33.60,10:23:36.36,Default,,0,0,20,,Hvor mange sagde det,\Nog er det korrekt?
+Dialogue: 0,10:23:38.52,10:23:45.40,Default,,0,0,20,,Nej. Synd. Det var forkert.\N100 point. Nu har I 154 point.
+Dialogue: 0,10:23:45.48,10:23:48.56,Default,,0,0,20,,De har ikke\Nspillet mod hinanden i Grand Slam-
+Dialogue: 0,10:23:48.64,10:23:51.64,Default,,0,0,22,,-men i mange andre turneringer.
+Dialogue: 0,10:23:51.72,10:23:54.72,Default,,0,0,20,,Lad os se på de svar, der gav nul.\NDer er ni.
+Dialogue: 0,10:23:54.80,10:23:58.52,Default,,0,0,20,,Kun få har slået Murray.\NDet var oftest de store.
+Dialogue: 0,10:23:58.60,10:24:01.56,Default,,0,0,20,,Nogle af de her\Ner tidligt i hans karriere.
+Dialogue: 0,10:24:01.64,10:24:04.00,Default,,0,0,22,,Arnaud Clement slog ham i US Open.
+Dialogue: 0,10:24:04.08,10:24:06.80,Default,,0,0,20,,David Nalbandian\Nslog ham i Wimbledon.
+Dialogue: 0,10:24:06.88,10:24:11.84,Default,,0,0,20,,Fernando Gonzalez slog ham\Ni kvartfinalen i French Open.
+Dialogue: 0,10:24:11.92,10:24:15.12,Default,,0,0,22,,Verdasco slog ham i Australian Open.
+Dialogue: 0,10:24:15.20,10:24:17.64,Default,,0,0,22,,Gael Monfils slog ham i Frankrig.
+Dialogue: 0,10:24:17.72,10:24:21.64,Default,,0,0,22,,Hyung-Taik Lee slog ham i US Open.
+Dialogue: 0,10:24:21.72,10:24:24.80,Default,,0,0,20,,Juan Ignacio Chela\Nslog ham i Australien.
+Dialogue: 0,10:24:24.88,10:24:27.56,Default,,0,0,22,,Nicolas Almagro slog ham i Frankrig.
+Dialogue: 0,10:24:27.64,10:24:31.32,Default,,0,0,22,,Davydenko slog ham i US Open i 2006.
+Dialogue: 0,10:24:31.40,10:24:34.24,Default,,0,0,22,,Lad os se de tre topscorere.
+Dialogue: 0,10:24:34.32,10:24:38.68,Default,,0,0,20,,Djokovic gav 26 point. Den anden\Nberømte spiller, Rafael Nadal-
+Dialogue: 0,10:24:38.76,10:24:42.12,Default,,0,0,20,,-gav 42 point,\Nog Federer gav 54 point.
+Dialogue: 0,10:24:42.20,10:24:44.96,Default,,0,0,22,,Mange tak. Det var anden runde.
+Dialogue: 0,10:24:45.04,10:24:49.36,Default,,0,0,20,,Steve og Simon\Nmå tage hjem med 154 point.
+Dialogue: 0,10:24:49.44,10:24:53.68,Default,,0,0,22,,Tennis var ikke det bedste emne, vel?
+Dialogue: 0,10:24:53.76,10:24:57.84,Default,,0,0,20,,Vi gør ikke det stereotype billede\Naf software-fyre bedre.
+Dialogue: 0,10:24:57.92,10:24:59.84,Default,,0,0,22,,Det billede kender jeg ikke.
+Dialogue: 0,10:24:59.92,10:25:02.12,Default,,0,0,20,,-Pænt sagt.\N-Jeg mener det.
+Dialogue: 0,10:25:02.20,10:25:04.60,Default,,0,0,20,,Vi glæder os til\Nat se jer næste gang-
+Dialogue: 0,10:25:04.68,10:25:09.68,Default,,0,0,20,,-hvor I sikkert\Nklarer jer meget bedre. Tak for nu.
+Dialogue: 0,10:25:12.44,10:25:15.12,Default,,0,0,20,,Nu skal de sidste to par\Ndyste mod hinanden.
+Dialogue: 0,10:25:21.40,10:25:25.08,Default,,0,0,20,,Tillykke til jer,\Nnu er I et skridt tættere på-
+Dialogue: 0,10:25:25.16,10:25:30.24,Default,,0,0,20,,-at vinde jackpotten,\Nsom lige nu er på 6.000 pund.
+Dialogue: 0,10:25:33.04,10:25:36.28,Default,,0,0,20,,I skal nu dyste om,\Nat få lov til at gå videre.
+Dialogue: 0,10:25:36.36,10:25:39.44,Default,,0,0,22,,Nu må I gerne tale sammen indbyrdes.
+Dialogue: 0,10:25:39.52,10:25:46.20,Default,,0,0,20,,Det første par, der vinder to gange,\Nkan vinde jackpotten. Held og lykke.
+Dialogue: 0,10:25:50.20,10:25:57.68,Default,,0,0,20,,Det første spørgsmål\Nvedrører berømte madentusiaster.
+Dialogue: 0,10:25:57.76,10:26:02.24,Default,,0,0,20,,I får fem billeder af fem berømte\Nkokke. Nævn den mindst kendte.
+Dialogue: 0,10:26:02.32,10:26:05.16,Default,,0,0,22,,Her er de fem kendte madentusiaster.
+Dialogue: 0,10:26:05.24,10:26:11.08,Default,,0,0,22,,Vi A, B...
+Dialogue: 0,10:26:13.68,10:26:18.84,Default,,0,0,22,,...C, D...
+Dialogue: 0,10:26:21.88,10:26:29.00,Default,,0,0,20,,...og E. Sådan.\NFem berømte madentusiaster.
+Dialogue: 0,10:26:29.08,10:26:35.20,Default,,0,0,20,,Nicki og Heather,\NI har scoret lavest, så I starter.
+Dialogue: 0,10:26:35.28,10:26:37.56,Default,,0,0,20,,-Er det et godt emne?\N-Nej.
+Dialogue: 0,10:26:37.64,10:26:40.80,Default,,0,0,20,,Det kunne være værre,\Nsåsom tennisspillere.
+Dialogue: 0,10:26:40.88,10:26:44.92,Default,,0,0,20,,-Kender I nogen af dem?\N-Jeg kender to.
+Dialogue: 0,10:26:45.00,10:26:48.28,Default,,0,0,20,,-Hvor mange kender du?\N-Tre.
+Dialogue: 0,10:26:48.36,10:26:53.52,Default,,0,0,20,,-Hvem er det? Det er fint.\N-Godt.
+Dialogue: 0,10:26:53.60,10:26:58.28,Default,,0,0,22,,Godt. Vi tager A. Raymond Blanc.
+Dialogue: 0,10:26:58.36,10:27:03.52,Default,,0,0,20,,A og Raymond Blanc.\NNu er det jer, James og Tom.
+Dialogue: 0,10:27:05.04,10:27:08.76,Default,,0,0,22,,Vi havde et andet bud på A.
+Dialogue: 0,10:27:08.84,10:27:12.08,Default,,0,0,20,,-I må godt gætte på A.\N-Vi tog nok fejl.
+Dialogue: 0,10:27:12.16,10:27:15.16,Default,,0,0,20,,Gennemgå dem.\NI kan sige, hvem I troede, A var.
+Dialogue: 0,10:27:15.24,10:27:18.24,Default,,0,0,22,,Vi talte om Marco Pierre White.
+Dialogue: 0,10:27:18.32,10:27:23.88,Default,,0,0,20,,B er muligvis Mary Berry.\NE er Gary Rhodes.
+Dialogue: 0,10:27:23.96,10:27:27.48,Default,,0,0,22,,C og D kender vi ikke.
+Dialogue: 0,10:27:27.56,10:27:29.96,Default,,0,0,20,,-Hvad siger du?\N-Mary Berry.
+Dialogue: 0,10:27:30.04,10:27:33.92,Default,,0,0,20,,-B og Mary Berry.\N-Mary Berry.
+Dialogue: 0,10:27:34.00,10:27:37.48,Default,,0,0,20,,Nicki og Heather sagde:\NRaymond Blanc. Stemmer det?
+Dialogue: 0,10:27:37.56,10:27:41.12,Default,,0,0,22,,Hvor mange sagde Raymond Blanc?
+Dialogue: 0,10:27:41.68,10:27:45.16,Default,,0,0,22,,Det var forkert. Beklager.
+Dialogue: 0,10:27:45.24,10:27:47.84,Default,,0,0,22,,Nu skal Mary Berry bare være korrekt-
+Dialogue: 0,10:27:47.92,10:27:50.48,Default,,0,0,22,,-og så vinder I dette spørgsmål.
+Dialogue: 0,10:27:50.56,10:27:53.92,Default,,0,0,22,,Stemmer det, og hvor mange sagde det?
+Dialogue: 0,10:27:55.00,10:28:00.28,Default,,0,0,20,,Det er korrekt. Flot.\N54 for Mary Berry.
+Dialogue: 0,10:28:02.52,10:28:05.36,Default,,0,0,22,,Nu fører James og Tom med 1-0.
+Dialogue: 0,10:28:05.44,10:28:08.72,Default,,0,0,20,,Mary Berry var med\Ni et program med Paul Hollywood?
+Dialogue: 0,10:28:08.80,10:28:14.40,Default,,0,0,20,,Hun var skøn. A er ikke Raymond\NBlanc, men også en fransk kok.
+Dialogue: 0,10:28:14.48,10:28:16.80,Default,,0,0,20,,-Det er?\N-Marco Pierre White.
+Dialogue: 0,10:28:16.88,10:28:23.24,Default,,0,0,20,,Han er engelsk. Jean-Christophe\NNovelli. Han gav otte point.
+Dialogue: 0,10:28:23.32,10:28:29.28,Default,,0,0,20,,C er den første mand, der fik\Nen Michelinstjerne i Nordirland.
+Dialogue: 0,10:28:29.36,10:28:34.12,Default,,0,0,20,,Han ligner en fra\Net Genesis-kopiband. Paul Rankin.
+Dialogue: 0,10:28:34.20,10:28:40.92,Default,,0,0,20,,Paul Rankin gav seks point.\ND er den skønne Lorraine Pascale.
+Dialogue: 0,10:28:41.00,10:28:46.96,Default,,0,0,20,,Hun gav 18 point. E, som begge hold\Nvist kender, er Gary Rhodes.
+Dialogue: 0,10:28:47.04,10:28:52.40,Default,,0,0,20,,Han gav 37 point.\NDet bedste svar var Paul Rankin.
+Dialogue: 0,10:28:52.48,10:28:56.00,Default,,0,0,20,,Nu til det næste spørgsmål.\NJames og Tom, I starter.
+Dialogue: 0,10:28:56.08,10:28:59.76,Default,,0,0,20,,Nicki og Heather,\NI skal vinde for at blive.
+Dialogue: 0,10:28:59.84,10:29:05.40,Default,,0,0,22,,Emnet er: Big Ben. Richard?
+Dialogue: 0,10:29:05.48,10:29:08.44,Default,,0,0,20,,Fem hints til fakta\Nom vartegnet i London-
+Dialogue: 0,10:29:08.52,10:29:12.00,Default,,0,0,20,,-der er kendt som Big Ben.\NKan I give det bedste svar?
+Dialogue: 0,10:29:12.08,10:29:16.40,Default,,0,0,22,,Mange tak. Her er de fem hints.
+Dialogue: 0,10:29:16.48,10:29:18.88,Default,,0,0,22,,Årsdagen, der fejredes i 2009.
+Dialogue: 0,10:29:18.96,10:29:23.64,Default,,0,0,20,,Den begivenhed, som klokkerne\Nmarkerede i radioen i december 1923.
+Dialogue: 0,10:29:23.72,10:29:26.60,Default,,0,0,20,,År, uret var tavst\Nunder 1. verdenskrig.
+Dialogue: 0,10:29:26.68,10:29:29.88,Default,,0,0,22,,Hvilket sprog er indgraveringerne i?
+Dialogue: 0,10:29:29.96,10:29:34.24,Default,,0,0,20,,Hvilken dronning\Nblev uret opkaldt efter i 2012?
+Dialogue: 0,10:29:34.32,10:29:38.56,Default,,0,0,20,,En gang til.\NÅrsdagen, der fejredes i 2009.
+Dialogue: 0,10:29:38.64,10:29:43.44,Default,,0,0,20,,Den begivenhed, som klokkerne\Nmarkerede i radioen i december 1923.
+Dialogue: 0,10:29:43.52,10:29:46.56,Default,,0,0,20,,År, uret var tavst\Nunder 1. verdenskrig.
+Dialogue: 0,10:29:46.64,10:29:49.72,Default,,0,0,22,,Hvilket sprog er indgraveringerne i?
+Dialogue: 0,10:29:49.80,10:29:53.60,Default,,0,0,20,,Hvilken dronning\Nblev uret opkaldt efter i 2012.
+Dialogue: 0,10:29:53.68,10:30:00.40,Default,,0,0,20,,Sådan. Fem hints til fakta\Nom Big Ben. James og Tom, I starter.
+Dialogue: 0,10:30:00.48,10:30:03.52,Default,,0,0,20,,-Jeg ved det ikke. Skal vi...?\N-Ja.
+Dialogue: 0,10:30:03.60,10:30:08.48,Default,,0,0,20,,Begivenheden, hvor Big Bens klokker\Nhørtes første gang i radio.
+Dialogue: 0,10:30:08.56,10:30:13.40,Default,,0,0,20,,-Nyhederne.\N-Nyhederne.
+Dialogue: 0,10:30:13.48,10:30:16.96,Default,,0,0,20,,Klokkerne hørtes\Nførste gang i nyhederne.
+Dialogue: 0,10:30:17.04,10:30:21.44,Default,,0,0,22,,Nicki og Heather. I har frit slag.
+Dialogue: 0,10:30:22.24,10:30:26.44,Default,,0,0,22,,Vi kender ikke årsdagen.
+Dialogue: 0,10:30:26.52,10:30:31.16,Default,,0,0,20,,År, klokkerne var tavse\Nunder 1. verdenskrig...
+Dialogue: 0,10:30:31.24,10:30:35.00,Default,,0,0,20,,Vi gætter på fire år,\Nmen er ikke sikre.
+Dialogue: 0,10:30:35.08,10:30:37.92,Default,,0,0,22,,Sproget er nok latin.
+Dialogue: 0,10:30:38.00,10:30:43.12,Default,,0,0,22,,Dronningen er nok Elizabeth 2.
+Dialogue: 0,10:30:43.20,10:30:48.08,Default,,0,0,22,,Begivenheden er nok nytårsaften.
+Dialogue: 0,10:30:48.16,10:30:53.64,Default,,0,0,20,,-Ja, ved midnat nytårsaften.\N-Godt, I siger nytårsaften.
+Dialogue: 0,10:30:53.72,10:30:56.52,Default,,0,0,22,,Vi har nyhederne og nytårsaften.
+Dialogue: 0,10:30:56.60,10:31:01.88,Default,,0,0,20,,Stemmer nyhederne,\Nog hvor mange sagde det?
+Dialogue: 0,10:31:04.12,10:31:08.76,Default,,0,0,20,,Nej.\NLad os se om nytårsaften er rigtig.
+Dialogue: 0,10:31:08.84,10:31:12.44,Default,,0,0,22,,Er den det, så vinder I spørgsmålet.
+Dialogue: 0,10:31:14.72,10:31:17.52,Default,,0,0,22,,Korrekt. Flot.
+Dialogue: 0,10:31:21.12,10:31:26.92,Default,,0,0,20,,Syv. Flot svar, gode point.\NDet var lige det, I havde brug for.
+Dialogue: 0,10:31:27.00,10:31:29.24,Default,,0,0,22,,Nu står der 1-1.
+Dialogue: 0,10:31:29.32,10:31:31.48,Default,,0,0,22,,Lad os se på resten.
+Dialogue: 0,10:31:31.56,10:31:37.24,Default,,0,0,20,,Årsdagen var urets 150-årsdag.\N14 point.
+Dialogue: 0,10:31:37.32,10:31:40.40,Default,,0,0,22,,Det var kun tavst to år under krigen.
+Dialogue: 0,10:31:40.48,10:31:43.40,Default,,0,0,22,,Svært spørgsmål. Ni point.
+Dialogue: 0,10:31:43.48,10:31:47.04,Default,,0,0,22,,Sproget er latin. 45 point.
+Dialogue: 0,10:31:47.12,10:31:51.28,Default,,0,0,20,,Dronningen er Elizabeth 2.\NDet svar gav 50 point.
+Dialogue: 0,10:31:51.36,10:31:55.80,Default,,0,0,20,,Nytårsaften er det bedste svar.\NMeget flot.
+Dialogue: 0,10:31:55.88,10:31:58.28,Default,,0,0,22,,Nu til det afgørende spørgsmål.
+Dialogue: 0,10:31:58.36,10:32:02.28,Default,,0,0,20,,Vinderne går videre,\Nog kan vinde de 6.000 pund.
+Dialogue: 0,10:32:02.36,10:32:08.84,Default,,0,0,20,,Held og lykke. Nu er emnet\Nfilm med en nationalitet i titlen.
+Dialogue: 0,10:32:08.92,10:32:10.92,Default,,0,0,22,,Film. Richard.
+Dialogue: 0,10:32:11.00,10:32:13.52,Default,,0,0,20,,I ser fem titler med\Net manglende ord.
+Dialogue: 0,10:32:13.60,10:32:17.68,Default,,0,0,20,,Ordet er en nationalitet.\NHeld og lykke.
+Dialogue: 0,10:32:17.76,10:32:23.64,Default,,0,0,22,,Lad os afsløre de fem film.
+Dialogue: 0,10:32:23.72,10:32:29.68,Default,,0,0,20,,"The...", Julia Roberts, 2001.\N"My Big Fat... Wedding", J. Corbett.
+Dialogue: 0,10:32:29.76,10:32:32.84,Default,,0,0,22,,"The Good...", Cate Blanchett, 2006.
+Dialogue: 0,10:32:32.92,10:32:39.40,Default,,0,0,20,,"The... Job", Michael Caine, 1969.\N"Slap Her, She's...", Piper Perabo.
+Dialogue: 0,10:32:39.48,10:32:43.80,Default,,0,0,20,,En gang til:\N"The...", Julia Roberts, 2001.
+Dialogue: 0,10:32:43.88,10:32:49.20,Default,,0,0,20,,"My Big Fat... Wedding", J. Corbett.\N"The Good...", Cate Blanchett, 2006.
+Dialogue: 0,10:32:49.28,10:32:55.72,Default,,0,0,20,,"The... Job", Michael Caine, 1969.\N"Slap Her, She's...", Piper Perabo.
+Dialogue: 0,10:32:55.80,10:32:59.92,Default,,0,0,20,,Fem filmtitler\Nmed en manglende nationalitet.
+Dialogue: 0,10:33:00.00,10:33:06.80,Default,,0,0,20,,-Nicki og Heather, I starter.\N-Vi kender kun to.
+Dialogue: 0,10:33:08.00,10:33:11.00,Default,,0,0,20,,-Skal vi tage den med brylluppet?\N-Ja.
+Dialogue: 0,10:33:11.08,10:33:13.08,Default,,0,0,22,,"My Big Fat Greek Wedding".
+Dialogue: 0,10:33:13.16,10:33:18.20,Default,,0,0,20,,"My Big Fat Greek Wedding".\NJames og Tom?
+Dialogue: 0,10:33:18.28,10:33:24.28,Default,,0,0,20,,Jeg kender et par stykker.\NDen øverste er "Mexican".
+Dialogue: 0,10:33:24.36,10:33:28.92,Default,,0,0,20,,"The Italian Job".\NJeg tager: "Slap Her She's French".
+Dialogue: 0,10:33:29.00,10:33:33.28,Default,,0,0,22,,"Slap Her She's French".
+Dialogue: 0,10:33:33.36,10:33:36.32,Default,,0,0,20,,Er "My Big Fat Greek Wedding"\Nkorrekt?
+Dialogue: 0,10:33:36.40,10:33:39.40,Default,,0,0,22,,Hvor mange sagde det?
+Dialogue: 0,10:33:42.04,10:33:46.44,Default,,0,0,22,,Korrekt. 66 point.
+Dialogue: 0,10:33:49.96,10:33:52.24,Default,,0,0,22,,I sagde: "Slap Her, She's French".
+Dialogue: 0,10:33:52.32,10:33:56.68,Default,,0,0,22,,Lad os se, hvor mange der sagde det.
+Dialogue: 0,10:33:56.76,10:34:01.96,Default,,0,0,22,,Korrekt. 66 point. I går videre.
+Dialogue: 0,10:34:03.12,10:34:07.48,Default,,0,0,20,,-23.\N-Det var tæt løb.
+Dialogue: 0,10:34:07.56,10:34:11.72,Default,,0,0,20,,Flot, James og Tom,\NI går videre med 2-1.
+Dialogue: 0,10:34:11.80,10:34:16.24,Default,,0,0,20,,"My Big Fat Greek Wedding"\Nindtjente knapt 370 millioner dollar.
+Dialogue: 0,10:34:16.32,10:34:21.92,Default,,0,0,20,,"Slap Her She's French" gav\Nfærre point. "Mexican" var korrekt.
+Dialogue: 0,10:34:22.00,10:34:24.44,Default,,0,0,22,,Den gav ti point.
+Dialogue: 0,10:34:24.52,10:34:28.72,Default,,0,0,20,,"The Italian Job" gav\Noverraskende nok hele 87 point.
+Dialogue: 0,10:34:28.80,10:34:31.36,Default,,0,0,22,,Det bedste svar på tavlen-
+Dialogue: 0,10:34:31.44,10:34:35.92,Default,,0,0,20,,-var "Good German".\NFem point, hvis I gættede det. Flot.
+Dialogue: 0,10:34:36.00,10:34:41.20,Default,,0,0,20,,Parret, der ryger hjem,\Ner desværre Nicki og Heather.
+Dialogue: 0,10:34:41.28,10:34:44.48,Default,,0,0,20,,Det var en fin runde,\Nog I har været gode.
+Dialogue: 0,10:34:44.56,10:34:46.72,Default,,0,0,22,,Nytårsaften var et flot svar.
+Dialogue: 0,10:34:46.80,10:34:49.08,Default,,0,0,22,,I har været gode hele vejen.
+Dialogue: 0,10:34:49.16,10:34:51.88,Default,,0,0,22,,Jeg beklager, at vi må sige farvel.
+Dialogue: 0,10:34:51.96,10:34:56.72,Default,,0,0,22,,Mange tak. Nicki og Heather.
+Dialogue: 0,10:34:57.40,10:34:59.96,Default,,0,0,20,,James og Tom\Nkan nu vinde vores jackpot.
+Dialogue: 0,10:35:03.56,10:35:08.96,Default,,0,0,20,,Tillykke, I har sendt alle andre hjem\Nog vundet det eftertragtede trofæ.
+Dialogue: 0,10:35:15.40,10:35:17.16,Default,,0,0,22,,Nu kan I vinde jackpotten.
+Dialogue: 0,10:35:17.24,10:35:22.12,Default,,0,0,22,,Beløbet er på 6.000 pund.
+Dialogue: 0,10:35:24.64,10:35:30.20,Default,,0,0,20,,Det har været meget avancerede\Nog finkulturelle spørgsmål i dag.
+Dialogue: 0,10:35:30.28,10:35:36.48,Default,,0,0,20,,I fortjener en pause.\NI har gjort det godt.
+Dialogue: 0,10:35:36.56,10:35:40.20,Default,,0,0,20,,I skal nu vælge en kategori\Nud af fire mulige.
+Dialogue: 0,10:35:40.28,10:35:45.12,Default,,0,0,20,,De er:\NMadrid, The British and Irish Lions.
+Dialogue: 0,10:35:45.20,10:35:48.12,Default,,0,0,22,,Det gamle rom... og dans.
+Dialogue: 0,10:35:49.32,10:35:55.88,Default,,0,0,20,,-Vildt.\N-Dans?
+Dialogue: 0,10:35:55.96,10:36:02.84,Default,,0,0,22,,Det mindst håbløse emne er nok dans.
+Dialogue: 0,10:36:02.92,10:36:06.00,Default,,0,0,20,,-Jaså?\N-Det viser, hvor håbløse emnerne er.
+Dialogue: 0,10:36:06.08,10:36:10.12,Default,,0,0,22,,De er lige slemme. Vi siger dans.
+Dialogue: 0,10:36:10.20,10:36:15.52,Default,,0,0,22,,Godt. I vælger dans. Dans, Richard.
+Dialogue: 0,10:36:15.60,10:36:19.08,Default,,0,0,20,,I får tre kategorier nu.\NForhåbentlig hjælper det-
+Dialogue: 0,10:36:19.16,10:36:22.52,Default,,0,0,20,,-hvis det ikke bliver sværere.\NLad os se.
+Dialogue: 0,10:36:22.60,10:36:26.00,Default,,0,0,20,,En film,\Nhvor Fred Astaire og Ginger Rogers-
+Dialogue: 0,10:36:26.08,10:36:28.88,Default,,0,0,22,,-begge modtog en pris ifølge IMDb?
+Dialogue: 0,10:36:28.96,10:36:32.88,Default,,0,0,20,,En professionel, der har vundet\N"Strictly Come Dancing"?
+Dialogue: 0,10:36:32.96,10:36:36.28,Default,,0,0,20,,En af danserne,\Nder dansede med kendisser.
+Dialogue: 0,10:36:36.36,10:36:40.96,Default,,0,0,20,,En ballet,\Nhvor Darcey Bussell var solodanser-
+Dialogue: 0,10:36:41.04,10:36:42.80,Default,,0,0,22,,-for The Royal Ballet.
+Dialogue: 0,10:36:42.88,10:36:46.88,Default,,0,0,20,,En ballet,\Nhvor Darcey Bussell var solodanser.
+Dialogue: 0,10:36:46.96,10:36:49.60,Default,,0,0,20,,Fred og Ginger?\NVindere i "Strictly"?
+Dialogue: 0,10:36:49.68,10:36:53.60,Default,,0,0,20,,Darcey Bussell-balletter?\NHeld og lykke.
+Dialogue: 0,10:36:53.68,10:36:57.04,Default,,0,0,22,,I får et minut til at finde tre svar.
+Dialogue: 0,10:36:57.12,10:37:01.80,Default,,0,0,20,,For at vinde jackpot skal I kun finde\Net svar, der giver nul point.
+Dialogue: 0,10:37:01.88,10:37:05.08,Default,,0,0,20,,Husk, svarene kan komme\Nfra alle kategorier.
+Dialogue: 0,10:37:05.16,10:37:09.48,Default,,0,0,20,,Der kan være tre fra en\Neller en fra hver, som I synes.
+Dialogue: 0,10:37:09.56,10:37:15.88,Default,,0,0,20,,Klar? I får 60 sekunder.\NDe starter nu.
+Dialogue: 0,10:37:15.96,10:37:20.16,Default,,0,0,20,,-Fred Astaire og Ginger Roger-film?\N-"Top Hat"?
+Dialogue: 0,10:37:20.24,10:37:23.96,Default,,0,0,20,,-Jeg kender ikke andre.\N-Den giver nok mange point.
+Dialogue: 0,10:37:24.04,10:37:27.40,Default,,0,0,20,,Dansere?\NJeg ser ikke "Strictly Come Dancing".
+Dialogue: 0,10:37:27.48,10:37:32.52,Default,,0,0,20,,Flavia Cacace er professionel\Ni programmet. Anton du Beke.
+Dialogue: 0,10:37:32.60,10:37:37.96,Default,,0,0,20,,-Hvem var Lisa Rileys partner?\N-Jeg har aldrig set det.
+Dialogue: 0,10:37:38.04,10:37:42.20,Default,,0,0,20,,-Darcey Bussell?\N-Berømte balletter?
+Dialogue: 0,10:37:42.28,10:37:46.40,Default,,0,0,20,,Lad os undgå den.\NProfessionelle vindere I "Strictly".
+Dialogue: 0,10:37:46.48,10:37:50.92,Default,,0,0,20,,Anton du Beke, Flavia Cacace.\NHvem er de andre?
+Dialogue: 0,10:37:51.00,10:37:55.64,Default,,0,0,20,,Hvem dansede med Lisa Riley?\NDe var med længe.
+Dialogue: 0,10:37:55.72,10:38:00.52,Default,,0,0,20,,-Var han australier?\N-Fred Astaire og Ginger Rogers.
+Dialogue: 0,10:38:00.60,10:38:02.72,Default,,0,0,22,,"The Night They Turned Loch..."
+Dialogue: 0,10:38:02.80,10:38:04.80,Default,,0,0,22,,Det er vist bare en sang.
+Dialogue: 0,10:38:04.88,10:38:08.60,Default,,0,0,20,,-Ti sekunder.\N-Andre film?
+Dialogue: 0,10:38:08.68,10:38:10.84,Default,,0,0,22,,Fred Astaire og Ginger Rogers?
+Dialogue: 0,10:38:10.92,10:38:16.72,Default,,0,0,20,,Nej. Vi tager den film,\Nder måske er forkert og to dansere.
+Dialogue: 0,10:38:16.80,10:38:20.96,Default,,0,0,20,,Tiden er gået.\NHvad er jeres tre svar?
+Dialogue: 0,10:38:21.04,10:38:25.96,Default,,0,0,20,,Jeg ved ikke,\Nom det her er en film eller sang.
+Dialogue: 0,10:38:26.04,10:38:29.16,Default,,0,0,20,,"The Night They\NTurned Loch Lomond into Swing"?
+Dialogue: 0,10:38:29.24,10:38:33.24,Default,,0,0,20,,"The Night They\NTurned Loch Lomond into Swing".
+Dialogue: 0,10:38:33.32,10:38:38.12,Default,,0,0,20,,-Professionelle vindere i "Strictly".\N-Jeg ved det ikke.
+Dialogue: 0,10:38:38.20,10:38:44.08,Default,,0,0,22,,Flavia Cacace og Anton du Beke.
+Dialogue: 0,10:38:44.16,10:38:48.20,Default,,0,0,22,,Hvilket bud er bedst?
+Dialogue: 0,10:38:48.28,10:38:51.24,Default,,0,0,20,,-Flavia.\N-Flavia Cacace kommer til sidst.
+Dialogue: 0,10:38:51.32,10:38:53.32,Default,,0,0,22,,Det, der nok scorer højest?
+Dialogue: 0,10:38:53.40,10:38:57.72,Default,,0,0,20,,"The Night They Turned\NLoch Lomond into Swing".
+Dialogue: 0,10:38:57.80,10:39:01.20,Default,,0,0,22,,Godt, lad os se dem i den rækkefølge.
+Dialogue: 0,10:39:01.28,10:39:04.16,Default,,0,0,20,,"The Night They Turned..."\NAnton du Beke-
+Dialogue: 0,10:39:04.24,10:39:07.88,Default,,0,0,22,,-og Flavia Cacace. Held og lykke.
+Dialogue: 0,10:39:07.96,10:39:12.44,Default,,0,0,20,,I sagde, at det første svar\Nnok giver fleste point.
+Dialogue: 0,10:39:12.52,10:39:15.64,Default,,0,0,20,,"The Night They Turned Loch\NLomond Into Swing".
+Dialogue: 0,10:39:15.72,10:39:21.24,Default,,0,0,20,,Hvis I vinder de 6.000 pund,\Nhvad vil du så gøre, James?
+Dialogue: 0,10:39:21.32,10:39:26.72,Default,,0,0,20,,Vores kærester har nok brugt dem,\Nnår vi når hjem.
+Dialogue: 0,10:39:26.80,10:39:30.92,Default,,0,0,22,,Måske et depositum for et hus.
+Dialogue: 0,10:39:31.00,10:39:34.20,Default,,0,0,20,,-Tom?\N-Møbler til min lejlighed.
+Dialogue: 0,10:39:34.28,10:39:36.72,Default,,0,0,22,,Den trænger til rigtige møbler.
+Dialogue: 0,10:39:36.80,10:39:40.24,Default,,0,0,20,,-Er den tom nu?\N-Du ville blive overrasket.
+Dialogue: 0,10:39:40.32,10:39:44.60,Default,,0,0,20,,Held og lykke.\NDer er tre fornuftige svar på tavlen.
+Dialogue: 0,10:39:44.68,10:39:48.92,Default,,0,0,22,,I ved ikke, om den første er en sang.
+Dialogue: 0,10:39:49.00,10:39:51.76,Default,,0,0,22,,Den kan også være en film.
+Dialogue: 0,10:39:51.84,10:39:55.56,Default,,0,0,20,,-Måske.\N-Spændende. Lad os se.
+Dialogue: 0,10:39:55.64,10:40:00.16,Default,,0,0,20,,6.000 pund. Var "The Night They\NTurned Loch Lomond into Swing"-
+Dialogue: 0,10:40:00.24,10:40:03.88,Default,,0,0,20,,-en film\Nmed Fred Astaire og Ginger Rogers?
+Dialogue: 0,10:40:04.84,10:40:09.76,Default,,0,0,20,,Nej, desværre. Det var forkert.\NNæste svar.
+Dialogue: 0,10:40:09.84,10:40:14.36,Default,,0,0,22,,Professionelle dansere i "Strictly".
+Dialogue: 0,10:40:14.44,10:40:17.04,Default,,0,0,20,,I sagde: Anton du Beke.\NFår I nul point-
+Dialogue: 0,10:40:17.12,10:40:22.52,Default,,0,0,20,,-vinder I de 6.000 pund.\NVandt han i "Strictly"?
+Dialogue: 0,10:40:24.92,10:40:28.56,Default,,0,0,22,,Nej, det var synd. To forkerte svar.
+Dialogue: 0,10:40:28.64,10:40:31.60,Default,,0,0,22,,Nu afhænger alt af Flavia Cacace.
+Dialogue: 0,10:40:31.68,10:40:34.40,Default,,0,0,22,,I havde mest tillid til det her svar.
+Dialogue: 0,10:40:34.48,10:40:39.44,Default,,0,0,20,,I behøver kun en træffer.\NLad os se.
+Dialogue: 0,10:40:39.52,10:40:42.88,Default,,0,0,20,,Scorer I 0 point,\Nvinder I de 6.000 pund.
+Dialogue: 0,10:40:42.96,10:40:47.64,Default,,0,0,20,,Var Flavia Cacace en vindende danser\Ni "Strictly Come Dancing"?
+Dialogue: 0,10:40:49.84,10:40:52.36,Default,,0,0,22,,Ja, hun var. Flot.
+Dialogue: 0,10:40:52.44,10:40:55.28,Default,,0,0,22,,Jeres første svar var forkert.
+Dialogue: 0,10:40:55.36,10:40:59.32,Default,,0,0,20,,Det var det andet også,\Nmen Flavia Cacace ryger ned-
+Dialogue: 0,10:40:59.40,10:41:03.68,Default,,0,0,22,,-i de encifrede tal. Det var synd.
+Dialogue: 0,10:41:07.24,10:41:10.84,Default,,0,0,20,,Det var flot.\NFem er flot uanset hvad.
+Dialogue: 0,10:41:10.92,10:41:14.04,Default,,0,0,20,,Desværre gælder det om\Nat score nul point.
+Dialogue: 0,10:41:14.12,10:41:16.36,Default,,0,0,22,,Det lykkedes desværre ikke.
+Dialogue: 0,10:41:16.44,10:41:20.20,Default,,0,0,20,,I vinder ikke de 6.000 pund.\NDe går videre til næste gang.
+Dialogue: 0,10:41:20.28,10:41:23.68,Default,,0,0,20,,Det var skønt at have jer med,\Nog I får begge et trofæ.
+Dialogue: 0,10:41:23.76,10:41:29.44,Default,,0,0,20,,-Meget flot.\N-Mange tak.
+Dialogue: 0,10:41:32.40,10:41:35.48,Default,,0,0,20,,Synd.\N"Strictly" var ikke så slem for dig.
+Dialogue: 0,10:41:35.56,10:41:38.04,Default,,0,0,22,,Anton du Beke vandt aldrig Strictly.
+Dialogue: 0,10:41:38.12,10:41:41.48,Default,,0,0,20,,Han vandt\Nen tredjeplads med Leslie Garrett.
+Dialogue: 0,10:41:41.56,10:41:45.32,Default,,0,0,20,,"Since They Turned Loch\NLomond into Swing" er en sang.
+Dialogue: 0,10:41:45.40,10:41:49.72,Default,,0,0,20,,Den er fra filmen "Carefree".\NDen gav et point.
+Dialogue: 0,10:41:49.80,10:41:51.80,Default,,0,0,22,,Lad os se på dem, der gav nul.
+Dialogue: 0,10:41:51.88,10:41:54.36,Default,,0,0,22,,Nogle ville synes om kategorierne.
+Dialogue: 0,10:41:54.44,10:41:58.24,Default,,0,0,20,,Film med Astaire og Rogers.\N"Roberta" gav nul point.
+Dialogue: 0,10:41:58.32,10:42:02.32,Default,,0,0,20,,"Skal vi danse?" er meget populær.\N"Swing Time" gav nul point.
+Dialogue: 0,10:42:02.40,10:42:07.40,Default,,0,0,20,,"The Gay Divorcee" var nomineret\Ntil en Oscar og gav nul point.
+Dialogue: 0,10:42:07.48,10:42:10.64,Default,,0,0,20,,Blandt de professionelle\Ngav kun tre nul point.
+Dialogue: 0,10:42:10.72,10:42:14.24,Default,,0,0,20,,Aliona Vilani,\Nsom dansede med Harry Judd.
+Dialogue: 0,10:42:14.32,10:42:17.80,Default,,0,0,20,,Camilla Dallerup.\NHun vandt med Tom Chambers.
+Dialogue: 0,10:42:17.88,10:42:22.12,Default,,0,0,20,,Darren Bennett vandt\Nsammen med Jill Halfpenny, flot svar.
+Dialogue: 0,10:42:22.20,10:42:24.44,Default,,0,0,22,,Nu til Darcey Bussell.
+Dialogue: 0,10:42:24.52,10:42:27.52,Default,,0,0,20,,Nogle har nok\Ngættet på balletterne her.
+Dialogue: 0,10:42:27.60,10:42:31.12,Default,,0,0,20,,"Askepot" gav nul.\N"Giselle", "Romeo og Julie"-
+Dialogue: 0,10:42:31.20,10:42:33.56,Default,,0,0,22,,-og "Tornerose". De gav alle nul.
+Dialogue: 0,10:42:33.64,10:42:35.92,Default,,0,0,22,,Flot, hvis I gættede dem derhjemme.
+Dialogue: 0,10:42:36.00,10:42:41.56,Default,,0,0,20,,I har været rigtig\Ngode i to programmer.
+Dialogue: 0,10:42:41.64,10:42:43.52,Default,,0,0,22,,Vi må desværre sige farvel.
+Dialogue: 0,10:42:43.60,10:42:48.72,Default,,0,0,20,,Det var skønt at have jer med.\NMange tak. James og Tom.
+Dialogue: 0,10:42:50.24,10:42:52.28,Default,,0,0,22,,Desværre vandt de ikke jackpot-
+Dialogue: 0,10:42:52.36,10:42:57.60,Default,,0,0,20,,-så den går videre til næste gang,\Nhvor den starter på 7.000 pund.
+Dialogue: 0,10:42:59.84,10:43:02.64,Default,,0,0,22,,På gensyn. Farvel fra Richard...
+Dialogue: 0,10:43:02.72,10:43:06.32,Default,,0,0,20,,-Farvel.\N-Farvel fra mig.
+Dialogue: 0,10:43:09.20,10:43:13.20,Default,,0,0,20,,Ann-Marie B. Sørensen\Nwww.btistudios.com

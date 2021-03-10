@@ -1,0 +1,297 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Unknown
+437STL25.0120022                                                                                                                                                                                                                14102414102401002830028400140231000000000000281411ROU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:28.56,0:00:29.88,Default,,0,0,0,,O masină...
+Dialogue: 0,0:00:34.40,0:00:36.16,Default,,0,0,0,,Două feţe.
+Dialogue: 0,0:00:39.64,0:00:41.24,Default,,0,0,0,,Dr. Jekyll...
+Dialogue: 0,0:00:43.08,0:00:45.08,Default,,0,0,0,,si Mr. Hide.
+Dialogue: 0,0:00:47.92,0:00:49.92,Default,,0,0,0,,Minunat!
+Dialogue: 0,0:00:52.48,0:00:54.48,Default,,0,0,0,,BMW M6.
+Dialogue: 0,0:00:54.72,0:00:58.64,Default,,0,0,0,,Fascinaţie exercitată\Nasupra unui sofer de curse.
+Dialogue: 0,0:01:02.00,0:01:04.00,Default,,0,0,0,,Pssst!
+Dialogue: 0,0:01:04.32,0:01:06.32,Default,,0,0,0,,Haide, haide!
+Dialogue: 0,0:01:09.20,0:01:12.16,Default,,0,0,0,,Ha, ce frumos. Minunat.
+Dialogue: 0,0:01:13.44,0:01:17.04,Default,,0,0,0,,El e omul pentru ture rapide\Nîn Bayuwaren-Coupé.
+Dialogue: 0,0:01:17.28,0:01:19.88,Default,,0,0,0,,Christian Menzel!\NExpert în circuite.
+Dialogue: 0,0:01:20.00,0:01:22.88,Default,,0,0,0,,Profesionist al curselor\Nde peste 30 de ani.
+Dialogue: 0,0:01:27.28,0:01:30.44,Default,,0,0,0,,Casa lui: circuitele de curse\Ndin întreaga lume.
+Dialogue: 0,0:01:30.76,0:01:32.76,Default,,0,0,0,,Patria sa:\NRegiunea Eifel.
+Dialogue: 0,0:01:36.28,0:01:41.44,Default,,0,0,0,,Christian Menzel, specialistul\Nunei ture rapide în BMW M6.
+Dialogue: 0,0:01:46.48,0:01:48.60,Default,,0,0,0,,M-GmbH, Dumnezeule.
+Dialogue: 0,0:01:50.20,0:01:55.88,Default,,0,0,0,,O lungă tradiţie, masini frumoase,\NBMW, sportul motorizat.
+Dialogue: 0,0:01:56.32,0:02:01.48,Default,,0,0,0,,Pentru muschi, pentru curaj,\Npentru mai mult!
+Dialogue: 0,0:02:01.80,0:02:04.52,Default,,0,0,0,,Acestea sunt lucrurile\Nla care mă gândesc,
+Dialogue: 0,0:02:04.64,0:02:07.52,Default,,0,0,0,,iar prima masină independentă\Na fost BMW M1.
+Dialogue: 0,0:02:07.64,0:02:09.36,Default,,0,0,0,,Îmi amintesc foarte bine.
+Dialogue: 0,0:02:10.04,0:02:14.84,Default,,0,0,0,,Din 1978 până în 1982\Ns-au construit 460 M1, pe bandă.
+Dialogue: 0,0:02:14.96,0:02:18.68,Default,,0,0,0,,Versiunea de curse\Navea până la 850 CP.
+Dialogue: 0,0:02:19.88,0:02:24.04,Default,,0,0,0,,Ca băiat, prin '78, '79,\Nam avut o dată norocul,
+Dialogue: 0,0:02:24.56,0:02:31.00,Default,,0,0,0,,datorită unui prieten de familie,\Ninginer de dezvoltare la Motorsport,
+Dialogue: 0,0:02:31.56,0:02:36.88,Default,,0,0,0,,posesor al unui BMW M1\Ncu motor Procar de 460 CP
+Dialogue: 0,0:02:37.52,0:02:40.36,Default,,0,0,0,,să conduc pentru prima oară
+Dialogue: 0,0:02:40.92,0:02:44.16,Default,,0,0,0,,cu peste 300 pe autostradă.\NEram mult prea mic
+Dialogue: 0,0:02:44.56,0:02:47.52,Default,,0,0,0,,pentru a vedea drumul,\Ndin spatele volanului,
+Dialogue: 0,0:02:47.64,0:02:51.84,Default,,0,0,0,,însă a fost suficient\Ncât să văd acul vitezometrului
+Dialogue: 0,0:02:52.24,0:02:57.16,Default,,0,0,0,,care a ajuns în cele din urmă la 300\Nsi apoi a depăsit această viteză.
+Dialogue: 0,0:02:58.00,0:03:02.32,Default,,0,0,0,,A fost ca un impuls pentru mine\Nsi am realizat că sportul cu motor
+Dialogue: 0,0:03:02.44,0:03:03.96,Default,,0,0,0,,e ceva deosebit.
+Dialogue: 0,0:03:04.28,0:03:08.40,Default,,0,0,0,,Cu o viteză de 310 Km/h,\NM1 a fost cea mai rapidă masină sport
+Dialogue: 0,0:03:08.52,0:03:10.52,Default,,0,0,0,,produsă în Germania.
+Dialogue: 0,0:03:13.64,0:03:16.76,Default,,0,0,0,,Ce mi se pare ca lumea la M,\Neste că M trăieste,
+Dialogue: 0,0:03:16.88,0:03:19.48,Default,,0,0,0,,nu este prea fin.\NSi dacă ai un M,
+Dialogue: 0,0:03:19.88,0:03:22.36,Default,,0,0,0,,se poate presupune\Ncă îsi face treaba.
+Dialogue: 0,0:03:22.56,0:03:25.96,Default,,0,0,0,,Frânează de obicei, foarte bine,\Nse conduce frumos,
+Dialogue: 0,0:03:26.08,0:03:29.48,Default,,0,0,0,,are o dinamică bună,\Nastfel încât, în fiecare zi,
+Dialogue: 0,0:03:29.60,0:03:32.40,Default,,0,0,0,,zi cobori din ea si exclami: M!
+Dialogue: 0,0:03:35.16,0:03:38.04,Default,,0,0,0,,M sau Mhhhhm.
+Dialogue: 0,0:03:38.76,0:03:42.48,Default,,0,0,0,,Vizual, M6 este o minunăţie\Nîn albastru metalic.
+Dialogue: 0,0:03:44.52,0:03:47.76,Default,,0,0,0,,Patru ţevi de esapament\Nanunţă puterea masinii,
+Dialogue: 0,0:03:47.92,0:03:51.84,Default,,0,0,0,,iar aspectul agresiv domină\Nbanda din stânga a autostrăzii.
+Dialogue: 0,0:04:00.32,0:04:05.52,Default,,0,0,0,,El nu este doar un poseur,\Nci are tupeu în spatele roţilor.
+Dialogue: 0,0:04:17.92,0:04:18.92,Default,,0,0,0,,Frumos.
+Dialogue: 0,0:04:19.96,0:04:23.00,Default,,0,0,0,,A fost curăţat frumos,\Narată bine, nu?
+Dialogue: 0,0:04:23.72,0:04:27.00,Default,,0,0,0,,De obicei comentez\Ndacă e plictisitor,
+Dialogue: 0,0:04:27.88,0:04:30.72,Default,,0,0,0,,dar aici am o anumită\Nprezenţă a motorului.
+Dialogue: 0,0:04:31.00,0:04:33.00,Default,,0,0,0,,M, pentru că stiu ce am.
+Dialogue: 0,0:04:33.40,0:04:37.04,Default,,0,0,0,,Ce am de fapt?\NTrebuie să mă gândesc.
+Dialogue: 0,0:04:37.44,0:04:41.52,Default,,0,0,0,,4,4 litri, este de fapt un bi-turbo,\Ndacă ne uităm putem vedea
+Dialogue: 0,0:04:41.64,0:04:45.12,Default,,0,0,0,,cele doua turbocompresoare,\Ncare sunt aici sub capac.
+Dialogue: 0,0:04:45.24,0:04:49.32,Default,,0,0,0,,Mai avem 560 CP si 680 NM.
+Dialogue: 0,0:04:49.72,0:04:53.68,Default,,0,0,0,,La o privire de ansamblu,\Nputem observa cu usurinţă
+Dialogue: 0,0:04:53.80,0:04:58.32,Default,,0,0,0,,că de fapt motorul începe de aici,\Niar restul spaţiului este...aer.
+Dialogue: 0,0:04:58.44,0:05:03.00,Default,,0,0,0,,Iar acest lucru nu înseamnă altceva\Ndecât că motorul este montat
+Dialogue: 0,0:05:03.12,0:05:07.08,Default,,0,0,0,,foarte jos, în partea din spate.
+Dialogue: 0,0:05:07.48,0:05:12.32,Default,,0,0,0,,Este o distribuţie bună a greutăţii,\Ndar trebuie să vedem performanţele.
+Dialogue: 0,0:05:12.44,0:05:16.12,Default,,0,0,0,,Asadar urmează testele de performanţă.
+Dialogue: 0,0:05:17.52,0:05:20.32,Default,,0,0,0,,Închid capota si îi dăm bătaie.
+Dialogue: 0,0:05:30.12,0:05:33.92,Default,,0,0,0,,Cu o apăsare de buton,\Nzeul tunetului se trezeste la viaţă
+Dialogue: 0,0:05:34.04,0:05:36.76,Default,,0,0,0,,si trimite forţă către axul spate.
+Dialogue: 0,0:05:43.40,0:05:46.80,Default,,0,0,0,,O dată cu primii metri,\Nse evidenţiază două aspecte.
+Dialogue: 0,0:05:46.92,0:05:48.92,Default,,0,0,0,,Sunetul...
+Dialogue: 0,0:05:51.04,0:05:53.60,Default,,0,0,0,,... Si forţa.\NÎn toate situaţiile.
+Dialogue: 0,0:05:56.60,0:05:58.68,Default,,0,0,0,,Scaunul stă foarte bine, nu?
+Dialogue: 0,0:06:02.48,0:06:03.96,Default,,0,0,0,,Ah, minunat!
+Dialogue: 0,0:06:05.04,0:06:07.36,Default,,0,0,0,,Dar forţa brută nu e totul.
+Dialogue: 0,0:06:08.64,0:06:11.84,Default,,0,0,0,,Nu este o masină de curse,\Nnici nu discutăm asta.
+Dialogue: 0,0:06:11.96,0:06:15.32,Default,,0,0,0,,Pentru că este prea mare,\Nprea grea, fără îndoială.
+Dialogue: 0,0:06:15.44,0:06:19.76,Default,,0,0,0,,Dar prima impresie este\Nîntotdeauna foarte, foarte bună.
+Dialogue: 0,0:06:20.20,0:06:24.40,Default,,0,0,0,,Se stă super, ergonomia este un vis,\Nvolanul dispus pe lungime,
+Dialogue: 0,0:06:24.52,0:06:27.88,Default,,0,0,0,,înălţimea, scaunul,\Neu sunt asezat destul de adânc.
+Dialogue: 0,0:06:28.00,0:06:30.32,Default,,0,0,0,,Mă simt minunat\Nîn această masină.
+Dialogue: 0,0:06:30.44,0:06:34.24,Default,,0,0,0,,Înainte de a conduce un metru,\Nam simţit, la fix, dotările
+Dialogue: 0,0:06:34.36,0:06:37.40,Default,,0,0,0,,legate de ergonomie si relaxare.
+Dialogue: 0,0:06:38.24,0:06:40.96,Default,,0,0,0,,Nu e de mirare.\NInteriorul oferă materiale
+Dialogue: 0,0:06:41.12,0:06:43.92,Default,,0,0,0,,de înaltă calitate\Ncu o finisare excelentă.
+Dialogue: 0,0:06:44.04,0:06:47.16,Default,,0,0,0,,Totul se potriveste\Nsi aerul miroase a piele.
+Dialogue: 0,0:06:47.64,0:06:50.32,Default,,0,0,0,,Fibra de carbon oferă\No tentă sportivă.
+Dialogue: 0,0:06:55.04,0:06:59.88,Default,,0,0,0,,Si dacă e nevoie, de sentimentul M6\Nse pot bucura până la patru persoane!
+Dialogue: 0,0:07:03.64,0:07:06.60,Default,,0,0,0,,M-am asteptat la asta,\Npentru că BMW sau Audi
+Dialogue: 0,0:07:06.72,0:07:10.76,Default,,0,0,0,,sunt întotdeauna în top.\NEi îsi dau silinţa si stiu prea bine
+Dialogue: 0,0:07:10.88,0:07:15.48,Default,,0,0,0,,că si clienţii pun accent pe calitate.\NEste o necesitate.
+Dialogue: 0,0:07:17.68,0:07:22.24,Default,,0,0,0,,O necesitate, în această clasă,\Nsunt parametrii reglabili ai masinii.
+Dialogue: 0,0:07:22.36,0:07:25.48,Default,,0,0,0,,Iar M6 oferă nenumărate posibilităţi.
+Dialogue: 0,0:07:30.64,0:07:35.44,Default,,0,0,0,,Frumuseţea este că pot\Nsă îmi configurez totul, individual.
+Dialogue: 0,0:07:37.28,0:07:40.96,Default,,0,0,0,,De exemplu, dacă vreau să folosesc\Nmodul M, astfel încât
+Dialogue: 0,0:07:41.08,0:07:45.76,Default,,0,0,0,,să beneficiez de dinamica maximă\Na masinii, dar suspensia să fie moale,
+Dialogue: 0,0:07:45.88,0:07:50.04,Default,,0,0,0,,pot să fac acest lucru.\NSi mi se pare extraordinar.
+Dialogue: 0,0:07:50.88,0:07:53.72,Default,,0,0,0,,La fel ca si aici,\Ncu timpii de comutare,
+Dialogue: 0,0:07:53.84,0:07:57.44,Default,,0,0,0,,cât de repede trebuie\Nsă aibă loc schimbarea de viteze,
+Dialogue: 0,0:07:57.56,0:08:01.96,Default,,0,0,0,,astfel încât să puteţi combina\Naspectele de confort cu cele sport.
+Dialogue: 0,0:08:03.16,0:08:07.96,Default,,0,0,0,,La Fastlap contează doar sportivitatea\NDeci, toate sistemele la atac!
+Dialogue: 0,0:08:08.08,0:08:12.52,Default,,0,0,0,,Economisim investiţia unui facelift\Npentru că zâmbetul este o stare
+Dialogue: 0,0:08:12.64,0:08:15.16,Default,,0,0,0,,permanentă a soferului si pasagerilor.
+Dialogue: 0,0:08:15.28,0:08:18.48,Default,,0,0,0,,Esti nebun?\NAsta e atât de cool, stii asta!
+Dialogue: 0,0:08:20.68,0:08:24.28,Default,,0,0,0,,O calci si împinge si...\Nîmpinge si împinge si împinge.
+Dialogue: 0,0:08:34.52,0:08:39.36,Default,,0,0,0,,Asta e ceea ce-mi place atât de mult.\NFaptul că mai avem tracţiune spate.
+Dialogue: 0,0:08:39.48,0:08:42.76,Default,,0,0,0,,Sigur, ar fi bun un vehicul\Ncu tracţiune integrală
+Dialogue: 0,0:08:42.88,0:08:45.88,Default,,0,0,0,,sau un X-Drive,\Ne clar si că ar fi mai rapid.
+Dialogue: 0,0:08:46.00,0:08:49.28,Default,,0,0,0,,Dar as mai râde asa?\NAr mai fi atât de distractiv?
+Dialogue: 0,0:08:49.40,0:08:52.40,Default,,0,0,0,,As mai râde în curbă\Nîncercând să mă corectez,
+Dialogue: 0,0:08:52.52,0:08:58.04,Default,,0,0,0,,apoi să mă întorc la tine\Nsă te întreb ce faci?
+Dialogue: 0,0:08:58.48,0:09:01.08,Default,,0,0,0,,N-ar fi asa,\Niar eu nu pot vorbi oricum.
+Dialogue: 0,0:09:01.20,0:09:05.00,Default,,0,0,0,,Exact, nu ar fi asa.\NDe aceea mi se pare atât de ca lumea!
+Dialogue: 0,0:09:07.08,0:09:08.84,Default,,0,0,0,,Da? Asta este!
+Dialogue: 0,0:09:09.52,0:09:12.80,Default,,0,0,0,,Plăcerea de a conduce!\NSofatul de plăcere!
+Dialogue: 0,0:09:12.92,0:09:16.56,Default,,0,0,0,,Nu trebuie să fie întotdeauna\No propulsie perfectă, nu.
+Dialogue: 0,0:09:16.68,0:09:20.88,Default,,0,0,0,,Uneori poate fi un drift frumos,\Ndecent, da?
+Dialogue: 0,0:09:22.60,0:09:26.32,Default,,0,0,0,,Condusul trebuie să îţi placă,\Ntrebuie să fie distractiv.
+Dialogue: 0,0:09:26.48,0:09:28.24,Default,,0,0,0,,E o nebunie!
+Dialogue: 0,0:09:28.88,0:09:34.24,Default,,0,0,0,,Da, îmi place asta.\NStii ce părere am.
+Dialogue: 0,0:09:34.64,0:09:37.72,Default,,0,0,0,,Si nu sunt singur,\Nmai sunt si alţii care spun:
+Dialogue: 0,0:09:37.84,0:09:39.84,Default,,0,0,0,,�Da, asa trebuie să fie!�
+Dialogue: 0,0:09:39.96,0:09:44.48,Default,,0,0,0,,Si asta e, ceea ce mi se pare,\Natât de frumos la aceste M6, M5-uri.
+Dialogue: 0,0:09:44.60,0:09:49.00,Default,,0,0,0,,Ai putere din belsug,\Npoţi decide dacă vrei să întrerupi DSC
+Dialogue: 0,0:09:49.12,0:09:51.72,Default,,0,0,0,,adică ESP în cazul BMW.
+Dialogue: 0,0:09:52.04,0:09:57.20,Default,,0,0,0,,În cazul în care decid să întrerup ESP\Nsunt constient că voi fi foarte ocupat
+Dialogue: 0,0:09:57.32,0:10:00.48,Default,,0,0,0,,deoarece masina se conduce\Nnu doar din direcţie,
+Dialogue: 0,0:10:00.60,0:10:05.84,Default,,0,0,0,,ci si din acceleraţie,\Niar acest lucru este minunat!
+Dialogue: 0,0:10:08.24,0:10:13.28,Default,,0,0,0,,În clipa următoare am schimbat viteza\Nsi pot conduce relaxat această masină.
+Dialogue: 0,0:10:13.96,0:10:17.08,Default,,0,0,0,,Minunat!\NMinunat!
+Dialogue: 0,0:10:17.20,0:10:21.24,Default,,0,0,0,,Redactorul, din scaunul pasagerului,\Nnu-si găseste cuvintele.
+Dialogue: 0,0:10:21.36,0:10:24.00,Default,,0,0,0,,Christian si-a găsit\Nun prieten bavarez.
+Dialogue: 0,0:10:24.12,0:10:27.44,Default,,0,0,0,,Lăsând gluma la o parte,\Ncele 1950 kg masă proprie,
+Dialogue: 0,0:10:27.56,0:10:31.36,Default,,0,0,0,,sunt mai degrabă demne\Nde un luptător de sumo.
+Dialogue: 0,0:10:31.88,0:10:35.28,Default,,0,0,0,,Oamenii vor pe de-o parte,\No masină sport, dinamică,
+Dialogue: 0,0:10:35.40,0:10:39.76,Default,,0,0,0,,dar nici nu vor să renunţe la confort.\NPot să vă spun oameni dragi
+Dialogue: 0,0:10:39.88,0:10:42.92,Default,,0,0,0,,că asa ceva nu se poate!
+Dialogue: 0,0:10:47.52,0:10:52.36,Default,,0,0,0,,O navă de pasageri nu se deplasează\Nla fel de repede ca o barcă cu motor,
+Dialogue: 0,0:10:52.48,0:10:55.40,Default,,0,0,0,,nu au aceeasi dinamică,\Niar lucrurile acestea
+Dialogue: 0,0:10:55.52,0:10:58.68,Default,,0,0,0,,trebuie luate în considerare,\Ntrebuie acceptate.
+Dialogue: 0,0:10:58.80,0:11:01.20,Default,,0,0,0,,Dar aici echilibrul este foarte bun.
+Dialogue: 0,0:11:01.48,0:11:05.08,Default,,0,0,0,,Cele două feţe ale M6.\NDr. Jekyll si Mr. Hide.
+Dialogue: 0,0:11:05.48,0:11:08.68,Default,,0,0,0,,Masina poate fi un cruiser\Norientat spre confort.
+Dialogue: 0,0:11:08.80,0:11:13.36,Default,,0,0,0,,Apoi, va trebui să se descurce\Ncu mai puţin de 10 litri la 100 de km.
+Dialogue: 0,0:11:15.64,0:11:19.64,Default,,0,0,0,,Si în clipa următoare, rapid,\Nam schimbat înapoi două trepte.
+Dialogue: 0,0:11:27.68,0:11:32.52,Default,,0,0,0,,Deci, frânez, schimb viteza,\Ne minunat schimbătorul, si ies de aici
+Dialogue: 0,0:11:32.64,0:11:35.56,Default,,0,0,0,,Dar are tracţiune bună,\Ntrebuie să spun asta.
+Dialogue: 0,0:11:35.68,0:11:39.48,Default,,0,0,0,,Trebuie să �enervez� motorul, ca acum.
+Dialogue: 0,0:11:39.60,0:11:42.60,Default,,0,0,0,,Si dintr-o dată e �prezent�!
+Dialogue: 0,0:11:46.64,0:11:50.48,Default,,0,0,0,,Oh, superbe aceste două urme,\Nfantastic!
+Dialogue: 0,0:11:52.32,0:11:57.08,Default,,0,0,0,,Unii pictează tablouri iar noi...\Npictăm dungi negre pe asfalt.
+Dialogue: 0,0:11:59.84,0:12:02.36,Default,,0,0,0,,Un artist al driftului prin excelenţă.
+Dialogue: 0,0:12:02.48,0:12:05.24,Default,,0,0,0,,E drog, pentru dependenţii de viteză.
+Dialogue: 0,0:12:08.04,0:12:11.32,Default,,0,0,0,,Să vedem direcţia!\NBag în viteză.
+Dialogue: 0,0:12:11.44,0:12:14.40,Default,,0,0,0,,Îmi dau seama că masina\Neste un pic mai grea,
+Dialogue: 0,0:12:14.52,0:12:18.00,Default,,0,0,0,,nici o îndoială despre asta,\Ndar răspunde foarte bine
+Dialogue: 0,0:12:18.12,0:12:21.24,Default,,0,0,0,,comenzilor mele.\NDar... dacă subvirez prea mult,
+Dialogue: 0,0:12:21.36,0:12:24.04,Default,,0,0,0,,trebuie să o calc puţin.\NAccelerez scurt.
+Dialogue: 0,0:12:24.16,0:12:27.84,Default,,0,0,0,,Am practic o punte spate,\Npe care o activez cu piciorul,
+Dialogue: 0,0:12:27.96,0:12:31.76,Default,,0,0,0,,după care totul revine la normal!
+Dialogue: 0,0:12:32.24,0:12:37.52,Default,,0,0,0,,O mână pricepută conduce bine un M6.\NDar transversal, nu înseamnă rapid.
+Dialogue: 0,0:12:38.08,0:12:41.88,Default,,0,0,0,,Încă nu se stie pe ce loc va ajunge\NCoupe-ul de 4,9 metri.
+Dialogue: 0,0:12:42.48,0:12:45.08,Default,,0,0,0,,Motorul însă este bine văzut.
+Dialogue: 0,0:12:47.96,0:12:50.28,Default,,0,0,0,,Am avut cu toţii reţineri.
+Dialogue: 0,0:12:50.44,0:12:55.16,Default,,0,0,0,,Avem marele V10,\Niar acum vine un �mic� V8.
+Dialogue: 0,0:12:55.32,0:12:59.36,Default,,0,0,0,,Dar micul V8,\Nturbo-ul nostru geamăn de aici,
+Dialogue: 0,0:12:59.48,0:13:03.08,Default,,0,0,0,,are o forţă extraordinară,\Nse aude ca un motor aspirat.
+Dialogue: 0,0:13:03.20,0:13:05.88,Default,,0,0,0,,Asta e de fapt ceea ce îmi place.
+Dialogue: 0,0:13:06.00,0:13:09.36,Default,,0,0,0,,Faptul că nu trebuie să plâng după V10
+Dialogue: 0,0:13:09.48,0:13:13.76,Default,,0,0,0,,deoarece V8-ul nostru are,\Nde asemenea, un sunet minunat,
+Dialogue: 0,0:13:13.88,0:13:17.72,Default,,0,0,0,,nu chiar neapărat tipic V8,\Ndar care se apropie, cred,
+Dialogue: 0,0:13:17.84,0:13:21.80,Default,,0,0,0,,de sunetul lui V10.\NDacă calc pedala...
+Dialogue: 0,0:13:25.32,0:13:29.20,Default,,0,0,0,,nu simt neapărat că este o senzaţie\Nde motor de 8 cilindri,
+Dialogue: 0,0:13:29.32,0:13:32.04,Default,,0,0,0,,prin urmare, e mai mult\Nun motor sport.
+Dialogue: 0,0:13:34.32,0:13:36.32,Default,,0,0,0,,Merge excelent!
+Dialogue: 0,0:13:38.92,0:13:41.72,Default,,0,0,0,,Kilometrajul arată 250,\Nla masina de serie,
+Dialogue: 0,0:13:41.84,0:13:45.52,Default,,0,0,0,,dar cu Drivers Package\NM6 poate ajunge până la 305 Km/h.
+Dialogue: 0,0:13:46.52,0:13:52.32,Default,,0,0,0,,Uau, 180, 200, 210, 220...
+Dialogue: 0,0:13:52.44,0:13:55.40,Default,,0,0,0,,si 240, acum mai bine frânez.
+Dialogue: 0,0:14:10.24,0:14:12.76,Default,,0,0,0,,De râs nici nu mai pot pune întrebări.
+Dialogue: 0,0:14:12.88,0:14:15.96,Default,,0,0,0,,Nu mă pot gândi la nimic,\Nasa că o lăsăm asa.
+Dialogue: 0,0:14:16.08,0:14:19.44,Default,,0,0,0,,Aceasta este o masină minunată,\Nsfârsitul povestii.
+Dialogue: 0,0:14:19.56,0:14:22.84,Default,,0,0,0,,Si acum vine marea întrebare,\Ndupă timpii pe ture.
+Dialogue: 0,0:14:23.28,0:14:31.24,Default,,0,0,0,,Masina e rapidă, fără îndoială,\Ndar nu acesta e punctul forte al ei.
+Dialogue: 0,0:14:31.92,0:14:35.40,Default,,0,0,0,,Indiferent de timpul de tur,\Npentru mine este crucial
+Dialogue: 0,0:14:35.52,0:14:39.32,Default,,0,0,0,,modul  în care mă simt eu,\Niar aceasta este, cu siguranţă,
+Dialogue: 0,0:14:39.44,0:14:43.64,Default,,0,0,0,,o masină cu care mă pot distra pe drum\Niar asta este important.
+Dialogue: 0,0:14:44.08,0:14:50.48,Default,,0,0,0,,Vom ignora timpii, în cele ce urmează.
+Dialogue: 0,0:14:52.96,0:14:54.88,Default,,0,0,0,,Cu cine să comparăm masina?
+Dialogue: 0,0:14:55.44,0:14:58.64,Default,,0,0,0,,Avem destule limuzine\Ndin segmentul acesta de CP,
+Dialogue: 0,0:14:58.76,0:15:01.32,Default,,0,0,0,,cu care am putea compara M5-ul.
+Dialogue: 0,0:15:02.04,0:15:09.60,Default,,0,0,0,,Trebuie să căutăm  în cutia cu comori\Nsi să vedem ce masini am testat deja,
+Dialogue: 0,0:15:09.72,0:15:12.04,Default,,0,0,0,,care sunt într-un segment similar.
+Dialogue: 0,0:15:12.52,0:15:17.52,Default,,0,0,0,,Pe moment nu mă pot gândi la nici una,\Nprin urmare, vom crea un nou segment.
+Dialogue: 0,0:15:18.76,0:15:22.00,Default,,0,0,0,,Să-i spunem segmentul M6.
+Dialogue: 0,0:15:25.52,0:15:27.52,Default,,0,0,0,,Segmentul M6.
+Dialogue: 0,0:15:27.64,0:15:31.84,Default,,0,0,0,,Ar trebui să fie undeva\Nîntre 1:53,39 al M5-ului
+Dialogue: 0,0:15:31.96,0:15:36.24,Default,,0,0,0,,si 1:55,85 al Porsche Panamera GTS.
+Dialogue: 0,0:15:42.16,0:15:44.08,Default,,0,0,0,,Circuitul din Mendig.
+Dialogue: 0,0:15:47.12,0:15:50.04,Default,,0,0,0,,Lungimea cursei: 4,24 Km.
+Dialogue: 0,0:15:53.56,0:15:56.08,Default,,0,0,0,,Drepte lungi, curbe strâmte.
+Dialogue: 0,0:15:57.40,0:15:59.28,Default,,0,0,0,,Trei curbe pe dreapta.
+Dialogue: 0,0:16:01.28,0:16:03.80,Default,,0,0,0,,Si sase pe stânga.
+Dialogue: 0,0:16:13.28,0:16:17.32,Default,,0,0,0,,Omul si masina sunt pregătiţi\Npentru o cursă rapidă.
+Dialogue: 0,0:16:22.48,0:16:25.68,Default,,0,0,0,,Fast Lap. Adversarul său este timpul.
+Dialogue: 0,0:18:26.12,0:18:31.72,Default,,0,0,0,,Cu 1:54:02, M6 se află\Nla 6 sutimi în urma fratelui său, M5.
+Dialogue: 0,0:18:32.48,0:18:36.12,Default,,0,0,0,,SLS electric Drive\Nrămâne în urmă.
+Dialogue: 0,0:18:46.12,0:18:51.36,Default,,0,0,0,,Nu stiu nici o masină în care\Nsă mă simt instantaneu ca acasă,
+Dialogue: 0,0:18:51.48,0:18:57.72,Default,,0,0,0,,în care interiorul este frumos,\Nconfortabil, si să mă simt bine.
+Dialogue: 0,0:18:58.80,0:19:01.72,Default,,0,0,0,,Apoi pornesti, deblochezi\NDSC-ul sau ESP-ul,
+Dialogue: 0,0:19:01.84,0:19:05.84,Default,,0,0,0,,pentru că pentru mine,\Nimportant este controlul tracţiunii,
+Dialogue: 0,0:19:05.96,0:19:09.24,Default,,0,0,0,,iar când acesta nu e activ,\Nai o masină frumoasă
+Dialogue: 0,0:19:09.36,0:19:11.44,Default,,0,0,0,,cu doi parametri de direcţie.
+Dialogue: 0,0:19:11.56,0:19:15.68,Default,,0,0,0,,O dată pot controla masina\Nîn mod convenţional prin direcţie,
+Dialogue: 0,0:19:15.80,0:19:19.20,Default,,0,0,0,,iar a doua, surprinzător,\Ncu pedala de acceleraţie.
+Dialogue: 0,0:19:24.88,0:19:27.52,Default,,0,0,0,,Nu mă mai pot opri din râs,\Nde bucurie.
+Dialogue: 0,0:19:31.28,0:19:32.56,Default,,0,0,0,,Poţi face drifting,
+Dialogue: 0,0:19:33.16,0:19:39.08,Default,,0,0,0,,te poţi distra si savura\Npura plăcere de a conduce,
+Dialogue: 0,0:19:39.32,0:19:43.20,Default,,0,0,0,,lăsând de-o parte timpii,\Ndistrându-te pur si simplu.
+Dialogue: 0,0:19:46.36,0:19:49.08,Default,,0,0,0,,Ne-am tot gândit\Nsi apoi am realizat că,
+Dialogue: 0,0:19:49.20,0:19:51.72,Default,,0,0,0,,am avut un Bentley aici,
+Dialogue: 0,0:19:52.92,0:19:57.44,Default,,0,0,0,,un Continental GT?\NGT si mai cum...?
+Dialogue: 0,0:19:57.56,0:20:01.92,Default,,0,0,0,,GT, GT, GT...\NSpeed. GT Speed, exact!
+Dialogue: 0,0:20:02.32,0:20:05.84,Default,,0,0,0,,Un Coupé extrem!\NGreu. Luxos. Puternic.
+Dialogue: 0,0:20:05.96,0:20:10.48,Default,,0,0,0,,Britanicul luptă în Fast Lap\Nîmpreună cu Christian.
+Dialogue: 0,0:20:10.92,0:20:15.00,Default,,0,0,0,,Ah, această echilibrare este critică,
+Dialogue: 0,0:20:16.64,0:20:18.64,Default,,0,0,0,,acum roţile sunt fierbinţi
+Dialogue: 0,0:20:20.88,0:20:23.36,Default,,0,0,0,,si e un cerc vicios în care ajungem.
+Dialogue: 0,0:20:24.64,0:20:30.44,Default,,0,0,0,,Un W12 cu 625 CP\Nsi viteza maximă de 329 km/h.
+Dialogue: 0,0:20:32.36,0:20:36.72,Default,,0,0,0,,Cu el am comparat M6-ul nostru,\Ndar a apărut o surpriză,
+Dialogue: 0,0:20:36.84,0:20:43.48,Default,,0,0,0,,deoarece as fi crezut că Bentley-ul\Nface de rusine M6-ul pe linii drepte,
+Dialogue: 0,0:20:43.60,0:20:45.28,Default,,0,0,0,,dar nu este cazul.
+Dialogue: 0,0:20:47.88,0:20:51.04,Default,,0,0,0,,Dacă ne uităm la date,
+Dialogue: 0,0:20:51.84,0:20:56.92,Default,,0,0,0,,observăm că\Nlinia rosie este, surprinzător,
+Dialogue: 0,0:20:57.04,0:21:01.32,Default,,0,0,0,,M6-ul nostru, care în linie dreaptă\Neste cel puţin la fel de bun,
+Dialogue: 0,0:21:01.44,0:21:03.60,Default,,0,0,0,,dacă nu chiar un pic mai bun.
+Dialogue: 0,0:21:03.72,0:21:06.44,Default,,0,0,0,,Desigur există însă\Navantajul greutăţii.
+Dialogue: 0,0:21:06.56,0:21:09.40,Default,,0,0,0,,La fiecare curbă\Napăs mai repede pe pedală,
+Dialogue: 0,0:21:09.52,0:21:12.24,Default,,0,0,0,,am o viteză mai mare\Nde rulare în curbă,
+Dialogue: 0,0:21:12.36,0:21:15.96,Default,,0,0,0,,pentru că nu trebuie să menţin\Naceastă masă în curbă,
+Dialogue: 0,0:21:16.08,0:21:20.28,Default,,0,0,0,,iar apoi am o transmisie fulger,\Nsi toate aceste lucruri mici,
+Dialogue: 0,0:21:20.40,0:21:23.36,Default,,0,0,0,,sunt în plus faţă de cele\N300 de kilograme.
+Dialogue: 0,0:21:23.48,0:21:27.16,Default,,0,0,0,,Pe deasupra acesta nu are 4WD,\Npe când Bentley-ul da,
+Dialogue: 0,0:21:27.28,0:21:30.56,Default,,0,0,0,,si are o rezistenţă mai mare\Nla frecare si rulare.
+Dialogue: 0,0:21:30.68,0:21:34.16,Default,,0,0,0,,Individul din urmă nu este mai lent\Nîn linie dreaptă.
+Dialogue: 0,0:21:35.16,0:21:40.44,Default,,0,0,0,,Din contră: M6 este cu aproape\N6 km/h mai rapid decât britanicul.
+Dialogue: 0,0:21:45.04,0:21:47.48,Default,,0,0,0,,Asta dintr-un motiv bine întemeiat.
+Dialogue: 0,0:21:50.16,0:21:52.72,Default,,0,0,0,,Greutate, greutate, greutate, greutate
+Dialogue: 0,0:21:52.84,0:21:56.04,Default,,0,0,0,,Este frumoasă comparaţia,\Ne mai interesant asa.
+Dialogue: 0,0:21:56.16,0:21:59.68,Default,,0,0,0,,Am de pierdut în viraje,\Nmai pot frâna în acest caz,
+Dialogue: 0,0:22:00.72,0:22:04.44,Default,,0,0,0,,dar la intrarea în curbe,\Ngreutatea mă ajunge din urmă,
+Dialogue: 0,0:22:04.56,0:22:06.80,Default,,0,0,0,,si astfel masina este mai agilă,
+Dialogue: 0,0:22:06.92,0:22:10.04,Default,,0,0,0,,si astfel pot începe\Nsă accelerez mai devreme,
+Dialogue: 0,0:22:10.16,0:22:12.64,Default,,0,0,0,,pentru că poziţionez mai bine masina.
+Dialogue: 0,0:22:12.76,0:22:16.72,Default,,0,0,0,,Când ies de aici pe linie,\Nse poate observa foarte frumos,
+Dialogue: 0,0:22:16.84,0:22:21.04,Default,,0,0,0,,si aici, în faţa dreptelor lungi,\Ncum greutatea ne-a încetinit.
+Dialogue: 0,0:22:21.16,0:22:25.00,Default,,0,0,0,,Surprinzător: La o acceleraţie\Npe un segment transversal,
+Dialogue: 0,0:22:25.12,0:22:27.68,Default,,0,0,0,,Bentley se află în faţa BMW M6.
+Dialogue: 0,0:22:32.56,0:22:35.20,Default,,0,0,0,,Deci, această masină\Nmi se pare superbă,
+Dialogue: 0,0:22:35.56,0:22:40.56,Default,,0,0,0,,îmi place mult forma,\Ncred că e o masină decentă, frumoasă.
+Dialogue: 0,0:22:40.80,0:22:44.60,Default,,0,0,0,,Are o forţă fără sfârsit,\Nmotorul are un sunet minunat,
+Dialogue: 0,0:22:45.32,0:22:49.80,Default,,0,0,0,,si se poate conduce eficient,\Nchiar dacă esti mai precaut pe drum,
+Dialogue: 0,0:22:49.92,0:22:52.48,Default,,0,0,0,,si nu consumă\Nfoarte mult combustibil.
+Dialogue: 0,0:22:53.56,0:22:58.12,Default,,0,0,0,,Singurul lucru care nu îmi place\Neste frâna.
+Dialogue: 0,0:22:58.32,0:23:01.08,Default,,0,0,0,,Am avut câteva necazuri,\Ncâteva probleme,
+Dialogue: 0,0:23:01.20,0:23:04.16,Default,,0,0,0,,desi este un disc de ceramică,
+Dialogue: 0,0:23:04.28,0:23:09.68,Default,,0,0,0,,la căldură nu am reusit să definesc\Npunctele de frânare
+Dialogue: 0,0:23:10.24,0:23:12.56,Default,,0,0,0,,si am avut necazuri.
+Dialogue: 0,0:23:16.64,0:23:17.64,Default,,0,0,0,,Ah, la naiba!
+Dialogue: 0,0:23:21.20,0:23:25.04,Default,,0,0,0,,Expresul bavarez a devenit\Ntemporar masină de tuns iarba.
+Dialogue: 0,0:23:25.32,0:23:28.68,Default,,0,0,0,,Un alt semn că acest Coupé\Neste dedicat mai degrabă
+Dialogue: 0,0:23:28.80,0:23:32.08,Default,,0,0,0,,unei autostrăzi rapide,\Ndecât unei curse stresante
+Dialogue: 0,0:23:32.20,0:23:33.52,Default,,0,0,0,,pe circuit.
+Dialogue: 0,0:23:41.12,0:23:44.08,Default,,0,0,0,,Poate ţine si de anvelopă,\Ndar pur si simplu
+Dialogue: 0,0:23:44.24,0:23:47.08,Default,,0,0,0,,nu poate face faţă\Nla temperatură ridicată
+Dialogue: 0,0:23:47.20,0:23:49.68,Default,,0,0,0,,si nici ABS-ul\Nnu mai funcţionează.
+Dialogue: 0,0:23:49.80,0:23:52.08,Default,,0,0,0,,Am avut într-adevăr un dezavantaj,
+Dialogue: 0,0:23:52.20,0:23:55.92,Default,,0,0,0,,pentru că nu a mai fost în formă\Nasa cum mi-am imaginat.
+Dialogue: 0,0:23:56.04,0:23:59.92,Default,,0,0,0,,Dar altfel e o masină super,\Ncu care poţi să te distrezi.
+Dialogue: 0,0:24:00.04,0:24:02.84,Default,,0,0,0,,În clipa următoare\Npot porni în croazieră
+Dialogue: 0,0:24:02.96,0:24:06.56,Default,,0,0,0,,si de asemenea, pot conduce\Ncu usurinţă de la A la B.
+Dialogue: 0,0:24:06.68,0:24:10.96,Default,,0,0,0,,Eu cred că cei ce optează pentru ea\Nse si distrează, sunt sigur.
+Dialogue: 0,0:24:12.40,0:24:16.76,Default,,0,0,0,,O forţă de cea mai înaltă clasă\Ncu două suflete în acelasi corp.
+Dialogue: 0,0:24:20.16,0:24:23.52,Default,,0,0,0,,M6 menţine stacheta ridicată\Nde strămosul său M1,
+Dialogue: 0,0:24:23.64,0:24:27.56,Default,,0,0,0,,si este un coupé de forţă,\Ncare datorită tehnicii sasiului
+Dialogue: 0,0:24:27.68,0:24:30.60,Default,,0,0,0,,reuseste să îsi ascundă greutatea mare
+Dialogue: 0,0:24:30.76,0:24:33.36,Default,,0,0,0,,si să acţioneze ca un antidepresiv.

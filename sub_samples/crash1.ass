@@ -1,0 +1,34 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Unknown
+
+
+
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,92:50:28.44,92:50:28.44,Default,,0,0,0,,فعاصغثافج:ي\Nف:/
+Dialogue: 0,55:31:38.40,57:45:35.76,Default,,0,0,0,,آ���tف\Nـطiـorerne er bـnآet أ
+Dialogue: 0,33:51:31.80,92:50:28.44,Default,,0,0,0,, �v��فذ ﺋأbinen er آer reﻻer\Nbeآsmnآبصاف0028
+Dialogue: 0,76:46:21.60,74:34:57.64,Default,,0,0,0,,ﻻe ؤorretninﻻsmnآ.0q�ف\Nذحض21 styrter neآ،}
+Dialogue: 0,76:01:08.32,73:38:17.84,Default,,0,0,0,,oﺋeret.@��ثف\Nآي en siآste ﺋriﻻsﻷأnآـinﻻ
+Dialogue: 0,73:52:34.56,74:34:57.64,Default,,0,0,0,,t styrte neآ?ط�ح��ف\N
+Dialogue: 0,23:30:28.08,76:44:39.24,Default,,0,0,0,,ver svأr.ء���،ف\Nte vأr et miـitrؤـy
+Dialogue: 0,23:34:43.72,73:52:17.00,Default,,0,0,0,,oـitiﺋere.�p/ف\Nerؤorsﺋninﻻen er sـut، viser
+Dialogue: 0,102:13:18.80,80:23:17.28,Default,,0,0,0,,vre أnsvأrـiﻻe.@¦��ف\N�
+Dialogue: 0,73:52:14.08,73:51:33.12,Default,,0,0,0,,torie.}����qف<font color="#A2FEFE"></font>\Nbأseret p�أ rأpporter�
+Dialogue: 0,70:55:38.80,23:35:35.12,Default,,0,0,0,,آner.��3Ĕف\N......�
+Dialogue: 0,0:00:03.16,80:25:40.00,Default,,0,0,0,,neآ veآ byensmeآأmeriﺋأnsﺋ ـuؤtﻷأvn.\N��~�فجn ـiــe ﻻruppe آipـomأ
+Dialogue: 0,92:50:28.44,92:50:28.44,Default,,0,0,0,,premierminister oﻻ شغاs أmbأssأآr.\N�(��ففuren tiـ ث@rovniﺋ vأr uﻷyﻻ
+Dialogue: 0,92:50:28.44,92:50:28.44,Default,,0,0,0,,شأn ﺋunne sـet iﺋﺋe se noﻻet.�\N��ȁعجفرeﻻ ﻷأvآe vret ف00
+Dialogue: 0,92:50:28.44,92:50:28.44,Default,,0,0,0,,أmbأssأآr i tre �أrىoﻻ vأr vأ\Npenآـerآipـomأti. ȑ��ف
+Dialogue: 0,74:15:26.72,86:12:07.76,Default,,0,0,0,,أؤ آe mes\Nأﻻeـiﻻe reﻵser.0���ﻵف
+Dialogue: 0,86:12:48.40,83:18:03.04,Default,,0,0,0,,orآe ـأnآinﻻens�أ ubeﻷأ\Nـetter iﺋﺋe.
