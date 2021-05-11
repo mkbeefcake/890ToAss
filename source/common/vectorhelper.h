@@ -26,7 +26,7 @@ public:
 	template<typename T>
 	static int indexOf(std::vector<T>& list, T item, int index)
 	{
-		if (index <= list.size())
+		if (index <= (int)list.size())
 		{
 			typename std::vector<T>::iterator it = std::find(list.begin() + index, list.end(), item);
 			if (it != list.end())
@@ -51,7 +51,7 @@ public:
 	template<typename T>
 	static int lastIndexOf(std::vector<T>& list, T item, int index)
 	{
-		if (index < list.size())
+		if (index < (int)list.size())
 		{
 			typename std::vector<T>::reverse_iterator it = std::find(list.rbegin() + (list.size() - index - 1), list.rend(), item);
 			if (it != list.rend())

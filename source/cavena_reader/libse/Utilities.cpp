@@ -217,108 +217,108 @@ std::string Utilities::ReverseStartAndEndingForRightToLeftD(const std::string& s
     newLines += str_append;
 	return newLines;
 	
-	auto lines = StringExtensions::SplitToLines(s);
+	// auto lines = StringExtensions::SplitToLines(s);
 
-	for (auto line : lines)
-	{
-		std::string s2 = line;
+	// for (auto line : lines)
+	// {
+	// 	std::string s2 = line;
 
-		preTags.clear();
-		//while (s2.StartsWith("{\\", StringComparison::Ordinal) && (int)s2.find('}') > 0)
-		while (StringExtensions::StartsWith(s2, "{\\") && (int)s2.find('}') > 0)
-		{
-			int end = (int)s2.find('}') + 1;
-			preTags += s2.substr( end);
-			s2.erase(0, end);
-		}
-		std::string postTags = "";
-		for (int k = 0; k < 10; k++)
-		{
-			if (StringExtensions::StartsWith(s2, "♪ ") || StringExtensions::StartsWith(s2, "♫ "))
-			{
-				preTags += s2.substr(2);
-				s2.erase(0, 2);
-			}
-			if (StringExtensions::StartsWith(s2, "♪") || StringExtensions::StartsWith(s2, "♫"))
-			{
-				preTags += s2.substr(1);
-				s2.erase(0, 1);
-			}
-			if (StringExtensions::StartsWith(s2, "<i>") || StringExtensions::StartsWith(s2, "<b>") || StringExtensions::StartsWith(s2, "<u>"))
-			{
-				preTags += s2.substr(3);
-				s2.erase(0, 3);
-			}
-			if (StringExtensions::StartsWith(s2, "<font ") && (int)s2.find('>') > 0)
-			{
-				int idx = (int)s2.find('>');
-				idx++;
-				preTags += s2.substr(idx);
-				s2.erase(0, idx);
-			}
+	// 	preTags.clear();
+	// 	//while (s2.StartsWith("{\\", StringComparison::Ordinal) && (int)s2.find('}') > 0)
+	// 	while (StringExtensions::StartsWith(s2, "{\\") && (int)s2.find('}') > 0)
+	// 	{
+	// 		int end = (int)s2.find('}') + 1;
+	// 		preTags += s2.substr( end);
+	// 		s2.erase(0, end);
+	// 	}
+	// 	std::string postTags = "";
+	// 	for (int k = 0; k < 10; k++)
+	// 	{
+	// 		if (StringExtensions::StartsWith(s2, "♪ ") || StringExtensions::StartsWith(s2, "♫ "))
+	// 		{
+	// 			preTags += s2.substr(2);
+	// 			s2.erase(0, 2);
+	// 		}
+	// 		if (StringExtensions::StartsWith(s2, "♪") || StringExtensions::StartsWith(s2, "♫"))
+	// 		{
+	// 			preTags += s2.substr(1);
+	// 			s2.erase(0, 1);
+	// 		}
+	// 		if (StringExtensions::StartsWith(s2, "<i>") || StringExtensions::StartsWith(s2, "<b>") || StringExtensions::StartsWith(s2, "<u>"))
+	// 		{
+	// 			preTags += s2.substr(3);
+	// 			s2.erase(0, 3);
+	// 		}
+	// 		if (StringExtensions::StartsWith(s2, "<font ") && (int)s2.find('>') > 0)
+	// 		{
+	// 			int idx = (int)s2.find('>');
+	// 			idx++;
+	// 			preTags += s2.substr(idx);
+	// 			s2.erase(0, idx);
+	// 		}
 
 			
-			if (StringExtensions::EndsWith( s2, " ♪") || StringExtensions::EndsWith(s2, " ♫"))
-			{
-				postTags = s2.substr(s2.length() - 2) + postTags;
-				s2.erase(s2.length() - 2);
-			}
-			if (StringExtensions::EndsWith(s2, "♪") || StringExtensions::EndsWith(s2, "♫"))
-			{
-				postTags = s2.substr(s2.length() - 1) + postTags;
-				s2.erase(s2.length() - 1);
-			}
-			if (StringExtensions::EndsWith(s2, "</i>") || StringExtensions::EndsWith(s2, "</b>") || StringExtensions::EndsWith(s2, "</u>"))
-			{
-				postTags = s2.substr(s2.length() - 4) + postTags;
-				s2.erase(s2.length() - 4);
-			}
-			if (StringExtensions::EndsWith(s2, "</font>"))
-			{
-				postTags = s2.substr(s2.length() - 7) + postTags;
-				s2.erase(s2.length() - 7);
-			}
-		}
+	// 		if (StringExtensions::EndsWith( s2, " ♪") || StringExtensions::EndsWith(s2, " ♫"))
+	// 		{
+	// 			postTags = s2.substr(s2.length() - 2) + postTags;
+	// 			s2.erase(s2.length() - 2);
+	// 		}
+	// 		if (StringExtensions::EndsWith(s2, "♪") || StringExtensions::EndsWith(s2, "♫"))
+	// 		{
+	// 			postTags = s2.substr(s2.length() - 1) + postTags;
+	// 			s2.erase(s2.length() - 1);
+	// 		}
+	// 		if (StringExtensions::EndsWith(s2, "</i>") || StringExtensions::EndsWith(s2, "</b>") || StringExtensions::EndsWith(s2, "</u>"))
+	// 		{
+	// 			postTags = s2.substr(s2.length() - 4) + postTags;
+	// 			s2.erase(s2.length() - 4);
+	// 		}
+	// 		if (StringExtensions::EndsWith(s2, "</font>"))
+	// 		{
+	// 			postTags = s2.substr(s2.length() - 7) + postTags;
+	// 			s2.erase(s2.length() - 7);
+	// 		}
+	// 	}
 
-		pre.clear();
-		post.clear();
-		int i = 0;
-		std::string str_tmp;
-		while (	i < (int)s2.length() && 
-			StringExtensions::Contains(PrePostStringsToReverse, s2[i]) && 
-			s2[i] != '{' && 
-			!(str_tmp = s2.substr(i), StringExtensions::EndsWith(s2, "<i>")) && 
-			!(str_tmp = s2.substr(i), StringExtensions::StartsWith(s2, "<b>")) && 
-			!(str_tmp = s2.substr(i), StringExtensions::StartsWith(s2, "<font "))
-			)
-		{
-			pre += s2[i];
-			i++;
-		}
-		int j = s2.length() - 1;
-		while (j > i && 
-			StringExtensions::Contains(PrePostStringsToReverse, s2[j]) && 
-			s2[j] != '}' && 
-			!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</i>")) && 
-			!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</b>")) && 
-			!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</font>"))
-		)
-		{
-			post += s2[j];
-			j--;
-		}
+	// 	pre.clear();
+	// 	post.clear();
+	// 	int i = 0;
+	// 	std::string str_tmp;
+	// 	while (	i < (int)s2.length() && 
+	// 		StringExtensions::Contains(PrePostStringsToReverse, s2[i]) && 
+	// 		s2[i] != '{' && 
+	// 		!(str_tmp = s2.substr(i), StringExtensions::EndsWith(s2, "<i>")) && 
+	// 		!(str_tmp = s2.substr(i), StringExtensions::StartsWith(s2, "<b>")) && 
+	// 		!(str_tmp = s2.substr(i), StringExtensions::StartsWith(s2, "<font "))
+	// 		)
+	// 	{
+	// 		pre += s2[i];
+	// 		i++;
+	// 	}
+	// 	int j = s2.length() - 1;
+	// 	while (j > i && 
+	// 		StringExtensions::Contains(PrePostStringsToReverse, s2[j]) && 
+	// 		s2[j] != '}' && 
+	// 		!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</i>")) && 
+	// 		!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</b>")) && 
+	// 		!(str_tmp = s2.substr(j + 1), StringExtensions::EndsWith(s2, "</font>"))
+	// 	)
+	// 	{
+	// 		post += s2[j];
+	// 		j--;
+	// 	}
 
-		newLines += preTags;
-		newLines += Utilities::ReverseParenthesis(post);
-		newLines += s2.substr(pre.length(), s2.length() - (pre.length() + post.length()));
-		newLines += Utilities::ReverseParenthesis(ReverseString(pre));
-		newLines += postTags;
-		newLines += "\n";
-	}
+	// 	newLines += preTags;
+	// 	newLines += Utilities::ReverseParenthesis(post);
+	// 	newLines += s2.substr(pre.length(), s2.length() - (pre.length() + post.length()));
+	// 	newLines += Utilities::ReverseParenthesis(ReverseString(pre));
+	// 	newLines += postTags;
+	// 	newLines += "\n";
+	// }
 
-	//std::string szRet = newLines->toString()->Trim();
-	std::string szRet = StringHelper::trim(newLines);
-	return szRet;
+	// //std::string szRet = newLines->toString()->Trim();
+	// std::string szRet = StringHelper::trim(newLines);
+	// return szRet;
 
 }
 

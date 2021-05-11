@@ -8,6 +8,7 @@
 
 #include <890toass.hpp>
 #include <stltoass.hpp>
+#include <pactoass.hpp>
 
 #include <fstream>
 
@@ -161,6 +162,108 @@ TEST_F(test_890_2_ass, generic_test)
 
         auto r = cb::subtitle::EBU::convert(ifs, ofs);
         ASSERT_EQ(r, cb::subtitle::EBU::result::RESULT_OK);
+    }
+#endif
+
+//
+// TASK 2: 
+//
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02269960-O-ARB.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02269960-O-ARB.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_ARABIC);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02272542-O-QEC.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02272542-O-QEC.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_CHINESE_SIMPLIFIED);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02277215-O-IND.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02277215-O-IND.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_LATIN);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02277215-O-MSA.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02277215-O-MSA.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_LATIN);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-KOR.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-KOR.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+        
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_KOREAN);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-QTM.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-QTM.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_CHINESE_TRADITIONAL);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
+    }
+#endif
+
+#if 1
+    {
+        std::ifstream ifs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-THA.pac", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        std::ofstream ofs("/home/anatoliym/Desktop/890ToASS/sub_samples2/BBCWW-02281979-O-THA.ass", std::ifstream::binary);
+        ASSERT_TRUE(!!ifs);
+
+        cb::subtitle::PAC::set_code_page(cb::subtitle::PAC::CODEPAGE_THAI);
+        auto r = cb::subtitle::PAC::convert(ifs, ofs);
+        ASSERT_EQ(r, cb::subtitle::PAC::result::RESULT_OK);
     }
 #endif
 

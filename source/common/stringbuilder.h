@@ -7,6 +7,7 @@
 //	This class is used to replace the .NET StringBuilder in C++.
 //----------------------------------------------------------------------------------------
 #include <string>
+#include <cstring>
 #include <sstream>
 
 class StringBuilder
@@ -37,6 +38,9 @@ public:
 
 	char operator [](std::size_t index)
 	{
+		if (index >= privateString.length())
+			return 0;
+
 		return privateString[index];
 	}
 
@@ -67,14 +71,22 @@ public:
 
 	StringBuilder *insert(std::size_t position, const std::string &toInsert)
 	{
-		privateString.insert(position, toInsert);
+		if (position >= privateString.length())
+			privateString += toInsert;
+		else 
+			privateString.insert(position, toInsert);
+
 		return this;
 	}
 
 	template<typename T>
 	StringBuilder *insert(std::size_t position, const T &toInsert)
 	{
-		privateString.insert(position, toString(toInsert));
+		if (position >= privateString.length())
+			privateString += toString(toInsert);
+		else 
+			privateString.insert(position, toString(toInsert));
+
 		return this;
 	}
 
@@ -85,7 +97,10 @@ public:
 
 	std::string toString(std::size_t start, std::size_t length)
 	{
-		return privateString.substr(start, length);
+		if (start >= privateString.length())
+			return "";
+		else
+			return privateString.substr(start, length);
 	}
 
 	std::size_t length()
@@ -120,18 +135,26 @@ public:
 
 	StringBuilder *remove(std::size_t start, std::size_t length)
 	{
+		if (start >= privateString.length())
+			return this;
+
 		privateString.erase(start, length);
+		privateString.resize(std::strlen(privateString.c_str()));
 		return this;
 	}
 
 	StringBuilder *replace(const std::string &oldString, const std::string &newString)
 	{
+		if (oldString.empty())
+			return this;
+
 		std::size_t pos = 0;
 		while ((pos = privateString.find(oldString, pos)) != std::string::npos)
 		{
 			privateString.replace(pos, oldString.length(), newString);
 			pos += newString.length();
 		}
+		privateString.resize(std::strlen(privateString.c_str()));
 		return this;
 	}
 

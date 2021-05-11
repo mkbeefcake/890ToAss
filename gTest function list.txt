@@ -1,0 +1,140 @@
+gTest function list
+
+- stringhelper.h
+static std::string toLower(std::string source)
+static std::string toUpper(std::string source)
+static std::string trimStart(std::string source, const std::string &trimChars = " \t\n\r\v\f")
+static std::string trimEnd(std::string source, const std::string &trimChars = " \t\n\r\v\f")
+static std::string trim(std::string source, const std::string &trimChars = " \t\n\r\v\f")
+static std::string replace(std::string source, const std::string &find, const std::string &replace)
+static bool startsWith(const std::string &source, const std::string &value)
+static bool endsWith(const std::string &source, const std::string &value)
+static std::vector<std::string> split(const std::string &source, char delimiter)
+
+
+template<typename T> 
+static std::string toString(const T &subject)
+template<typename T>
+static T fromString(const std::string &subject)
+static bool isEmptyOrWhiteSpace(const std::string &source)
+template<typename T>
+static std::string formatSimple(const std::string &input, T arg0)
+template<typename T1, typename T2>
+static std::string formatSimple(const std::string &input, T1 arg0, T2 arg1)
+template<typename T1, typename T2, typename T3>
+static std::string formatSimple(const std::string &input, T1 arg0, T2 arg1, T3 arg2)
+
+- vectorhelper.h
+template<typename T>
+static int indexOf(std::vector<T> &list, T item)
+template<typename T>
+static int indexOf(std::vector<T>& list, T item, int index)
+template<typename T>
+static int lastIndexOf(std::vector<T> &list, T item)
+template<typename T>
+static int lastIndexOf(std::vector<T>& list, T item, int index)
+
+- stringbuilder.h
+StringBuilder *append(const std::string &toAppend)
+template<typename T>
+StringBuilder *append(const T &toAppend)
+StringBuilder *appendLine()
+StringBuilder *appendLine(const std::string &toAppend)
+StringBuilder *insert(std::size_t position, const std::string &toInsert)
+template<typename T>
+StringBuilder *insert(std::size_t position, const T &toInsert)
+std::string toString()
+std::string toString(std::size_t start, std::size_t length)
+std::size_t length()
+void setLength(std::size_t newLength)
+std::size_t capacity()
+void ensureCapacity(std::size_t minimumCapacity)
+std::size_t maxCapacity()
+void clear()
+StringBuilder *remove(std::size_t start, std::size_t length)
+StringBuilder *replace(const std::string &oldString, const std::string &newString)
+
+
+- exceptionhelper.h
+class InvalidOperationException
+class IOException
+
+- bankersrounding.h
+static double round(double value)
+
+// ------------------------ DONE -------------------------
+
+- findfirst.h
+intptr_t _findfirst(char* filespec, struct _finddata_t* fileinfo);
+int _findnext(intptr_t handle, struct _finddata_t* fileinfo);
+int _findclose(intptr_t handle);
+
+- spec.h
+int match_spec(const char* spec, const char* text);
+
+- FileUtil.h
+static u8Vector ReadAllBytesShared(std::string path);
+static u8Vector ReadAllStream(std::istream& istrm);
+static u8Vector ReadBytes(std::istream& istrm, uint offset, uint size);
+
+- LanguageAutoDetect.h (not used)
+static int GetCount(const std::string &text, std::vector<std::string> &words);
+static int GetCountContains(const std::string &text, std::vector<std::string> &words);
+static std::string AutoDetectGoogleLanguage1(const std::string& text, int bestCount);
+static std::string AutoDetectGoogleLanguage2(const std::string& text, int bestCount);
+static std::string AutoDetectGoogleLanguage3(const std::string& text, int bestCount);
+static std::string GetEncodingViaLetter(const std::string& text);
+static std::string AutoDetectGoogleLanguage(const std::string& text, int bestCount);
+static std::string AutoDetectGoogleLanguageOrNull(Subtitle *subtitle);
+static std::string GetEncodingViaLetterD(const std::string &text);
+
+- GeneralSettings.h
+double getDefaultFrameRate() const;
+void setDefaultFrameRate(double value);
+
+double getCurrentFrameRate() const;
+void setCurrentFrameRate(double value);
+bool getUseTimeFormatHHMMSSFF() const;
+void setUseTimeFormatHHMMSSFF(bool value);
+std::string getUppercaseLetters() const;
+void setUppercaseLetters(const std::string &value);
+
+- StringExtensions.h
+static bool StartsWith(const std::string &s, char c);
+static bool EndsWith(const std::string& s, const std::string suffix);
+static bool StartsWith(const std::string& s, const std::string prefix);
+static bool Contains(const std::string &source, char value);
+static std::vector<std::string> SplitToLines(const std::string &s);
+static std::string RemoveChar(const std::string &value, char charToRemove);
+static bool IsOnlyControlCharactersOrWhiteSpace(const std::string &s);
+static std::string RemoveControlCharactersButWhiteSpace(const std::string &s);
+static std::string PadLeft(std::string s, uint n, char c);
+static std::string PadRight(std::string s, uint n, char c);
+
+- TimeCode.h
+double getTotalSeconds() const;
+void setTotalSeconds(double value);
+double getTotalMilliseconds() const;
+void setTotalMilliseconds(double value);
+
+std::string ToString();
+std::string ToDisplayString();
+std::string ToHHMMSSFF();
+std::string ToASSString();
+std::string ToShortDisplayString();
+std::string ToShortStringHHMMSSFF();
+
+- TimeSpan.h
+TimeSpan Add(TimeSpan& add_span);
+static TimeSpan FromMilliseconds(double totalMilliSecs);
+
+- Utilities.h
+static std::string ReverseString(const std::string& s);
+static std::string ReverseStartAndEndingForRightToLeftD(const std::string& s, std::vector<bool> b_heb_vec);
+static std::string ReverseStartAndEndingForRightToLeft(const std::string &s, std::vector<bool> b_heb_vec);
+static std::string FixEnglishTextInRightToLeftLanguage(const std::string &text, const std::string &reverseChars);
+static std::string FixEnglishTextInRightToLeftLanguageD(const std::string& text, const std::string& reverseChars);
+static std::string ReverseParenthesis(const std::string& s);
+static std::string FixPunctuationMarks1(const std::string& s, std::vector<bool> b_heb_vec);
+static std::string ReverseOnlyNumAndChar(const std::string& s);
+

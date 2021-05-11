@@ -7,6 +7,12 @@
 #include "cavena_reader/libse/Configuration.h"
 #include <string.h>
 #include <fstream>
+#include <iostream>
+#include <iconv.h>
+#include <langinfo.h>
+
+static int global_code_page = -1;
+
 _finddata_t getFileInfo(std::string file_name)
 {
 	struct _finddata_t c_file;
@@ -32,9 +38,58 @@ bool setCodePage(int code_page)
 	}
 #endif
 	// to avoid -Wunused-parameter
-	UNUSED(code_page);
+	global_code_page = code_page;
 	return true;
 }
+
+std::string getW16EncodedString(int code_page, u8Vector& buffer, int start, int textLength)
+{
+	iconv_t cd;
+	size_t k, f, t;
+	int se;
+
+	char code[textLength + 1];
+	memset(code, 0, textLength + 1);
+
+	for (int i=0; i<textLength; i++)
+		code[i] = buffer[start + i];
+
+	char* in = (char*) code;
+	char buf[20];
+	char* out = buf;
+
+	if (code_page == 950)			// Chinese Traditional
+		cd = iconv_open("UTF-8", "BIG-5");
+	else if (code_page == 936)		// Chinese Simplified
+		cd = iconv_open("UTF-8", "EUC-CN");
+	else if (code_page == 949)		// Korean
+		cd = iconv_open("UTF-8", "EUC-KR");
+	else if (code_page == 932)		// Japanese
+		cd = iconv_open("UTF-8", "EUC-JP");
+	else if (code_page == 620) 		// EncodingThai
+		cd = iconv_open("UTF-8", "TIS-620");
+
+	if( cd == (iconv_t)(-1) ) {
+		printf("ISSUE : iconv_open() is failed\n" );
+		return "";
+	}
+
+	f = textLength + 1;
+	t = sizeof(buf);	
+	memset( &buf, 0, sizeof buf );
+
+	errno = 0;
+	k = iconv(cd, &in, &f, &out, &t);
+	se = errno;
+
+	UNUSED(k); UNUSED(se);
+	// printf( "converted: 0x%x,error=%d\n", (unsigned) k, se );
+	// printf("string: %s\n", buf);
+
+	iconv_close(cd);
+	return buf;
+}
+
 
 std::string getEncodedString(u8Vector& buffer, int start, int textLength)
 {
@@ -134,6 +189,7 @@ std::string getASCIIString(u8Vector& buffer, int start , int textLength )
 	setCodePage(20127);
 	return getEncodedString(buffer, start, textLength);
 }
+
 
 std::string getUTF8String(u8Vector& buffer, int start, int textLength )
 {
@@ -295,6 +351,11 @@ Subtitle* read_buffer(std::istream& istrm ,int type)
     else if(type == STREAM_TYPE_PAC)
     {
         Pac* tmp = new Pac();
+		if (global_code_page != -1) 
+		{
+			tmp->setCodePage(global_code_page); global_code_page = -1;
+		}
+		
         tmp->setBatchMode(false);
 
         subtitle = tmp->LoadSubtitle(istrm);

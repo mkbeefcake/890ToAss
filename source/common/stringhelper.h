@@ -97,6 +97,9 @@ public:
 	template<typename T>
 	static T fromString(const std::string &subject)
 	{
+		if (subject.empty())
+			throw std::runtime_error("Empty string is not allowed");
+
 		std::istringstream ss(subject);
 		T target;
 		ss >> target;

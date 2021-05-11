@@ -467,7 +467,14 @@ std::string Cavena890::FixText(u8Vector& buffer, int start, int textLength, int 
 
 		text = Utilities::ReverseStartAndEndingForRightToLeft(text,b_heb_vec);
 
+		// printf("Before %s\n", text.c_str());
+		// for (int i=0; i<b_heb_vec.size(); i++) {
+		// 	if (b_heb_vec[i] == true) printf ("true, ");
+		// 	else printf("false, ");
+		// }
+		// printf("\n");
 		text = Utilities::FixPunctuationMarks1(text, b_heb_vec);
+		// printf("After %s\n", text.c_str());
 
 		//delete sb;
 	}

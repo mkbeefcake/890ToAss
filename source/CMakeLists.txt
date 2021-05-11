@@ -4,12 +4,14 @@ set(TARGET_HPP
     ../include/export.hpp
     ../include/890toass.hpp
     ../include/stltoass.hpp
+    ../include/pactoass.hpp
 )
 
 # Local source files here
 set(TARGET_CPP
     890toass.cpp
     stltoass.cpp
+    pactoass.cpp
 )
 set(LIB890_FILE
         cavena_reader/Formats/Cavena890.cpp
@@ -56,6 +58,7 @@ set(LIB890_FILE
         my_api.h
 )
 add_library(cb_890_to_ass_plugin SHARED ${TARGET_HPP} ${TARGET_CPP} ${LIB890_FILE})
+add_library(cb_890_to_ass_plugin_a STATIC ${TARGET_HPP} ${TARGET_CPP} ${LIB890_FILE})
 
 target_include_directories(cb_890_to_ass_plugin PRIVATE
 )

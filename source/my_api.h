@@ -10,6 +10,7 @@ std::string getEncodedString(u8Vector& buffer, int start, int textLength);
 std::string getEncodedString(u8Vector& buffer);
 std::string getEncodedString(u8Vector buffer);
 std::string getEncodedString(int code_page, u8Vector& buffer, int start, int textLength);
+std::string getW16EncodedString(int code_page, u8Vector& buffer, int start, int textLength);
 
 std::string getASCIIString(u8Vector& buffer, int start, int textLength);
 

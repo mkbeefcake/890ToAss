@@ -5,6 +5,7 @@
 #include "../libse/Subtitle.h"
 #include "../../common/define.h"
 //#include "../tangible_filesystem.h"
+
 class SpecialCharacter
 {
 public:
@@ -63,6 +64,7 @@ public:
 	static int EncodingChineseTraditional;
 	static int EncodingKorean;
 	static int EncodingJapanese;
+	static int EncodingThai;
 
 	static void AddCyrillicCodes1();
 	static void AddCyrillicCodes2();

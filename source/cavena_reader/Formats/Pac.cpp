@@ -8,6 +8,7 @@
 #include "../../my_api.h"
 #include "../libse/Paragraph.h"
 #include <fstream>
+
 Pac *Pac::s_This = nullptr;
 int Pac::CodePageLatin = 0;
 int Pac::CodePageGreek = 1;
@@ -26,6 +27,7 @@ int Pac::EncodingChineseSimplified = 936;
 int Pac::EncodingChineseTraditional = 950;
 int Pac::EncodingKorean = 949;
 int Pac::EncodingJapanese = 932;
+int Pac::EncodingThai = 620;
 
 
 Pac::Pac()
@@ -1363,8 +1365,8 @@ TimeCode* Pac::GetTimeCode(int timeCodeIndex, u8Vector& buffer)
 {
 	if (timeCodeIndex > 0)
 	{
-		//		std::string highPart = std::string::Format("{0:000000}", buffer[timeCodeIndex] + buffer[timeCodeIndex + 1] * 256);
-			//	std::string lowPart = std::string::Format("{0:000000}", buffer[timeCodeIndex + 2] + buffer[timeCodeIndex + 3] * 256);
+		//	std::string highPart = std::string::Format("{0:000000}", buffer[timeCodeIndex] + buffer[timeCodeIndex + 1] * 256);
+		//	std::string lowPart = std::string::Format("{0:000000}", buffer[timeCodeIndex + 2] + buffer[timeCodeIndex + 3] * 256);
 
 		char time_str[10];
 #ifdef WIN32
@@ -1477,6 +1479,8 @@ int Pac::GetEncoding(int codePage_index)
 
 int Pac::AutoDetectEncoding(const std::string& fileName)
 {
+	printf("Pac::AutoDetectEncoding() is called. \n");
+
 	if (Pac::s_This == nullptr)
 	{
 		return Pac::CodePageLatin;
@@ -1515,6 +1519,8 @@ int Pac::AutoDetectEncoding(const std::string& fileName)
 		std::unordered_map<int, std::string>::const_iterator iterator;
 		for (iterator = dictionary.begin(); iterator != dictionary.end(); iterator++)
 		{
+			printf("Pac::AutoDetectEncoding() : setCodePage(%02d) is called \n", iterator->first);
+
 			auto sub = new Subtitle();
 			Pac::s_This->setCodePage(iterator->first);
 			Pac::s_This->LoadSubtitle(&sub, fileName);
@@ -1530,11 +1536,15 @@ int Pac::AutoDetectEncoding(const std::string& fileName)
 		// ignored
 	}
 
+	printf("Pac::AutoDetectEncoding() is finished. \n");
 	return Pac::CodePageLatin;
 }
 
 void Pac::GetCodePage(u8Vector& buffer, int index, int endDelimiter)
 {
+
+	printf("Pac::GetCodePage() is called\n");
+
 	if (Pac::s_This == nullptr)
 	{
 		return;
@@ -1548,6 +1558,8 @@ void Pac::GetCodePage(u8Vector& buffer, int index, int endDelimiter)
 
 		return;
 	}
+
+	printf("Pac::GetCodePage() : No BatchMode... \n");
 
 	u8Vector previewBuffer;
 	if (!buffer.empty())
@@ -1595,8 +1607,10 @@ void Pac::GetCodePage(u8Vector& buffer, int index, int endDelimiter)
 	//	int tempVar = Pac::GetPacEncodingImplementation.GetPacEncoding(previewBuffer, Pac.s_This._fileName);
 	//	Pac::s_This->setCodePage(Pac::GetPacEncodingImplementation == nullptr ? nullptr : (tempVar != nullptr) ? tempVar : 2);
 
-	int tempVar = Pac::GetPacEncodingImplementation->GetPacEncoding(previewBuffer, Pac::s_This->_fileName);
-	Pac::s_This->setCodePage(tempVar ? tempVar : 2);
+	printf("Pac::GetCodePage(u8vector, int, int) is finished. \n");
+
+	// int tempVar = Pac::GetPacEncodingImplementation->GetPacEncoding(previewBuffer, Pac::s_This->_fileName);
+	// Pac::s_This->setCodePage(tempVar ? tempVar : 2);
 	return;
 }
 
@@ -1674,6 +1688,7 @@ StringBuilder* Pac::ProcessLoopInsideGetPacParagraph(int index, u8Vector& buffer
 	auto sb = new StringBuilder();
 	//std::string sb;
 	bool w16 = buffer[index] == 0x1f && getASCIIString(buffer, index + 1, 3) == "W16";
+
 	if (w16)
 	{
 		index += 5;
@@ -1720,22 +1735,22 @@ StringBuilder* Pac::ProcessLoopInsideGetPacParagraph(int index, u8Vector& buffer
 					if (CodePage == Pac::CodePageChineseSimplified)
 					{
 						//sb.append(Encoding::GetEncoding(Pac::EncodingChineseSimplified)->GetString(buffer, index, 2));
-						sb->append(getEncodedString(Pac::EncodingChineseSimplified, buffer, index, 2));
+						sb->append(getW16EncodedString(Pac::EncodingChineseSimplified, buffer, index, 2));
 					}
 					else if (CodePage == Pac::CodePageKorean)
 					{
 						//sb.append(Encoding::GetEncoding(Pac::EncodingKorean)->GetString(buffer, index, 2));
-						sb->append(getEncodedString(Pac::EncodingKorean, buffer, index, 2));
+						sb->append(getW16EncodedString(Pac::EncodingKorean, buffer, index, 2));
 					}
 					else if (CodePage == Pac::CodePageJapanese)
 					{
 						//sb.append(Encoding::GetEncoding(Pac::EncodingJapanese)->GetString(buffer, index, 2));
-						sb->append(getEncodedString(Pac::EncodingJapanese, buffer, index, 2));
+						sb->append(getW16EncodedString(Pac::EncodingJapanese, buffer, index, 2));
 					}
 					else
 					{
 						//sb.append(Encoding::GetEncoding(Pac::EncodingChineseTraditional)->GetString(buffer, index, 2));
-						sb->append(getEncodedString(Pac::EncodingChineseTraditional, buffer, index, 2));
+						sb->append(getW16EncodedString(Pac::EncodingChineseTraditional, buffer, index, 2));
 					}
 				}
 
@@ -1778,7 +1793,7 @@ StringBuilder* Pac::ProcessLoopInsideGetPacParagraph(int index, u8Vector& buffer
 		else if (CodePage == Pac::CodePageThai)
 		{
 			//sb.append(StringHelper::replace(Pac::GetEncoding(CodePage)->GetString(buffer, index, 1), "€", "ต"));
-			sb->append(StringHelper::replace(getEncodedString(Pac::GetEncoding(CodePage), buffer, index, 1), "€", "ต"));
+			sb->append(StringHelper::replace(getW16EncodedString(Pac::EncodingThai, buffer, index, 1), "€", "ต"));
 		}
 		else
 		{
